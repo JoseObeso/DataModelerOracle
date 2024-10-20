@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37BF5F65-2181-9423-621F-D40C99D3B2BC" schemaObject="3281C1D1-9008-4404-714D-323063723EEB" name="TARIFAREGULAR">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>TARIFAREGULAR</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDTARIFAREGULAR" id="A51954A7-853D-99D1-984D-94890AA122AB">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TARIFAREGULAR</sourceObjSchema>
+<sourceObjName>IIDTARIFAREGULAR</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDENOMINACION" id="77F36E5D-7902-40AB-5260-960E78B3D337">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TARIFAREGULAR</sourceObjSchema>
+<sourceObjName>VDENOMINACION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAINICIO" id="1DD61223-8845-04DB-145A-AB3FC3675F86">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TARIFAREGULAR</sourceObjSchema>
+<sourceObjName>DFECHAINICIO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAFIN" id="71E66D65-333E-EA5B-17AD-6A8AEB6D6754">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TARIFAREGULAR</sourceObjSchema>
+<sourceObjName>DFECHAFIN</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="A9012958-B175-30D1-E600-D12C171F9AB1">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TARIFAREGULAR</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="018AFCAD-744F-9B8C-55D4-0A28847665D1">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TARIFAREGULAR</sourceObjSchema>
+<sourceObjName>IIDUSUARIOREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="F41ABEC0-C9E9-2CF0-6BCD-4B5B7105D839">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TARIFAREGULAR</sourceObjSchema>
+<sourceObjName>IIDUSUARIOEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="78F8E931-2FD4-3FAD-9657-B0EA3301AC29">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TARIFAREGULAR</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="7E39D7CA-905F-BBEA-1891-1FC432E8FA88">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TARIFAREGULAR</sourceObjSchema>
+<sourceObjName>DFECHAEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IBASE" id="D911858E-FA2D-C209-42BA-914338088F50">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TARIFAREGULAR</sourceObjSchema>
+<sourceObjName>IBASE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D71776D-3D87-C9EF-EB09-6CC84540BF51" name="TARIFAREGULAR_PK">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>TARIFAREGULAR_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A51954A7-853D-99D1-984D-94890AA122AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="375FBC0A-0FB2-96A2-B7D5-213E04CEA14B" schemaObject="3281C1D1-9008-4404-714D-323063723EEB" name="TARIFAREGULAR_PK">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>TARIFAREGULAR_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A51954A7-853D-99D1-984D-94890AA122AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

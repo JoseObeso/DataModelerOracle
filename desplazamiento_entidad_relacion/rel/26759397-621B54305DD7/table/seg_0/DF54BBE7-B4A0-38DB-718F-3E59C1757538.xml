@@ -1,0 +1,330 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF54BBE7-B4A0-38DB-718F-3E59C1757538" schemaObject="EEA38A4F-FB3A-93EF-2E40-09C34CCCC760" name="SOLICITUD">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>SOLICITUD</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDSOLICITUD" id="61BA6447-BB55-7913-F192-2F7BDE2366B7">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>IIDSOLICITUD</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SOLICITUD_iidsolicitud_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>SOLICITUD_IIDSOLICITUD_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="IIDSOLICITUDESTADO" id="EAE1A767-4279-7649-AE52-08C3053935F3">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>IIDSOLICITUDESTADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFBDDE82-AFED-46A8-86FE-DA4E8F3CA52C" referredColumn="93373870-2195-C496-048C-A66BC07100F1"/>
+</associations>
+</Column>
+<Column name="IIDPERSONASOLICITA" id="DC82EA23-D6E5-0B1C-C076-72A04A29F535">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>IIDPERSONASOLICITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDPERSONAAPRUEBA" id="49D9DDFD-459F-4396-EBF3-189F51DC10BD">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>IIDPERSONAAPRUEBA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDAPRUEBATIPO" id="BAB504A9-06B4-1E70-76C5-88D876E50724">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>IIDAPRUEBATIPO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FC58BC0-42A9-8C9E-94F9-6F3EEEB90095" referredColumn="6EC661FE-03D7-6658-2007-EA18219853B8"/>
+</associations>
+</Column>
+<Column name="DFECHASOLICITUD" id="427E64D7-7425-0285-D5FF-F3D252E4C4A9">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>DFECHASOLICITUD</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHASALIDAESTIMADA" id="E2E841EA-3332-3AE4-73A9-BD7D239D6803">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>DFECHASALIDAESTIMADA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHARETORNOESTIMADA" id="A2098FE7-530E-0CF3-CB13-E83AE46FCAE0">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>DFECHARETORNOESTIMADA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOBSERVACION" id="F4011D65-59E7-6D2E-F5A8-C61A0F71733F">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>VOBSERVACION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDTURNO" id="80A1A053-9C70-CC78-6CAC-EA3B308BFE8C">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>IIDTURNO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8530216F-06BC-F5E3-1D80-D8E9840B0791" referredColumn="FFA874DA-1E26-2331-1A7E-6006F5A6E30A"/>
+</associations>
+</Column>
+<Column name="BHABILITADO" id="F07B64C2-58AD-924B-9D7A-666F53012D26">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="02265068-176A-A842-3862-9FF58DB918D8">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>IIDUSUARIOREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="25EFA67B-97BB-E00D-0988-55E2EA69781C">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>IIDUSUARIOEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="979BEE75-EC8F-36C1-A00D-15C98F14662A">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="A89D29F8-F0AA-81F2-92B1-4CCABBA26454">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>DFECHAEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDPRODUCCION" id="9B284A3C-0281-E743-AC4E-B97C8A67DB6C">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>SOLICITUD</sourceObjSchema>
+<sourceObjName>IIDPRODUCCION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="179F6F6A-A054-C90A-C7C1-10FCFD04ACE0" name="SOLI_PK">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>SOLI_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61BA6447-BB55-7913-F192-2F7BDE2366B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBCCF5F2-4632-BD41-F7EE-5F7925346BF1" schemaObject="EEA38A4F-FB3A-93EF-2E40-09C34CCCC760" name="SOLI_PK">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>SOLI_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61BA6447-BB55-7913-F192-2F7BDE2366B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5406AB84-6A17-0658-3902-93EFCC6B0131" name="SOLI_APRUTIP_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAB504A9-06B4-1E70-76C5-88D876E50724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74DB3A6B-AFF7-A325-61C1-FE6E364AC5C8" name="SOLI_SOLIEST_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAE1A767-4279-7649-AE52-08C3053935F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7A291A9-F6AD-C1FA-5F26-94757C6674AD" name="SOLI_TURN_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80A1A053-9C70-CC78-6CAC-EA3B308BFE8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

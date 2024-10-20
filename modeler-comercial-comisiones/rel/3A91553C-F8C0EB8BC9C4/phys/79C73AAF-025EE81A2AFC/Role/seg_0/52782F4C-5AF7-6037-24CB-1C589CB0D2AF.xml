@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="IRTP" directorySegmentName="seg_0" id="52782F4C-5AF7-6037-24CB-1C589CB0D2AF">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjName>IRTP</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:12 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="369B57DF-694F-6B85-FE4B-83C9AF8D850A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:12 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>8AA62975-11A8-C063-6F58-80F13658920D</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions2" id="2ABB99CD-5421-AF66-224B-5C1FBEA7D0BB">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:12 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>92DB608E-625C-B311-D6B6-254A3A4E4FF1</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions3" id="54E62B4E-5A8B-D7EE-2C7C-6E64C82A98B3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:12 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>69DCD9EC-4295-831E-A0FD-A3C0802B1ED3</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions4" id="FFFAAAFC-D8C6-5BE4-50D4-91B7D0212272">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:12 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>E52EA877-4956-1F88-4DAC-6B751740C700</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions5" id="A4DF04CF-BC0B-83D5-BD20-A5111F43E634">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:12 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>AF08D38C-F1B3-8554-16BA-2B7F77423A20</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions6" id="A8935ED3-E1E6-9B7E-0245-79CFCD79D2E9">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:12 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>39F8CE8A-6AF9-B38F-927F-A730ED0FACAB</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions8" id="25530183-F168-2BA1-EEBE-2E3330473354">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:12 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<privilegesWithGrantOption>SELECT, REFERENCES</privilegesWithGrantOption>
+<table>841E8E05-4989-EAAC-03FA-84FA5CD6EA61</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

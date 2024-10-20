@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5819949E-173E-EAC6-005F-D50354B45C99" schemaObject="EEA38A4F-FB3A-93EF-2E40-09C34CCCC760" name="APRUEBATIPO">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>APRUEBATIPO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDAPRUEBATIPO" id="6EC661FE-03D7-6658-2007-EA18219853B8">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>APRUEBATIPO</sourceObjSchema>
+<sourceObjName>IIDAPRUEBATIPO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>APRUTIP_iidapruebatipo_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>APRUTIP_IIDAPRUEBATIPO_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="VNOMBRE" id="A04EB795-C515-0427-A3BB-A6DD2916022E">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>APRUEBATIPO</sourceObjSchema>
+<sourceObjName>VNOMBRE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDESCRIPCION" id="258D756F-0908-576E-880B-940780968D1C">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>APRUEBATIPO</sourceObjSchema>
+<sourceObjName>VDESCRIPCION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="D607ABB6-870D-DEC0-DAFA-9A9BAFAE7E6A">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>APRUEBATIPO</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="E7DE7572-6A7A-58EF-41FD-D407A32B20DB">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>APRUEBATIPO</sourceObjSchema>
+<sourceObjName>IIDUSUARIOREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="3D829D99-7DC4-808E-F358-5616AC4EE755">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>APRUEBATIPO</sourceObjSchema>
+<sourceObjName>IIDUSUARIOEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="F4F9547F-9AD9-2EB5-C9CF-AA5D648725DC">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>APRUEBATIPO</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="A29A83E3-A530-CDD3-3416-B6566AEE8FDB">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>APRUEBATIPO</sourceObjSchema>
+<sourceObjName>DFECHAEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40C689DA-ABB9-37A3-765F-1FCEF4CA7F1D" name="APRUTIP_PK">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>APRUTIP_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EC661FE-03D7-6658-2007-EA18219853B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="055A2548-471C-FC5A-ECE9-982B2E655B57" name="APRUTIP__UN">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>APRUTIP__UN</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A04EB795-C515-0427-A3BB-A6DD2916022E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9388444F-3331-E6C3-3AD4-3C04A93E1B45" schemaObject="EEA38A4F-FB3A-93EF-2E40-09C34CCCC760" name="APRUTIP_PK">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>APRUTIP_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EC661FE-03D7-6658-2007-EA18219853B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA22D82A-678B-853E-B702-0CFBB60680D5" schemaObject="EEA38A4F-FB3A-93EF-2E40-09C34CCCC760" name="APRUTIP__UN">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>APRUTIP__UN</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A04EB795-C515-0427-A3BB-A6DD2916022E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

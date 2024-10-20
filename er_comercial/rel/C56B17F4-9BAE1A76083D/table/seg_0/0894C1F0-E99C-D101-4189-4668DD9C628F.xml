@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0894C1F0-E99C-D101-4189-4668DD9C628F" schemaObject="3281C1D1-9008-4404-714D-323063723EEB" name="PARAMETROS">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>PARAMETROS</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIGV" id="60F1A3B8-EDDE-7B0C-8F6D-035CA3884887">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>PARAMETROS</sourceObjSchema>
+<sourceObjName>IIGV</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ILENPADOIP" id="34E42A58-BFF2-E0FC-BF17-52EDD705BEE5">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>PARAMETROS</sourceObjSchema>
+<sourceObjName>ILENPADOIP</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VGERENTECOMERCIAL" id="0497538C-0E9F-BA7C-50AE-D41459C1D2E4">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>PARAMETROS</sourceObjSchema>
+<sourceObjName>VGERENTECOMERCIAL</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VHECHOPORFACTURA" id="A4E240FE-20A2-96BD-E865-87E0941438C6">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>PARAMETROS</sourceObjSchema>
+<sourceObjName>VHECHOPORFACTURA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VINICIALESGERCOM" id="71E61349-EA49-1794-076B-998E1D956716">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>PARAMETROS</sourceObjSchema>
+<sourceObjName>VINICIALESGERCOM</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IRETENCION" id="C9A9B831-8E43-3B33-144C-493750B74171">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>PARAMETROS</sourceObjSchema>
+<sourceObjName>IRETENCION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

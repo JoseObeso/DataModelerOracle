@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TIPOCANJE" directorySegmentName="seg_0" id="8C2DCB6F-29A0-6BFE-44B8-D0A27AB3E8C2">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<schemaObject>3281C1D1-9008-4404-714D-323063723EEB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6E4865B7-84ED-869F-8070-554A550D0B04</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VNOMBRE" id="589393A9-5244-D786-47A6-447E6A48BCA0">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDTIPOCANJE" id="B7B20932-222E-0EC7-C37A-625DA52529B8">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="FF2F4515-203C-1129-B540-90ECB98831D0">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<defaultValue>&apos;1&apos;</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TIPOCANJE_PK" id="5AA2401A-54D1-27C5-7099-8C094613E849">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<schemaObject>3281C1D1-9008-4404-714D-323063723EEB</schemaObject>
+<segment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TIPOCANJE_PK" id="A0FC4C76-B312-89B9-C3A2-3AF3CD095970">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<segment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+<existingIndex>5AA2401A-54D1-27C5-7099-8C094613E849</existingIndex>
+<indexSegment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

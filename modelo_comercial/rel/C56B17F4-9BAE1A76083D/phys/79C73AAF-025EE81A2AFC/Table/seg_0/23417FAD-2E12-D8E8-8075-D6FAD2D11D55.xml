@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ORDENCANJE_PRODUCTOS" directorySegmentName="seg_0" id="23417FAD-2E12-D8E8-8075-D6FAD2D11D55">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+<schemaObject>3281C1D1-9008-4404-714D-323063723EEB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6E4865B7-84ED-869F-8070-554A550D0B04</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IORDEN" id="21681F4D-9384-3A20-41ED-8772D44DEC97">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISUBTOTAL" id="48A4F1F9-F019-49CD-B9F1-C6B7F6EA459C">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDORDENCANJEPRODUCTOS" id="4F01602E-148D-924D-8314-5E1903369667">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VGLOSA" id="6BE33971-71E9-5DA2-FAC0-227B7C9C8B5E">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCODIGO" id="9F95B112-5797-CBDD-2A0F-11566001ACB9">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDORDENCANJE" id="B50E5D65-05E6-FA1D-D76D-0199BAF15773">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IPRECIOUNITARIO" id="D4E3EAA6-D4E4-28F8-E9BE-C909339C5E2C">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUNIDADMEDIDA" id="D6ED7952-00ED-D2D1-0448-D3D01A30D3EA">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VDESCRIPCION" id="D7642135-35E1-129D-8DF9-BBABF46049D5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ICANTIDAD" id="F215388A-C636-52EF-1B29-4735E70AB974">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ORDENCANJE_PRODUCTOS_PK" id="4EA5E0D3-9CC3-5DC9-1798-8DC1F7959987">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+<schemaObject>3281C1D1-9008-4404-714D-323063723EEB</schemaObject>
+<segment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDENCANJE_PRODUCTOS_PK" id="A10A813B-1394-3818-4EDE-EF49DAFFFB80">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+<segment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+<existingIndex>4EA5E0D3-9CC3-5DC9-1798-8DC1F7959987</existingIndex>
+<indexSegment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

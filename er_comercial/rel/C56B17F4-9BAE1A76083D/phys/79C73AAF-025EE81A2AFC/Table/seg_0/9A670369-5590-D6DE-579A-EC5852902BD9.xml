@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TRANSACCIONRANTEMP" directorySegmentName="seg_0" id="9A670369-5590-D6DE-579A-EC5852902BD9">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:45 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<schemaObject>3281C1D1-9008-4404-714D-323063723EEB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6E4865B7-84ED-869F-8070-554A550D0B04</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DFECHAREGISTRO" id="375EA7B8-489F-7047-69C7-C0A860FAEF81">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="VNROCONTRATO" id="9BF0EFA3-5ED0-ABB7-4CD0-70DF9FB7A803">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<defaultValue>&apos;&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOREGISTRA" id="A126667F-CF38-1F0F-C31E-E779BB2B9E0B">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDTRAN" id="A5A3A2C2-D6F1-1F58-A829-0BBA08933322">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IICUOTAPAGADA" id="C04CD476-AA8D-63C4-8219-854EF9D2B488">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDREG" id="CF7DB83D-CB1C-9FD9-033A-0778AA70042B">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDTRANRAN" id="CFF38EA9-FD8A-F3C2-0ECC-EAE2AF7F04B7">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIMONTOPORCUOTA" id="FEE78FB8-033A-218E-10CD-AA78B502E111">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TRANSACCIONRANTEMP_PK" id="79D60127-73FC-188D-60D6-B975455B83BF">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<schemaObject>3281C1D1-9008-4404-714D-323063723EEB</schemaObject>
+<segment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRANSACCIONRANTEMP_PK" id="AB0950A3-3412-2D2D-3DDC-35A984A1C8C1">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<segment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+<existingIndex>79D60127-73FC-188D-60D6-B975455B83BF</existingIndex>
+<indexSegment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

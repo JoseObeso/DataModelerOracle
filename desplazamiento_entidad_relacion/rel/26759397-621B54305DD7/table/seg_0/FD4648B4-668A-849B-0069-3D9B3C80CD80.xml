@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD4648B4-668A-849B-0069-3D9B3C80CD80" schemaObject="EEA38A4F-FB3A-93EF-2E40-09C34CCCC760" name="MOVIMIENTO_ETIQUETA">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>MOVIMIENTO_ETIQUETA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDINCIDENCIA" id="299788AF-FF54-3ABA-EFC0-B8138B227D62">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>MOVIMIENTO_ETIQUETA</sourceObjSchema>
+<sourceObjName>IIDINCIDENCIA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VCODEPC" id="4CB5CBA2-5229-B65C-DD83-3AABA9935A82">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>MOVIMIENTO_ETIQUETA</sourceObjSchema>
+<sourceObjName>VCODEPC</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="READER" id="3E0B0BCC-7A36-3388-2DCE-EB68D6947CBE">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>MOVIMIENTO_ETIQUETA</sourceObjSchema>
+<sourceObjName>READER</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANTENA" id="7BCBE017-4842-5726-89A2-186A67E6BBD6">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>MOVIMIENTO_ETIQUETA</sourceObjSchema>
+<sourceObjName>ANTENA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="B39B2A13-FD53-BCE0-CC53-539F312B5E39">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>MOVIMIENTO_ETIQUETA</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72905D48-50A3-A8DA-4C06-4DBF78417B7E" name="MOVIMIENTO_ETIQUETA_PK">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>MOVIMIENTO_ETIQUETA_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="299788AF-FF54-3ABA-EFC0-B8138B227D62"/>
+<colUsage columnID="4CB5CBA2-5229-B65C-DD83-3AABA9935A82"/>
+<colUsage columnID="3E0B0BCC-7A36-3388-2DCE-EB68D6947CBE"/>
+<colUsage columnID="7BCBE017-4842-5726-89A2-186A67E6BBD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACBB4114-F051-FC7C-5529-1236EF2672E5" schemaObject="EEA38A4F-FB3A-93EF-2E40-09C34CCCC760" name="MOVIMIENTO_ETIQUETA_PK">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>MOVIMIENTO_ETIQUETA_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="299788AF-FF54-3ABA-EFC0-B8138B227D62"/>
+<colUsage columnID="4CB5CBA2-5229-B65C-DD83-3AABA9935A82"/>
+<colUsage columnID="3E0B0BCC-7A36-3388-2DCE-EB68D6947CBE"/>
+<colUsage columnID="7BCBE017-4842-5726-89A2-186A67E6BBD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

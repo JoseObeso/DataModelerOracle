@@ -1,0 +1,339 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BADA932-4D2E-DDCC-09E1-882536DF4FF2" schemaObject="A2A1D877-84DE-E497-39BC-5BA1AEF89597" name="ACUERDOPREVIO">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>ACUERDOPREVIO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDACUERDOPREVIO" id="A7B91676-E779-3E67-EB7B-3AE3FC976648">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>IIDACUERDOPREVIO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDEMPLEADO" id="950A22A9-0109-134D-CD76-B0C0C3E21937">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>IIDEMPLEADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDOFICINA" id="23769EE0-D989-9080-561B-5459ED6F7EFC">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>IIDOFICINA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDTIPOHORARIO" id="9EEE4F8A-B8ED-6A4E-8774-7A839A455B38">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>IIDTIPOHORARIO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDESCRIPCION" id="55FE6F52-2815-F137-21B4-F68E21AFB9E2">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>VDESCRIPCION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000 BYTE</dataTypeSize>
+<ownDataTypeParameters>3000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VINICIOFECHA" id="EA63F63A-895B-F4E7-4B5F-A263E23E945D">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>VINICIOFECHA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VFINFECHA" id="921ADF0B-2008-D1EC-F328-BA524AEA8C41">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>VFINFECHA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VENTRADA" id="68A9F049-B5FB-8372-6E46-8357982B8034">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>VENTRADA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;0&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VSALIDA" id="DA957DC1-6D58-6677-8AE9-D65E6597C7AB">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>VSALIDA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;0&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="FB1A5FA1-299E-F8D1-51DB-95498513C544">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="F7ECD878-D8E2-496B-3CE5-E2E03006CA6E">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="71AD36D6-E0BB-6FF5-852F-84E8DA3A4C4E">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>IIDUSUARIOREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="727A50F6-5B07-8111-3986-7546975BA4D0">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>DFECHAEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="257B7797-75BA-4D5D-2E45-449A6A3A091A">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>IIDUSUARIOEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDEMPLEADOAPRUEBA" id="6A2F9D99-D0E6-F369-E5E3-4BFABA535333">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>IIDEMPLEADOAPRUEBA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDESTADO" id="16458E10-1579-B844-BDB0-C54CD9128EC5">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>IIDESTADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IAUTORIZA" id="64E5C9D2-CEC7-E4DE-9A1B-2C1CB7573301">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>IAUTORIZA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VCODIGO" id="D0B19DF4-923D-D4F2-4521-C30532724A52">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>VCODIGO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDNI" id="56E6FFD2-241C-F2A7-195E-6F3A5842CC3F">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>VDNI</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISECONSUMIO" id="2A2AF498-0359-FD05-2A3A-3C72DB585882">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACUERDOPREVIO</sourceObjSchema>
+<sourceObjName>ISECONSUMIO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41860AA4-D61D-01D9-3527-D5A296F8FEC2" name="ACUERDOPREVIO_PK">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>ACUERDOPREVIO_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7B91676-E779-3E67-EB7B-3AE3FC976648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80FA5B58-FC9F-6A4B-6EC8-F25AE83DFCEF" schemaObject="A2A1D877-84DE-E497-39BC-5BA1AEF89597" name="ACUERDOPREVIO_PK">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>ACUERDOPREVIO_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7B91676-E779-3E67-EB7B-3AE3FC976648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

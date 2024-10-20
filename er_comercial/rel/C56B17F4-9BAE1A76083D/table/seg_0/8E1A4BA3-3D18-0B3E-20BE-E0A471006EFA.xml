@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E1A4BA3-3D18-0B3E-20BE-E0A471006EFA" schemaObject="3281C1D1-9008-4404-714D-323063723EEB" name="LIQUIDACION_COBRANZA">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>LIQUIDACION_COBRANZA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:45 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDLIQUIDACIONCOBRANZA" id="2D8D0446-1DF8-061F-36CE-00C06E5392C3">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_COBRANZA</sourceObjSchema>
+<sourceObjName>IIDLIQUIDACIONCOBRANZA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNROLIQUIDACIONCOBRANZA" id="4676FEED-7424-B73B-19E7-B85933411EB6">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_COBRANZA</sourceObjSchema>
+<sourceObjName>VNROLIQUIDACIONCOBRANZA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNROPI" id="C435F987-E25A-18AA-7BCB-53C6E86BFA08">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_COBRANZA</sourceObjSchema>
+<sourceObjName>VNROPI</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNRORECIBO" id="42D5842A-9EA8-ACF3-4CBB-A0F16F5F7867">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_COBRANZA</sourceObjSchema>
+<sourceObjName>VNRORECIBO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITIPOCAMBIO" id="8C888102-2ABB-F02A-0155-2E4854A39B66">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_COBRANZA</sourceObjSchema>
+<sourceObjName>ITIPOCAMBIO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMONTONETOSOLES" id="B0606BD4-18E0-AF57-A0A0-C176BE8B962B">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_COBRANZA</sourceObjSchema>
+<sourceObjName>IMONTONETOSOLES</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICOMISION" id="37D3124A-3C19-9A52-2DBA-84276001BAC4">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_COBRANZA</sourceObjSchema>
+<sourceObjName>ICOMISION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHACOBRO" id="56447FE7-220E-7EB3-F8F6-E7C5C7E88434">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_COBRANZA</sourceObjSchema>
+<sourceObjName>DFECHACOBRO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMONTONETODOLARES" id="B639F853-3D8A-E5DD-2C17-34CD6C0752A1">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_COBRANZA</sourceObjSchema>
+<sourceObjName>IMONTONETODOLARES</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDLIQUIDACION" id="0AF12702-DE2B-EE9C-3CC0-A8CEB1BB64A9">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_COBRANZA</sourceObjSchema>
+<sourceObjName>IIDLIQUIDACION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03BBE760-5DA5-BABE-E3BF-A5639F787E7C" referredColumn="6503F4C5-11E6-C1A1-1D7F-EF1B13436F1F"/>
+</associations>
+</Column>
+<Column name="IORDEN" id="B805689C-FADD-97BF-A886-B331A8C95FF1">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_COBRANZA</sourceObjSchema>
+<sourceObjName>IORDEN</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRO" id="19E11847-7C2D-34D4-584D-E2F4809851DC">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_COBRANZA</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="482B711A-242C-1C43-D88D-BD788613EE1D" name="LIQUIDACION_COBRANZA_PK">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>LIQUIDACION_COBRANZA_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D8D0446-1DF8-061F-36CE-00C06E5392C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50056217-8E19-FCC9-C647-C965B9093116" schemaObject="3281C1D1-9008-4404-714D-323063723EEB" name="LIQUIDACION_COBRANZA_PK">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>LIQUIDACION_COBRANZA_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D8D0446-1DF8-061F-36CE-00C06E5392C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="097B9131-D1FB-BFBA-2D9E-C770036FB3EF" name="LIQUIDACION_COBRANZA_FK1">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:47 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AF12702-DE2B-EE9C-3CC0-A8CEB1BB64A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91CD50F0-C51B-3134-6C1C-2725BCFD770E" schemaObject="3281C1D1-9008-4404-714D-323063723EEB" name="GIRONEGOCIO">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>GIRONEGOCIO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:45 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDGIRONEGOCIO" id="0A9AD449-0739-118A-8155-807A73646879">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>GIRONEGOCIO</sourceObjSchema>
+<sourceObjName>IIDGIRONEGOCIO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>GIRONEGOCIO_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>GIRONEGOCIO_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="VNOMBRE" id="2D1DC780-6059-C84D-7E76-DB3669FD3A1A">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>GIRONEGOCIO</sourceObjSchema>
+<sourceObjName>VNOMBRE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="F8462A28-4589-2D31-7F6C-5272D6D397A4">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>GIRONEGOCIO</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6101085-BFAD-384E-7F4A-8EEA4034ADB7" name="GIRONEGOCIO_PK">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>SYS_C008778</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A9AD449-0739-118A-8155-807A73646879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="167E62A1-4614-0E4F-9138-36E776D347E4" schemaObject="3281C1D1-9008-4404-714D-323063723EEB" name="SYS_C0025531">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>SYS_C0025531</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A9AD449-0739-118A-8155-807A73646879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

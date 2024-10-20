@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFF0D217-4C20-50E6-EF1B-D584F723F8E6" schemaObject="3281C1D1-9008-4404-714D-323063723EEB" name="TIPOLIQUIDACION">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>TIPOLIQUIDACION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:45 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDTIPOLIQUIDACION" id="A44F09C5-2A37-92DF-789C-D9233CDD234B">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TIPOLIQUIDACION</sourceObjSchema>
+<sourceObjName>IIDTIPOLIQUIDACION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNOMBRE" id="82CF65FC-20C1-C3F0-3486-CA904C1B5599">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TIPOLIQUIDACION</sourceObjSchema>
+<sourceObjName>VNOMBRE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="68A30122-82F5-4F9A-E61A-A3035E2F2CB0">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TIPOLIQUIDACION</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICOMISION" id="3F9BAD38-67F2-F469-98A3-DF6E65E8AC71">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>TIPOLIQUIDACION</sourceObjSchema>
+<sourceObjName>ICOMISION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39D2577D-A935-317E-5555-4961ABC2D779" name="TIPOLIQUIDACION_PK">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>TIPOLIQUIDACION_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A44F09C5-2A37-92DF-789C-D9233CDD234B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1602752F-1187-BBC3-958D-3880D837ABD9" schemaObject="3281C1D1-9008-4404-714D-323063723EEB" name="TIPOLIQUIDACION_PK">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>TIPOLIQUIDACION_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A44F09C5-2A37-92DF-789C-D9233CDD234B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

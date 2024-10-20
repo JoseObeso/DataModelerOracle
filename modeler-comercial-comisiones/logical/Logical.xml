@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="771F9C9E-E9E3-41D6-7F50-472289C8CE2D" mainViewID="82F92E0B-9283-9365-D20D-B7F4CBC753F0">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:31:38 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

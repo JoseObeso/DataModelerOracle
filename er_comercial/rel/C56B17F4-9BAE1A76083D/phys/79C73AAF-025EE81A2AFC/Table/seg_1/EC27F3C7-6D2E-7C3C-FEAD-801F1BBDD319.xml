@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TIPOPERSONA" directorySegmentName="seg_1" id="EC27F3C7-6D2E-7C3C-FEAD-801F1BBDD319">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:45 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<schemaObject>3281C1D1-9008-4404-714D-323063723EEB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6E4865B7-84ED-869F-8070-554A550D0B04</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IIDTIPOPERSONA" id="015B9BA0-0AD3-5090-946E-79699E2E58B5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNOMBRE" id="3B9AFEF9-ABDD-05DC-5570-E16DD2510421">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="D398E0C3-F0F8-EB52-FB43-EDC6968FD2DB">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TIPOPERSONA_PK" id="89C26951-82BC-8C84-CB1F-7C29D3ABE9B3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<schemaObject>3281C1D1-9008-4404-714D-323063723EEB</schemaObject>
+<segment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TIPOPERSONA_PK" id="D1CE8665-4FBA-CA9D-E1C8-78CB77E20B95">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<segment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+<existingIndex>89C26951-82BC-8C84-CB1F-7C29D3ABE9B3</existingIndex>
+<indexSegment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

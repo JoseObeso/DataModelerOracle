@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CORREOSREGISTRADOS" directorySegmentName="seg_0" id="E6836284-B7EB-266D-590D-D94C040B9ACE">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:06 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<schemaObject>E36393B9-6FF8-1958-5927-89354BC5A09B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E7484513-D085-33A6-D629-4D4CCA961725</segment>
+<tableSpace>719DD05A-EB6F-78BB-BBCF-0F0946A0513E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DFECHAREGISTRO" id="2A6614EF-5033-A98A-AD82-8004BF8518C3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="VMODULO" id="829F2F7D-13F8-7838-7FEB-B9111829BDD5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCUERPO" id="8BBA4916-53CF-36E4-85C1-59B225E307F0">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCORREOSOLICITANTE" id="9DEF6D0D-9958-796A-1BBC-02086D5D6869">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCORREODESTINO" id="BDDBA94D-9478-D761-6651-FF34D1231AAF">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IENVIO" id="C882A0EA-0858-F57C-AAE0-1BC6CDE86C47">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="VASUNTO" id="D2A6D3F7-591E-0F25-BCFE-955F2C3ADA46">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDCORREOS" id="D815FC88-641F-FE1C-9546-A8502AE2E6A4">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VRANDOM" id="ECD1A7B6-9028-8389-E860-17EBD776D223">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CORREOSREGISTRADOS_PK" id="CDBA83FE-6D4B-A426-0087-87463C06EDB3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<schemaObject>E36393B9-6FF8-1958-5927-89354BC5A09B</schemaObject>
+<segment>5D0EF139-2ECB-576D-BFDC-27D6686E584B</segment>
+<tableSpace>719DD05A-EB6F-78BB-BBCF-0F0946A0513E</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CORREOSREGISTRADOS_PK" id="887372C8-20E5-5209-8386-F2CF98FB7FB3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:09 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<segment>5D0EF139-2ECB-576D-BFDC-27D6686E584B</segment>
+<tableSpace>719DD05A-EB6F-78BB-BBCF-0F0946A0513E</tableSpace>
+<existingIndex>CDBA83FE-6D4B-A426-0087-87463C06EDB3</existingIndex>
+<indexSegment>5D0EF139-2ECB-576D-BFDC-27D6686E584B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

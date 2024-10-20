@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="PLAZOPAGO_TRG" directorySegmentName="seg_0" id="BD4776BF-F429-A959-D575-1B91BF941D11">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>PLAZOPAGO_TRG</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:09 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+  <<COLUMN_SEQUENCES>>
+  BEGIN
+    NULL;
+  END COLUMN_SEQUENCES;
+END;
+
+
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>0B87F261-C3EB-465D-F9C7-6AD2E701CC8F</owner>
+<table>841E8E05-4989-EAAC-03FA-84FA5CD6EA61</table>
+</TriggerOraclev10g>

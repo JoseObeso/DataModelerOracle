@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="0328AEF0-FB54-D821-E189-C6A912F09539" name="Modelo Entidad Relacion Inmuebles" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B3056D1-D2E9-BB6D-AA12-B1C845DE258E" schemaObject="A2A1D877-84DE-E497-39BC-5BA1AEF89597" name="ENCARGATURAS">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>ENCARGATURAS</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDENCARGATURA" id="10CF85EE-B192-3660-92DB-B5432B7A2BE7">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ENCARGATURAS</sourceObjSchema>
+<sourceObjName>IIDENCARGATURA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOMARCACION" id="2714FAD5-7E62-1AF0-6BD9-AD4A668AE4E4">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ENCARGATURAS</sourceObjSchema>
+<sourceObjName>IIDUSUARIOMARCACION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A27BB02-09C2-52CE-4E42-B5987747429E" referredColumn="324ADAAB-1CE3-ECC6-56B9-AD05EEFDAE4F"/>
+</associations>
+</Column>
+<Column name="IIDOFICINA" id="32789239-C1AA-3A78-695A-391AB2B34B8E">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ENCARGATURAS</sourceObjSchema>
+<sourceObjName>IIDOFICINA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="522FD605-C174-2BA3-D6E8-1C057D384942">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ENCARGATURAS</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41B85332-079B-1008-D07D-6127CC206F1B" schemaObject="A2A1D877-84DE-E497-39BC-5BA1AEF89597" name="ENCARGATURAS_PK">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>SYS_C009132</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10CF85EE-B192-3660-92DB-B5432B7A2BE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D08F49FF-3B22-0737-0D84-B537CFDB8047" name="SYS_C009320">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:30 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2714FAD5-7E62-1AF0-6BD9-AD4A668AE4E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

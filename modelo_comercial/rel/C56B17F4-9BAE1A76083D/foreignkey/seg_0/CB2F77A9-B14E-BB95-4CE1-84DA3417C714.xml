@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB2F77A9-B14E-BB95-4CE1-84DA3417C714" containerWithKeyObject="A0E1DE87-42BE-91B7-8712-7A7C5FD3E6BE" localFKIndex="A797D283-1FB4-7A28-DF8D-3164544AA432" name="LIQUFACT_FACTURA_FK">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>LIQUFACT_FACTURA_FK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:47 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+<referredTableLongName>COMERCIAL.FACTURA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D0D6F52D-8C48-CC22-161C-2FDD9FC1F8E5</referredTableID>
+<keyObject>13A6062A-0062-175D-294C-96770F3F3A29</keyObject>
+<referredKeyID>13A6062A-0062-175D-294C-96770F3F3A29</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDFACTURA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

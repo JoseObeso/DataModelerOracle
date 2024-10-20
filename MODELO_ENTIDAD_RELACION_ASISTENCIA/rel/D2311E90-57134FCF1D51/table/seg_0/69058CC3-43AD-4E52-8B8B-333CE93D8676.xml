@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69058CC3-43AD-4E52-8B8B-333CE93D8676" schemaObject="A2A1D877-84DE-E497-39BC-5BA1AEF89597" name="TIPOLICENCIA">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>TIPOLICENCIA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDTIPOLICENCIA" id="97FD9391-3613-42BE-3DC1-A2F0A7024C16">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>TIPOLICENCIA</sourceObjSchema>
+<sourceObjName>IIDTIPOLICENCIA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>TIPOLICENCIA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>TIPOLICENCIA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="VNOMBRE" id="3BBD18B8-33C0-00E4-2E9A-01FB0B39C234">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>TIPOLICENCIA</sourceObjSchema>
+<sourceObjName>VNOMBRE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VCODIGO" id="F8F55375-5CE0-B601-85B4-87F7BC949982">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>TIPOLICENCIA</sourceObjSchema>
+<sourceObjName>VCODIGO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VABREVIATURA" id="99C6FEE3-3851-7E8F-2E96-BC06B431B5FC">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>TIPOLICENCIA</sourceObjSchema>
+<sourceObjName>VABREVIATURA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAXIMODIA" id="395B240C-7430-EC24-C4C3-1EA6A6CE01DA">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>TIPOLICENCIA</sourceObjSchema>
+<sourceObjName>IMAXIMODIA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="5C5C3555-3B0B-2973-291E-FDBB53D1CA9E">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>TIPOLICENCIA</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B9EE7AF-0AA7-0817-46C5-9E7FC9657E49" name="TIPOLICENCIA_PK">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>SYS_C008679</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97FD9391-3613-42BE-3DC1-A2F0A7024C16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5216C869-40B1-722F-5045-C6FE6E05276D" schemaObject="A2A1D877-84DE-E497-39BC-5BA1AEF89597" name="SYS_C0027256">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>SYS_C0027256</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97FD9391-3613-42BE-3DC1-A2F0A7024C16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

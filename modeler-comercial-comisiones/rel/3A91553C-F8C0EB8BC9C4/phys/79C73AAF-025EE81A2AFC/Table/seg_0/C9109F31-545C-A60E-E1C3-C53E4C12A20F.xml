@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="FACTURABOLETAS" directorySegmentName="seg_0" id="C9109F31-545C-A60E-E1C3-C53E4C12A20F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:06 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<schemaObject>E36393B9-6FF8-1958-5927-89354BC5A09B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E7484513-D085-33A6-D629-4D4CCA961725</segment>
+<tableSpace>719DD05A-EB6F-78BB-BBCF-0F0946A0513E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IMONTONETO" id="09D5F37D-5DAE-C181-293B-7D0A545EF14F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNROCONTRATOORIGINAL" id="0ACB0DA9-0A66-84F6-15D6-95E1BBA7BFFC">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNROORDENAGENCIA" id="0B8CA80B-E6D0-F377-828A-AD4E5E7EBC14">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAEMISIONMEMO" id="149A594E-5036-41CC-60F5-9B63398560C8">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDCONDICIONPAGO" id="1AB013E8-C433-06D4-4892-4A797450FDD8">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDAGENCIA" id="1C6B5307-BBC3-C337-11B5-0E1C0BDA43EB">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDCLIENTE" id="1FCF4379-A71D-B8AF-9D13-EBB87B03C002">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NROOIP" id="22E70050-FB1E-5AFC-4A2C-6DB946BB63D1">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ITOTAL_FACTURA" id="2821E202-84DF-2144-217E-B9BB510E3441">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VVENDEDOR" id="2DCA9FED-6277-6C69-065B-F7B5526A9FFC">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMESTRANSMISION" id="325D524C-3883-932C-3DE0-50A0A8EDAD54">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCONDICIONPAGO" id="3806505E-42A1-CC5C-BA58-6240AB92313C">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VESTADO_FACTURA" id="3A3696A1-422A-C08F-F9C6-B7B95890E68E">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VMESTRANSMISION" id="4A29E87F-3B69-D601-4EED-E8C8EAE3A334">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VVENCIMIENTO_FACTURA" id="57DC1736-1F14-AED8-A7DD-0CC4B2072F15">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VESTADO_OIP" id="5BC94AE7-3E0A-AB53-703A-EDDB4C788558">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNUMERO_FACTURA" id="652A2A41-A192-BDEB-2128-2A33D3165493">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IREVISION" id="6837BC7B-D8BA-E0C8-BC57-0187811CA01F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VTIPOMONEDA" id="722E4CA3-DA63-FAC6-57FA-B4537183E3F6">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="7375A9AC-EB50-A9A8-765C-0E05AFC5B8C0">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNROMEMO_FACTURA" id="7BDD0EE8-9154-2EFE-87E2-20EF88A46EC2">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDOIP" id="7C926162-6CA4-A8DE-7A59-A5F0215B5BDD">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VMEDIOTRANSMISION" id="7F40FBAF-2275-ED61-55B4-907FE93072A7">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDVENDEDOR" id="963E967C-0114-D670-4D86-05082739BE6A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAEMISIONFACTURA" id="967B3875-FBBB-5C5C-40DA-6DD6C1AE0E13">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IANOTRANSMISION" id="B2288A5A-FDBE-8DD0-68BC-88912A77C18D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNROCONTRATO" id="B4E7018F-D811-F65A-535B-803034766490">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VAGENCIA" id="C0A1278A-F704-237E-ABC0-B8C49257819B">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDESTADO_OIP" id="C38F35A1-E539-4FF8-64CB-A93537C36989">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VDENOMINACIONCONTRATO" id="E86456D0-A6DE-ADBC-5296-4757A2DF4F2A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCLIENTE" id="F630CF60-F9A3-17DC-1512-3EF177A6CA66">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VTIPO_COMPROBANTE" id="F631682C-AD27-1B3E-80B5-6193C0456907">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VPLAZOPAGO" id="FB1E0D9C-FFA5-4C3B-7D37-6A8E59BC719E">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev12c>

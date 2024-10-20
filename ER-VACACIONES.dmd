@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER-VACACIONES" id="69C515C3-83A7-8095-87BB-DF3ED119BC24" version="3.5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-07-09 15:11:30 UTC</createdTime>
+<ownerDesignName>ER-VACACIONES</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>69C515C3-83A7-8095-87BB-DF3ED119BC24</designId>
+</OSDM_Design>

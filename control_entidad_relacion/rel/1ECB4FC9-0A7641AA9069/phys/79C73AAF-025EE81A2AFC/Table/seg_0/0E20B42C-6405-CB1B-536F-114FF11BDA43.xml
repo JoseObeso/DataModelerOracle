@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="HIST_ESTADORECOMENDACION" directorySegmentName="seg_0" id="0E20B42C-6405-CB1B-536F-114FF11BDA43">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<schemaObject>B56B5B1A-6968-2D10-61B4-262E14D6BC4E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7B721A1F-85E2-7788-BEBD-3BD776417F3F</segment>
+<tableSpace>3DB43CE0-920D-6AF9-844B-833415EFD6C7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IIDRECOMENDACION" id="35361B3F-0622-2652-8F01-90CECA698974">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIO" id="3B55F575-0D8D-78DD-A70D-A584DE1F7EC1">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHA" id="95BF83CF-0306-3029-F126-459963840644">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDHISTORIAL" id="D8F6896A-AA56-1F67-9BB4-1AC14132D0FB">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="IIDESTADO" id="E8869AD9-F02E-4CC3-2314-E69AA850D56C">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="HIST_ESTADORECOMENDACION_PK" id="438E0461-7F11-2A89-2AFF-9C9DAB3C84C5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<schemaObject>B56B5B1A-6968-2D10-61B4-262E14D6BC4E</schemaObject>
+<segment>96FADC66-BC75-6BA2-444B-95F6D603DDB2</segment>
+<tableSpace>3DB43CE0-920D-6AF9-844B-833415EFD6C7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HIST_ESTADORECOMENDACION_PK" id="11A42B19-3185-16CF-C7B9-5FC874A37719">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:27 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<segment>96FADC66-BC75-6BA2-444B-95F6D603DDB2</segment>
+<tableSpace>3DB43CE0-920D-6AF9-844B-833415EFD6C7</tableSpace>
+<existingIndex>438E0461-7F11-2A89-2AFF-9C9DAB3C84C5</existingIndex>
+<indexSegment>96FADC66-BC75-6BA2-444B-95F6D603DDB2</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7335025B-C31A-4106-83BE-6171373A249E" schemaObject="A2A1D877-84DE-E497-39BC-5BA1AEF89597" name="HISTORIAL_COMISION">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>HISTORIAL_COMISION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDCOMISION" id="A01145E3-E5D5-6BDC-66ED-696011822F60">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>HISTORIAL_COMISION</sourceObjSchema>
+<sourceObjName>IIDCOMISION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="040E9DAD-2BFF-540D-2935-240863040CAA" referredColumn="58819839-1F0E-F450-250C-5AA80C008570"/>
+</associations>
+</Column>
+<Column name="IIDESTADO" id="79DBB2A6-59B0-3BCC-3EEE-8F34D25498E2">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>HISTORIAL_COMISION</sourceObjSchema>
+<sourceObjName>IIDESTADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="301F7790-F7C7-B88E-E4F0-7387504288FD" referredColumn="736E1EE4-B313-E29F-A8B0-DBE17040CB84"/>
+</associations>
+</Column>
+<Column name="IIDUSUARIO" id="3BFE66E2-26F2-7F85-E946-776589C199ED">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>HISTORIAL_COMISION</sourceObjSchema>
+<sourceObjName>IIDUSUARIO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHA" id="0BEAC209-0962-E82A-1C5F-F2844DD80BB5">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>HISTORIAL_COMISION</sourceObjSchema>
+<sourceObjName>DFECHA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDESCRIPCION" id="64F5A9AD-FA31-0175-170C-E288CFB72097">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>HISTORIAL_COMISION</sourceObjSchema>
+<sourceObjName>VDESCRIPCION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDEMPLEADO" id="5D8D539E-36ED-AB3A-9EEA-536BCA2F225B">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>HISTORIAL_COMISION</sourceObjSchema>
+<sourceObjName>IIDEMPLEADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC36DF1F-BB72-7062-6E06-1855B1FC6AA6" schemaObject="A2A1D877-84DE-E497-39BC-5BA1AEF89597" name="HISTCOMI_PK">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>HISTCOMI_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A01145E3-E5D5-6BDC-66ED-696011822F60"/>
+<colUsage columnID="79DBB2A6-59B0-3BCC-3EEE-8F34D25498E2"/>
+<colUsage columnID="0BEAC209-0962-E82A-1C5F-F2844DD80BB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FA11423-AD4A-FAEC-6967-5BF64262C45D" schemaObject="A2A1D877-84DE-E497-39BC-5BA1AEF89597" name="HISTCOMI_PK1">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>HISTCOMI_PK1</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A01145E3-E5D5-6BDC-66ED-696011822F60"/>
+<colUsage columnID="79DBB2A6-59B0-3BCC-3EEE-8F34D25498E2"/>
+<colUsage columnID="0BEAC209-0962-E82A-1C5F-F2844DD80BB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09AEF4A0-6979-40BB-8BCE-2C4768C86C4D" name="HISTCOMI_COM_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:30 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A01145E3-E5D5-6BDC-66ED-696011822F60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="339F601C-716D-C0CC-6D76-15185594A419" name="HISTCOMI_EST_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:30 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79DBB2A6-59B0-3BCC-3EEE-8F34D25498E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

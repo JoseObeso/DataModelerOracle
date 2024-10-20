@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_ER_Boletas" id="0034B00F-FAAE-1EE6-0586-92961A9ADEAD" version="3.5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:31:07 UTC</createdTime>
+<ownerDesignName>modelo_ER_Boletas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0034B00F-FAAE-1EE6-0586-92961A9ADEAD</designId>
+</OSDM_Design>

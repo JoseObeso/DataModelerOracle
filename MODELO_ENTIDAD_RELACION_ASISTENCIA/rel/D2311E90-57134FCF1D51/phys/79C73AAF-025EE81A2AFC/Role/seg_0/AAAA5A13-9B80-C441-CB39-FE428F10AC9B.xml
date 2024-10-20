@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="IRTP" directorySegmentName="seg_0" id="AAAA5A13-9B80-C441-CB39-FE428F10AC9B">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjName>IRTP</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:33 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions10" id="B64E447B-AE01-9A64-C286-5E62BA781A49">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:33 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<privileges>SELECT, REFERENCES</privileges>
+<table>69058CC3-43AD-4E52-8B8B-333CE93D8676</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions11" id="2B2B9CDC-9EF2-4178-29FA-4E53BF1A2497">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:33 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<privileges>SELECT, REFERENCES</privileges>
+<table>66CAD65C-A69B-BE83-2435-2B0A9F32FCAE</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions12" id="6B1321DC-D107-C5EA-FF0D-43825F7D8048">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:33 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<privileges>SELECT, REFERENCES</privileges>
+<table>5A465766-1A0B-C2EB-C7C3-1F621E117CCA</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions5" id="875DB251-893C-4A27-5CDE-173781D93BAF">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:33 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>4FF231C4-BCD1-DE4C-E304-FC81C5B51E93</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions6" id="EF3EC2A1-A1C9-E8DF-1A6F-106E42B9A737">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:33 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<privileges>SELECT, REFERENCES</privileges>
+<table>7609A1FF-24B7-4755-9D5D-BC9B0C6F3544</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions7" id="CF355061-C1EA-4448-F488-9AFFA432D005">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:33 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>9A44E68A-0179-B2CC-C7E1-746A00134FFF</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions8" id="D4DADFB6-8F7E-89B5-5E04-500989D2EEDB">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:33 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>8942A20E-A54F-72BF-B01E-F98440E1F7B8</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions9" id="D7DE3D48-2643-6723-854B-C8EAE6B53FAC">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:33 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<privileges>SELECT, REFERENCES</privileges>
+<table>C4E7A725-A372-2158-04AA-9D93F98FD3A8</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

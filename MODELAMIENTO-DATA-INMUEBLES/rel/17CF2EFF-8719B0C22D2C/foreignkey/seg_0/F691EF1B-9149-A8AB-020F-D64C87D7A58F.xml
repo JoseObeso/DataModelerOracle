@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F691EF1B-9149-A8AB-020F-D64C87D7A58F" containerWithKeyObject="877E4EAA-C5D2-E7B7-C434-44F1E392FC8F" localFKIndex="E2F10D4F-0E13-96C8-DCC5-12731B045DB9" name="TIPOEXPEDIENTETECNICO_INMUEBLES_INFORMACIONTECNICA_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:35 UTC</createdTime>
+<generatorID>72DF5EE3-8756-0E60-4B45-E048950D7D84</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<referredTableLongName>INMUEBLES_INFORMACIONTECNICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3AA641F-969D-583A-74CC-04343961D963</referredTableID>
+<keyObject>BB2461FC-ADD5-0B9F-58EA-0D729B240827</keyObject>
+<referredKeyID>BB2461FC-ADD5-0B9F-58EA-0D729B240827</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDINMUEBLEINFORMACIONTECNICA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

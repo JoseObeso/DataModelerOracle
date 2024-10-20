@@ -1,0 +1,211 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="BIEN" directorySegmentName="seg_0" id="E36CF16B-DBA8-8A91-4DB1-B258278B7050">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<schemaObject>EEA38A4F-FB3A-93EF-2E40-09C34CCCC760</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C04C0924-7578-2CED-551D-F3B45C3DB730</segment>
+<tableSpace>EC78D23E-09B2-98B3-3BD9-14E59D016632</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VMARCA" id="0523581C-86F1-D113-FA01-FF690F172D7B">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VSERIE" id="0CA4D77C-6112-55D4-4036-A0BD9DE8BD6F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCODSBN" id="0FDC9D74-B1D9-9B0E-6083-2F4810FBC3AB">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOEDITA" id="1A12EA67-AD82-7E3F-50C2-13FB884CF8A1">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDBIEN" id="28F09F4D-6853-2E57-74CD-B3D57599E376">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="VDESCRIPCION" id="2B06978C-6CB0-DC74-E0C6-DD5EC0FBD64A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VOBSERVACION" id="32DF5D7F-4A47-DFFA-7933-E3D2E37F00B8">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDBIENESTADO" id="3845453F-5C5C-0148-3D8E-1D8EE6D1A448">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDULTIMOMOVIMIENTO" id="4153C225-59B6-F43D-D72F-807602A34BB3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDESTADOPRESTAMO" id="4B19C08A-565D-419A-7D72-F7AC1EB6D278">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOREGISTRA" id="4E024C3B-6A21-2385-202D-28271D27457E">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAEDITA" id="53F374D6-9157-3CCF-450B-ADC22A5FEB6A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAREGISTRA" id="5634999A-9D64-2876-9982-C5F16E1A3F75">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VMODELO" id="6475A147-AEEB-328F-D45F-4CDC434FEB11">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNOMBRE" id="70AEFDAC-BAD5-36A4-EF48-90C56F465A56">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BCOMPONENTE" id="796A2EE3-E2D8-D140-4E2E-C36AA81E6256">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<defaultValue>&apos;0&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="88BBF629-C8B2-A4AB-1ECE-13E39671A2FA">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<defaultValue>&apos;1&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDALMACEN" id="8EEE779C-5BC0-11EB-EFB6-F7D4E1B25008">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDOFICINA" id="918A1CD9-C61D-3939-77EB-554C538D7AF5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDBIENSITUACION" id="9973DC30-E894-FD8C-26F9-BDA5FCCF9B2C">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDPADRE" id="B0D7F2A7-B30D-4375-2506-56C4568A3316">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCODBARRA" id="DDC77716-D042-F131-BF59-145CA91CE3CE">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="BIEN_SBN_UN" id="7121B199-2778-4F83-AE9C-927523A27CC8">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<schemaObject>EEA38A4F-FB3A-93EF-2E40-09C34CCCC760</schemaObject>
+<segment>526F4F74-AFA2-96C3-DA3C-23F5E9A9B318</segment>
+<tableSpace>EC78D23E-09B2-98B3-3BD9-14E59D016632</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="BIEN_PK" id="E54EF092-C31E-B8D5-13D9-894E7AC5791F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<schemaObject>EEA38A4F-FB3A-93EF-2E40-09C34CCCC760</schemaObject>
+<segment>526F4F74-AFA2-96C3-DA3C-23F5E9A9B318</segment>
+<tableSpace>EC78D23E-09B2-98B3-3BD9-14E59D016632</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BIEN_ALMA_FK" id="0989956E-AE09-3EA6-6C73-046F8F033B84">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BIEN_BIEN_FK" id="827326D4-BB75-88B7-3F91-AEB7A21E7455">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BIEN_MOVIMIENTO_FK" id="8F7BDCC8-8D11-6AD5-2E3E-F5879665B34A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BIEN_BIENSIT_FK" id="EC92364D-E1B5-CA90-CE28-E278AA250AFF">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BIEN_BIENPRES_FK" id="F3B0A363-0AE4-3A65-EE35-02956D816861">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BIEN_BIENEST_FK" id="F4AB2B89-CA34-DFE5-5BB5-0C55AB952E1C">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BIEN_PK" id="60A63ADC-4123-4942-5AF9-0CF6CF4D6DE3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<segment>526F4F74-AFA2-96C3-DA3C-23F5E9A9B318</segment>
+<tableSpace>EC78D23E-09B2-98B3-3BD9-14E59D016632</tableSpace>
+<existingIndex>E54EF092-C31E-B8D5-13D9-894E7AC5791F</existingIndex>
+<indexSegment>526F4F74-AFA2-96C3-DA3C-23F5E9A9B318</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="BIEN_SBN_UN" id="FDD98CAC-328E-D478-97DF-7056B692FA92">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<segment>526F4F74-AFA2-96C3-DA3C-23F5E9A9B318</segment>
+<tableSpace>EC78D23E-09B2-98B3-3BD9-14E59D016632</tableSpace>
+<existingIndex>7121B199-2778-4F83-AE9C-927523A27CC8</existingIndex>
+<indexSegment>526F4F74-AFA2-96C3-DA3C-23F5E9A9B318</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

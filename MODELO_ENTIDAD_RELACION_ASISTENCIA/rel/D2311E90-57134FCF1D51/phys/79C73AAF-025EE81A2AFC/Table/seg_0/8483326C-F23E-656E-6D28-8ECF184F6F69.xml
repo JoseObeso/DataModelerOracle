@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PAGINA" directorySegmentName="seg_0" id="8483326C-F23E-656E-6D28-8ECF184F6F69">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<schemaObject>A2A1D877-84DE-E497-39BC-5BA1AEF89597</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C7EBB4E4-D3A9-FCC9-F25C-B479D5DEC3A8</segment>
+<tableSpace>C430B425-DBA8-7E1E-05BD-1BABDCCD280D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TITULOPAGINA" id="026D608E-B2E5-1BCE-5150-26F6B2C93284">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDSISTEMAAPP" id="09786670-D1BB-E80D-5BA6-87CD05A1267D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALTOIMAGENCARD" id="1ABA7F30-8EBC-D2EC-DA25-CF5D564515BB">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDEN" id="21AE1FEF-0047-03A6-87D8-91473230FE83">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLORTITULOPAGINA" id="2DFC9CDA-8652-268B-244B-6099635FCF7D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBREPAGINA" id="3682195A-B19B-F3AA-9768-6950377E5A10">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBTITULOCARD" id="3D81AB35-740D-67E2-D461-39532AD0FF54">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDICONO" id="3F978189-4DAA-1AAD-D41B-3162BC2D4EF6">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MARGENIMAGENCARDTEXTO" id="525B2B16-4DE0-2774-CB11-0F43D85E1B26">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDFORMULARIO" id="58CC0F42-314C-FBB2-D75D-0FACC69042DC">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRECOLOR" id="69ED6CE1-5078-6867-03F8-D83D2C2B749B">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTROLLER" id="772FF38B-72B2-5686-1FB4-24E552702CDA">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RUTAICONO" id="77BF8771-0135-A2FC-5A87-834BADA79AEC">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISTANCIAENTRETITULOSUBTITULO" id="825E26A9-E938-1B89-DBC7-7F32592F3826">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLORTEXTOCARD" id="87236025-31F1-684B-988C-766B3982482A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TAMANIOTEXTOTITULO" id="9C54BDA9-8576-ACAB-602E-BEA4F29D8425">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TAMANIOTEXTOSUBTITULO" id="9C577B10-A26C-F8A1-9AB9-8E3A21269D61">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDPAGINA" id="B43D906A-AC35-9BA1-C367-F5EA897E0317">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="BA7020CC-8F77-E3B4-3309-2D8B165714BF">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANCHOIMAGENCARD" id="C3C5DE1B-FEFB-84EF-D972-128243F04EEE">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLORSUBTITULOCARD" id="E10A9E7C-8AF9-935E-2D97-DB3551B7B84E">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VISTA" id="ECDB5862-2116-EBDC-9588-B04E6E360680">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C009331" id="48D43C26-D445-83E9-28ED-D56FC0B10222">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:30 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C009332" id="6EA41604-2F27-F7FC-5018-B99BE467DBCB">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:30 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PAGINA_PK" id="7A2907C1-B248-4911-943F-0734376716FA">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<schemaObject>A2A1D877-84DE-E497-39BC-5BA1AEF89597</schemaObject>
+<segment>06B0BEB2-0A73-64F4-E1C5-08180459CBC4</segment>
+<tableSpace>C430B425-DBA8-7E1E-05BD-1BABDCCD280D</tableSpace>
+<indexSegment>06B0BEB2-0A73-64F4-E1C5-08180459CBC4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

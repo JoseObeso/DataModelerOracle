@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="desplazamiento_entidad_relacion" id="BA5D8621-AFCD-6B79-B3CF-160D2F0E5689" version="3.5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:42:11 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BA5D8621-AFCD-6B79-B3CF-160D2F0E5689</designId>
+</OSDM_Design>

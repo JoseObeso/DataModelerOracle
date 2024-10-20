@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="COMERCIAL" directorySegmentName="seg_0" id="0B87F261-C3EB-465D-F9C7-6AD2E701CC8F">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjName>COMERCIAL</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:05 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<schemaObject>E36393B9-6FF8-1958-5927-89354BC5A09B</schemaObject>
+</UserOraclev10g>

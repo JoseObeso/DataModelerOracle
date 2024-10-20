@@ -1,0 +1,228 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="LICENCIA" directorySegmentName="seg_0" id="7609A1FF-24B7-4755-9D5D-BC9B0C6F3544">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<schemaObject>A2A1D877-84DE-E497-39BC-5BA1AEF89597</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C7EBB4E4-D3A9-FCC9-F25C-B479D5DEC3A8</segment>
+<tableSpace>C430B425-DBA8-7E1E-05BD-1BABDCCD280D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VNOMBREDOCUMENTO" id="00BE5754-CB87-C38D-C83C-BDA74FB6B239">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISUBSIDIO" id="0598449F-4143-5BBA-2FC1-878197ED5596">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VFECHAFIN" id="071B47F8-7D0F-711B-46CD-60B34FCB3209">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDLICENCIA" id="0848F808-D3A8-3871-8735-978201078E81">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="VSUSTENTO" id="122FB72E-C6E1-B0B7-E666-B9A0F0441DAE">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VINSTITUCION" id="17945206-228D-F190-DAE8-5070F580FBB1">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCODIGODIAGNOSTICO" id="1944ACD9-8AA8-040F-9D2F-4134F0939EF3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAREGISTRA" id="1EE60AC6-8A35-9EFD-B642-9445FC5AA41E">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDOFICINA" id="24BB6AB6-8DF1-F17D-78D7-66C34B81B26D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDTIPOLICENCIA" id="3049F111-6935-E716-350C-A43A5E171451">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VFECHAPARTO" id="310ADBC4-1EC6-9B77-AAFC-53544DBB5BEF">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMES" id="33B54069-E21F-5841-688D-0D9A5D282DB3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INUMERODIA" id="45A04242-8A6E-21F4-32FD-8ADFE08FA1E5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNOMBREPARIENTE" id="4DC232DC-F449-E732-E7BE-DB89E24A4332">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDESTADOSUBSIDIO" id="50A9B459-2E48-59ED-5560-6949556A4055">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNOMBRESOLICITUD" id="5FD96CF7-C0FB-59AC-6AB6-4D537F25C3FA">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VFECHASOLICITUD" id="5FFB363A-37B5-34A1-B0D3-EDAC0E84EC12">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDEMPLEADO" id="617EC1D1-B480-3AC4-FA44-B5CEAF52A8FE">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VFECHAPROBABLE" id="76AA7034-AFC8-9BA8-2726-D0E0B7EFABAA">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEXPEDIENTE" id="78E91282-F78A-C732-F751-AD9F0A39F9EF">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDSEXOPROGENITO" id="7CBB151E-CE48-1731-BC73-CE68CE55BE95">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNOMBREMADRE" id="81D273F7-9EF8-82E5-C35A-B45DF1CEED55">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="8AD080F5-6BB8-5760-9715-2ACDB67339BE">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<defaultValue>&apos;1&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="VFECHAINICIO" id="9BE39B08-5F54-A84D-D6BC-0F7B0BF93757">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VFECHAALTA" id="A3EF90AC-BF07-3E5A-CFF4-5F10CB57D929">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IANIO" id="A42E892D-91DB-9E3C-DD25-F3DD6C0E4D91">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VMOTIVO" id="BB1B82E1-FE90-5387-66FC-C9C95CAEB52D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNOMBREPADRE" id="C7856AA9-B622-5A07-B395-FA7A2464DCA8">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDESTADO" id="C7E851E9-5820-A94F-B594-AC8202679E23">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAEDITA" id="CE657AB9-D6CA-0654-AAA0-8F7155CDC7DE">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VRUTASOLICITUD" id="D2E49158-D743-DD2C-649A-68C75015BDFD">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDTIPOINSTITUCION" id="DAD9C0BA-448C-A214-8D80-9C4DDF13EA70">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOEDITA" id="E4935557-4CE3-8F6E-CF86-FA9B6A023094">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOREGISTRA" id="E695F9D7-522E-6E34-6B1C-EB192752C31F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDTIPOVINCULO" id="EE237046-F603-4E0F-91E6-A4EACFEE9514">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VDIAGNOSTICO" id="F0DF76DA-C3A0-78D6-DC41-79922C52BF00">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VRUTADOCUMENTO" id="FED1A682-5A9E-5B8C-7A8F-A4F862F40F6F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C0027253" id="C5E1E0DD-FD17-58B9-B2B7-9F2F2EB69D61">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<schemaObject>A2A1D877-84DE-E497-39BC-5BA1AEF89597</schemaObject>
+<segment>06B0BEB2-0A73-64F4-E1C5-08180459CBC4</segment>
+<tableSpace>C430B425-DBA8-7E1E-05BD-1BABDCCD280D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LICENCIA_PK" id="4106009F-F1D3-2901-E936-3D94AF16D71C">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<segment>06B0BEB2-0A73-64F4-E1C5-08180459CBC4</segment>
+<tableSpace>C430B425-DBA8-7E1E-05BD-1BABDCCD280D</tableSpace>
+<existingIndex>C5E1E0DD-FD17-58B9-B2B7-9F2F2EB69D61</existingIndex>
+<indexSegment>06B0BEB2-0A73-64F4-E1C5-08180459CBC4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

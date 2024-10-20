@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4816E45-1366-83E1-BF0A-EEE9EF826B26" containerWithKeyObject="841E8E05-4989-EAAC-03FA-84FA5CD6EA61" localFKIndex="C4D8F3F7-939D-6FA6-F22C-7B3CCD0CAE52" name="PLAZOPAGO_FK1">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>PLAZOPAGO_FK1</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:09 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<referredTableLongName>COMERCIAL.CONDICIONPAGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<mandatory>false</mandatory>
+<refColNames>IIDCONDICIONPAGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

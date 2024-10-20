@@ -1,0 +1,342 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AA62975-11A8-C063-6F58-80F13658920D" schemaObject="E36393B9-6FF8-1958-5927-89354BC5A09B" name="AGENCIA">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>AGENCIA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:06 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDAGENCIA" id="DF586922-E320-A907-324D-E9E5A972A195">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>IIDAGENCIA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>AGENCIA_IID_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>AGEN_IIDAGENCIA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="VRAZONSOCIAL" id="C280DAFB-B4F5-DF8C-C961-7994974140F5">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>VRAZONSOCIAL</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDIRECCION" id="EEF86253-4EAA-059D-EB90-DF4E0418DC16">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>VDIRECCION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VTELEFONO" id="E1453600-316D-1A6A-2225-F58EBAEBA6CE">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>VTELEFONO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEMAIL" id="E4607104-5114-0B33-C574-1049309B39FD">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>VEMAIL</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VWEB" id="D6AC0270-65C9-65D8-4361-32405AE739FE">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>VWEB</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="4414D7FB-148A-F033-AB4A-FB4879921E15">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="9435A893-35BA-29AA-1ADA-DA24F8B3067F">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>IIDUSUARIOREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="C62FF76A-8F32-F3AB-ED6D-C23AA2637F93">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>IIDUSUARIOEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="D8E38222-91C8-C3E9-4B36-6D30FDDD395F">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="29FDC73E-E41B-CE55-1655-1E29839FE2FA">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>DFECHAEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VRUC" id="A71D28CB-0220-7E98-073E-A758E6BBF32A">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>VRUC</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNOMBRESREPRESENTANTE" id="570CAED7-CA09-A2F1-29D9-F7E4F4762E8F">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>VNOMBRESREPRESENTANTE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAPEPATREPRESENTANTE" id="DEC946D9-C371-8947-F867-07DAC4EC6CE7">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>VAPEPATREPRESENTANTE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAPEMATREPRESENTANTE" id="F684035C-C689-2CA8-B62A-F4EBB24B51DA">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>VAPEMATREPRESENTANTE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VCARGOREPRESENTANTE" id="AA55FEBB-DBC5-D50A-0D1B-432195447AF6">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>VCARGOREPRESENTANTE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VTELEFONOREPRESENTANTE" id="BDB26D72-50AC-DB78-CAE4-965097DE0A06">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>VTELEFONOREPRESENTANTE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDIRECCIONREPRESENTANTE" id="2597CBE4-2A27-3E95-1EDE-8537B8D80106">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>VDIRECCIONREPRESENTANTE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDNIREPRESENTANTE" id="BC8C986D-76EE-7D65-2A2E-FD2363706094">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>VDNIREPRESENTANTE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDPERSONA" id="B73F9F2D-92D3-044A-0EDD-D8552F60640B">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>AGENCIA</sourceObjSchema>
+<sourceObjName>IIDPERSONA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0268C67B-8356-3DFF-EDFC-5F562656E5F9" name="AGENCIA_PK">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>AGENCIA_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:09 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF586922-E320-A907-324D-E9E5A972A195"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CEC57B0-19D7-E73B-6234-EBBFD982669A" schemaObject="E36393B9-6FF8-1958-5927-89354BC5A09B" name="AGENCIA_PK">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>AGENCIA_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF586922-E320-A907-324D-E9E5A972A195"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

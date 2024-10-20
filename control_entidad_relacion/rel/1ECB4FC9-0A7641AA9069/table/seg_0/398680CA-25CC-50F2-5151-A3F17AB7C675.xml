@@ -1,0 +1,288 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="398680CA-25CC-50F2-5151-A3F17AB7C675" schemaObject="B56B5B1A-6968-2D10-61B4-262E14D6BC4E" name="ACCION">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>ACCION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDACCION" id="65019DBD-33AC-563A-F555-34E4F285D2BC">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>IIDACCION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>ACCION_IIDACCION_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>ACCION_IIDACCION_TRIG</autoIncrementTriggerName>
+</Column>
+<Column name="IIDOFICINA" id="DDFE2075-B3BF-CA1C-4517-9B4774FA74AD">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>IIDOFICINA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDRECOMENDACION" id="A20A666E-6533-0E12-173D-D21E14696C54">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>IIDRECOMENDACION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNOMBRE" id="DB7C1EC5-4A8E-25E0-DEE1-6BAB3A46E833">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>VNOMBRE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IPLAZO" id="00AA9378-E2DB-84F4-8231-1334D7584B82">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>IPLAZO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDESCRIPCION" id="E5EE5C5D-4385-8FAF-E801-172A35D06260">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>VDESCRIPCION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAINICIO" id="255AA3AC-57F6-D6DA-D356-3DC40DFF597D">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>DFECHAINICIO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAFIN" id="8F6A32C8-CD8C-095D-A65F-25108FA8B66D">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>DFECHAFIN</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDPREDECESORA" id="7CEECFF8-953C-E2DF-2862-E6E1D7FBB201">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>IIDPREDECESORA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IORDEN" id="1C8ADAE8-DFCE-6A9F-FCCD-7359F9960661">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>IORDEN</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="2FA8FAA5-1A02-702A-3575-4F0639914EAF">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>IIDUSUARIOREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="30461E28-D934-1AF0-B1ED-4D9F10C23E0F">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>IIDUSUARIOEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="1716E8C8-3221-DA46-C166-189BF8E23B7E">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="05BB7506-CB34-B3B5-9525-AA6C7D23EC06">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>DFECHAEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDESTADOACCION" id="E99C4BA5-7F1F-BB8E-438C-5EC5B5ED3657">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>IIDESTADOACCION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21C3909C-A2AB-FA7F-63DC-EB8012A0F365" referredColumn="C2CEF173-F74F-CD63-946F-4EF224D842F2"/>
+</associations>
+</Column>
+<Column name="BHABILITADO" id="27A472D8-282F-90EA-C184-93F7433B1844">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ACCION</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3262067-C6B4-95DF-590A-7DA9DFD1AF1D" name="ACCION_PK">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>ACCION_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:27 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65019DBD-33AC-563A-F555-34E4F285D2BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD6CF821-34DC-B749-9C1D-F9CD18A98958" schemaObject="B56B5B1A-6968-2D10-61B4-262E14D6BC4E" name="ACCION_PK">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>ACCION_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65019DBD-33AC-563A-F555-34E4F285D2BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C8808AA-AA6E-10A0-2981-561346B0D9AC" name="IIDESTADOACCION_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:27 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E99C4BA5-7F1F-BB8E-438C-5EC5B5ED3657"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

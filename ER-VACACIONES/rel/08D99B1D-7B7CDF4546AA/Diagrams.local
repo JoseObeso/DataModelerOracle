@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="28351A9D-801D-1788-BB80-73A22E9921FF" name="ER_VacacionesOIE" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

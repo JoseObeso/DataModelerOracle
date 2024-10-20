@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ESTADO_SUBSIDIO" directorySegmentName="seg_0" id="67A3B6B9-AC05-FE1D-D6E4-22EFAF37546C">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<schemaObject>A2A1D877-84DE-E497-39BC-5BA1AEF89597</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C7EBB4E4-D3A9-FCC9-F25C-B479D5DEC3A8</segment>
+<tableSpace>C430B425-DBA8-7E1E-05BD-1BABDCCD280D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IIDESTADOSUBSIDIO" id="04150DB6-FE08-494F-196D-FDD288F7627B">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="VNOMBRE" id="15C55A98-30F3-BE03-663F-011460A60D72">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAREGISTRA" id="547EBD93-ED7C-DDD1-EC4F-27D59F4D10B1">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="5A8EDDF9-8737-A088-733C-F971D466B0C3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<defaultValue>&apos;1&apos;</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C0027268" id="738CFC44-D2B0-EA9D-5545-63B61C1C98EF">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<schemaObject>A2A1D877-84DE-E497-39BC-5BA1AEF89597</schemaObject>
+<segment>06B0BEB2-0A73-64F4-E1C5-08180459CBC4</segment>
+<tableSpace>C430B425-DBA8-7E1E-05BD-1BABDCCD280D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ESTADO_SUBSIDIO_PK" id="40616EE1-A572-231E-46CF-DF8EFFB674E0">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<segment>06B0BEB2-0A73-64F4-E1C5-08180459CBC4</segment>
+<tableSpace>C430B425-DBA8-7E1E-05BD-1BABDCCD280D</tableSpace>
+<existingIndex>738CFC44-D2B0-EA9D-5545-63B61C1C98EF</existingIndex>
+<indexSegment>06B0BEB2-0A73-64F4-E1C5-08180459CBC4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

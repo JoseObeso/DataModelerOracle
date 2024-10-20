@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="FACTURA_PAGO" directorySegmentName="seg_0" id="9384ED7F-4C1E-00D6-D469-0D6A0F0A15A1">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:06 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<schemaObject>E36393B9-6FF8-1958-5927-89354BC5A09B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E7484513-D085-33A6-D629-4D4CCA961725</segment>
+<tableSpace>719DD05A-EB6F-78BB-BBCF-0F0946A0513E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VOBSERVACION" id="0ABD38DA-66E3-24CA-1F1E-C68E79988435">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMONTO" id="1FD4FA86-3FEC-C585-5398-D85198AF31A3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDFACTURA" id="345650B5-7B26-CDCE-DA86-00F7BA922B2A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IESTADO" id="3FB1D67F-1F1B-A4C3-D289-BDBBE016E971">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDPAGO" id="427A9B5D-DDAC-B755-04E1-D8D083C3FF92">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="IIDTIPO" id="6A608621-0026-CEB7-A204-36A40EFDA585">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DFECHAREGISTRA" id="6E0659DA-D94B-C1EF-1ABA-005D85F0F89F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIO" id="8B8326B5-359B-E770-172B-5986BB389693">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHA" id="C7F04BCA-9F14-779A-A0C2-AAB8DE88C6ED">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="DD1D339F-6A0E-8135-FCAD-E42E16D3C495">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FACTURA_PAGO_PK" id="5ABDE9FF-AA8F-F112-4C66-8DF6544C6BDF">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<schemaObject>E36393B9-6FF8-1958-5927-89354BC5A09B</schemaObject>
+<segment>5D0EF139-2ECB-576D-BFDC-27D6686E584B</segment>
+<tableSpace>719DD05A-EB6F-78BB-BBCF-0F0946A0513E</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FACTURA_PAGO_FK1" id="650CAC37-DCDA-DBBA-D3FC-1395ABEFA004">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:09 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FACTURA_PAGO_PK" id="EAA6387F-34A3-3FD1-E1F1-5492D18BE0F6">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:09 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<segment>5D0EF139-2ECB-576D-BFDC-27D6686E584B</segment>
+<tableSpace>719DD05A-EB6F-78BB-BBCF-0F0946A0513E</tableSpace>
+<existingIndex>5ABDE9FF-AA8F-F112-4C66-8DF6544C6BDF</existingIndex>
+<indexSegment>5D0EF139-2ECB-576D-BFDC-27D6686E584B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

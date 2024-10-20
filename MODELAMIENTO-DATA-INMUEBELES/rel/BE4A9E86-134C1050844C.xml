@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Modelo Entidad Relacion Inmuebles" id="BE4A9E86-1FE2-FF18-69C5-134C1050844C" mainViewID="0328AEF0-FB54-D821-E189-C6A912F09539">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-25 19:29:05 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBELES</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="AGENCIACLIENTE" directorySegmentName="seg_0" id="92DB608E-625C-B311-D6B6-254A3A4E4FF1">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:05 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<schemaObject>E36393B9-6FF8-1958-5927-89354BC5A09B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E7484513-D085-33A6-D629-4D4CCA961725</segment>
+<tableSpace>719DD05A-EB6F-78BB-BBCF-0F0946A0513E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BHABILITADO" id="2D1C95B1-3B05-7E7F-3751-5B2424E6F637">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDCLIENTE" id="929A3A63-59F3-7B1F-6BB6-3626DB42A9BB">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDAGENCIA" id="A0D50395-5CE5-5FC3-0A5C-3079844010DD">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDAGENCIACLIENTE" id="ABA3D213-B5A7-2206-A764-4C535E7560E2">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C0025535" id="6F5563F5-6DB4-E42C-046A-F9916125AEE2">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<schemaObject>E36393B9-6FF8-1958-5927-89354BC5A09B</schemaObject>
+<segment>5D0EF139-2ECB-576D-BFDC-27D6686E584B</segment>
+<tableSpace>719DD05A-EB6F-78BB-BBCF-0F0946A0513E</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="AGENCIACLIENTE_PK" id="177DF787-CB41-C8F3-8299-CA0098F32CA4">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:09 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<segment>5D0EF139-2ECB-576D-BFDC-27D6686E584B</segment>
+<tableSpace>719DD05A-EB6F-78BB-BBCF-0F0946A0513E</tableSpace>
+<existingIndex>6F5563F5-6DB4-E42C-046A-F9916125AEE2</existingIndex>
+<indexSegment>5D0EF139-2ECB-576D-BFDC-27D6686E584B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

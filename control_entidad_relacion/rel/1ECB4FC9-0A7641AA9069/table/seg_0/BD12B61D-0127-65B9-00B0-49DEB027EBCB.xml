@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD12B61D-0127-65B9-00B0-49DEB027EBCB" schemaObject="B56B5B1A-6968-2D10-61B4-262E14D6BC4E" name="OFICINA_RESPONSABLE">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>OFICINA_RESPONSABLE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDUSUARIO" id="6081DDFE-D534-AA4D-ED5B-8891A389362E">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>OFICINA_RESPONSABLE</sourceObjSchema>
+<sourceObjName>IIDUSUARIO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDOFICINA" id="DC4D71FF-A538-3C09-117A-05310AB7C005">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>OFICINA_RESPONSABLE</sourceObjSchema>
+<sourceObjName>IIDOFICINA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BE9F49E-FA35-D1A1-4C81-01999C3ABD12" name="TABLE1_PK">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>TABLE1_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:27 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6081DDFE-D534-AA4D-ED5B-8891A389362E"/>
+<colUsage columnID="DC4D71FF-A538-3C09-117A-05310AB7C005"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93BC645A-8FCA-AD4F-39E2-54A9E00D5764" schemaObject="B56B5B1A-6968-2D10-61B4-262E14D6BC4E" name="TABLE1_PK">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>TABLE1_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6081DDFE-D534-AA4D-ED5B-8891A389362E"/>
+<colUsage columnID="DC4D71FF-A538-3C09-117A-05310AB7C005"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

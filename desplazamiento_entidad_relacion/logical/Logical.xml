@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4BDD29CD-CD36-FB4D-155F-43EDA17DE4EC" mainViewID="75C2F6C2-41EF-0896-27E6-40B116104946">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:42:11 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

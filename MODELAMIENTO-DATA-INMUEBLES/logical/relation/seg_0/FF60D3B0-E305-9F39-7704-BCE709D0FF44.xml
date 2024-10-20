@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_1_1_ARBITRIOS_TIPO_IMPUESTO" directorySegmentName="seg_0" id="FF60D3B0-E305-9F39-7704-BCE709D0FF44">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:21:40 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<engineerTo>
+<item key="17CF2EFF-E7A8-FBEC-B05E-8719B0C22D2C" value="true"/>
+</engineerTo>
+<sourcePk>994FBF01-11B1-A139-4829-2F2275B78CFD</sourcePk>
+<targetPk>52C18E1C-172C-CE64-0520-FB2AAD0B036C</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7C16E7D-FFD4-AC53-F78C-AB3BB2078961</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>268B82B4-9187-F37C-C7BC-FF3D4972D81A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

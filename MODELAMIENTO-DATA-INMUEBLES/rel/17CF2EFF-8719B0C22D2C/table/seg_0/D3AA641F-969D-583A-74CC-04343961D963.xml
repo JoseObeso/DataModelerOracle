@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3AA641F-969D-583A-74CC-04343961D963" name="INMUEBLES_INFORMACIONTECNICA">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>692107A6-E28C-A70B-ED7D-C048345564C8</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<abbreviation>INMUEBLES_INFORMACIONTECNICA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDINMUEBLEINFORMACIONTECNICA" id="59AAF44F-D3C3-7222-EBE7-DDF1F4C0F210">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>97E2EFEC-5FA2-311C-0751-0087E08DC679</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDINMUEBLE" id="5A84FD55-4455-671F-982C-1F1F7638D1E7">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>99590C7F-AF7C-6F5E-513D-3151E02CDE47</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDTIPOEXPEDIENTETECNICO" id="F4F6E6E6-B872-8C04-9E90-F4A6651874DC">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>1A8A2ABE-3665-F11D-32F3-AA1F717F5292</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VFECHA" id="7DF49477-A7DB-B212-F20A-D94EFB445FC2">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>2307AE02-28C3-F955-9DE7-21194B95B685</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRO" id="1EB75693-E429-527E-E992-C7E411F3C65D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>0C0FCA0B-313C-42C2-B126-B582D6A11D05</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRO" id="75D38A5A-B51B-3D75-37E1-D3274AC239EE">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>5E0ED0B9-D42D-C74B-134A-736322623E46</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="F22EC598-9733-BD05-4FED-5F68C268BDF0">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>1CDA214B-3490-96FE-AB13-D94F496E2760</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INMUEBLES_IIDINMUEBLE" id="BE7C48D8-C72E-AD02-B458-6320D794B2F0">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<comment><![CDATA[iDENTIFICADOR UNICO DEL INMUEBLE]]></comment>
+<generatorID>4195DA4A-138D-EB20-9A3B-62A6ACEF86F9</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F9C1811-8F6A-1214-AFB2-0340D3755E6C" referredColumn="18C27954-828D-B69C-4DDB-473DDF8EF12A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB2461FC-ADD5-0B9F-58EA-0D729B240827" name="INMUEBLES_INFORMACIONTECNICA_PK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>DF395FE0-83D6-5887-4F85-FE619263648D</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59AAF44F-D3C3-7222-EBE7-DDF1F4C0F210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DDEFD02-9FD4-69F9-1291-9F4A8831567A" name="INMUEBLES_INFORMACIONTECNICA__IDX">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:35 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1D0584E2-7B9C-4951-BA75-4CF05A13D8C4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BE7C48D8-C72E-AD02-B458-6320D794B2F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9D65A52-297A-A10F-D979-E32A9C10954C" name="INMUEBLES_INFORMACIONTECNICA_INMUEBLES_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:35 UTC</createdTime>
+<generatorID>1D0584E2-7B9C-4951-BA75-4CF05A13D8C4</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE7C48D8-C72E-AD02-B458-6320D794B2F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

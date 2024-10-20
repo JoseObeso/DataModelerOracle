@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="AGENCIA" directorySegmentName="seg_0" id="5F676019-AB10-1523-556F-748936FC7B7A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:45 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<schemaObject>3281C1D1-9008-4404-714D-323063723EEB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>73AEB9DB-1B23-F572-D364-2CADC11DDA47</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VWEB" id="195C2CE6-F18D-4C3F-CDEF-E6304D608917">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VTELEFONOREPRESENTANTE" id="2B787E0E-E89E-A902-CF67-916005DA8545">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VDIRECCION" id="38E48EF5-DD86-531D-6F76-6D3B80CE89D3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDPERSONA" id="3AE34E46-656D-3C7E-C4AF-143DFC67B6BC">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDAGENCIA" id="4C1155B4-7399-1361-2BC4-67F68F42EC49">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="VDNIREPRESENTANTE" id="5817947F-02D9-8EA8-7008-ECC6C16A91EA">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCARGOREPRESENTANTE" id="588B5398-4C89-4407-96D1-A7DB89E851F3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VRUC" id="5EE784EB-429E-6147-1F4E-AA635193AB7E">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VTELEFONO" id="8BC0FC08-A3BF-54C6-5A1F-EEF6F62F2B12">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="8FF7DD65-EBBA-F7BC-72A4-7E35F992869C">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="VNOMBRESREPRESENTANTE" id="B8C47F39-C03D-5928-2A8C-9705D89A7D0F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VAPEPATREPRESENTANTE" id="B93D8DEC-051A-E85A-C2CA-0D4F690C920F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VRAZONSOCIAL" id="CB42927C-F415-C7E9-4F25-52075D6CE78C">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOREGISTRA" id="D816138C-6EEF-AE47-7547-E7AB35EA5FE5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAEDITA" id="DAA427D3-FA0F-00FF-CF81-135558C7726F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAREGISTRA" id="DB5166A2-F593-A6DE-9043-2234FF0C6383">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOEDITA" id="E034EC8C-DFEB-81A0-46E0-8CB49CDC6331">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEMAIL" id="E58C34EC-F552-F047-482E-05BBEDF27904">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VDIRECCIONREPRESENTANTE" id="F03DAB4F-F90B-C95F-8A18-6C7FE5044902">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VAPEMATREPRESENTANTE" id="FCEC17A1-4020-C5FE-E621-761BAD155963">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="AGENCIA_PK" id="045E9EB8-9377-5409-D3F8-91249453740C">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<schemaObject>3281C1D1-9008-4404-714D-323063723EEB</schemaObject>
+<segment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="AGENCIA_PK" id="00690636-B44D-CE2B-77AC-06405A5D3B82">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<segment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</segment>
+<tableSpace>C33DDD4F-1BF8-D833-6B88-BFC054685004</tableSpace>
+<existingIndex>045E9EB8-9377-5409-D3F8-91249453740C</existingIndex>
+<indexSegment>308298DF-7A5C-F67D-FEEA-C5BA4B95DAB7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

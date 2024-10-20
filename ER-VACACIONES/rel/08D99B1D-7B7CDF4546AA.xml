@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="ER_VacacionesOIE" id="08D99B1D-B00D-0E5B-BE6C-7B7CDF4546AA" mainViewID="28351A9D-801D-1788-BB80-73A22E9921FF">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-07-09 15:11:32 UTC</createdTime>
+<comment><![CDATA[Modelo Entidiad Relacioon de Modulo de Vacaciones]]></comment>
+<ownerDesignName>ER-VACACIONES</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+</relationalModel>

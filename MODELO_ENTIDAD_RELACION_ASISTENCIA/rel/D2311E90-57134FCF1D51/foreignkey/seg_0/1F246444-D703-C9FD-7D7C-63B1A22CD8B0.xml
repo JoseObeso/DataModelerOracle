@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F246444-D703-C9FD-7D7C-63B1A22CD8B0" containerWithKeyObject="600F6557-C1E6-E955-73FF-EA287D423DD7" localFKIndex="4615ECF3-6CF5-6808-4F66-038C30494F21" name="HIST_ESTA_FK">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>HIST_ESTA_FK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:30 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<referredTableLongName>ASISTENCIA.ESTADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4FF231C4-BCD1-DE4C-E304-FC81C5B51E93</referredTableID>
+<keyObject>13DB4483-7643-1B9F-29B5-E4AA873AF007</keyObject>
+<referredKeyID>13DB4483-7643-1B9F-29B5-E4AA873AF007</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDESTADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

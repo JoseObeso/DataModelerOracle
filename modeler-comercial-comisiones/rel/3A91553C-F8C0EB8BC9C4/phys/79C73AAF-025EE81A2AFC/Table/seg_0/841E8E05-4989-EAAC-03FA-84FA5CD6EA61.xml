@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PLAZOPAGO" directorySegmentName="seg_0" id="841E8E05-4989-EAAC-03FA-84FA5CD6EA61">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:06 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<schemaObject>E36393B9-6FF8-1958-5927-89354BC5A09B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E7484513-D085-33A6-D629-4D4CCA961725</segment>
+<tableSpace>719DD05A-EB6F-78BB-BBCF-0F0946A0513E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DFECHAREGISTRO" id="27666363-DD69-CB74-50A1-1ACA97AF951D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDCONDICIONPAGO" id="51A6501E-12F7-04B4-76E4-C61AB10BAC50">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDIAS" id="5C7093D0-3A8B-57EF-802B-6AF1D2C41D6A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ICONDICIONPAGO" id="7CD90033-C907-8BE4-C1FA-92AF4AC95075">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDPLAZOPAGO" id="94D89125-3767-E70C-88D3-A6B752C4E7DE">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="AADB12BC-F7A1-A780-F517-57562312E785">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<defaultValue>&apos;1&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="VNOMBRE" id="F041269E-8CE0-CF24-177C-77852F117742">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PLAZOPAGO_PK" id="AA104DB5-97E1-0D81-6566-BC0BD0B1DA1E">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<schemaObject>E36393B9-6FF8-1958-5927-89354BC5A09B</schemaObject>
+<segment>5D0EF139-2ECB-576D-BFDC-27D6686E584B</segment>
+<tableSpace>719DD05A-EB6F-78BB-BBCF-0F0946A0513E</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PLAZOPAGO_FK1" id="C4D8F3F7-939D-6FA6-F22C-7B3CCD0CAE52">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:09 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PLAZOPAGO_PK" id="7DEE61F8-F638-659E-3592-5FBC36AD4D5D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:09 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<segment>5D0EF139-2ECB-576D-BFDC-27D6686E584B</segment>
+<tableSpace>719DD05A-EB6F-78BB-BBCF-0F0946A0513E</tableSpace>
+<existingIndex>AA104DB5-97E1-0D81-6566-BC0BD0B1DA1E</existingIndex>
+<indexSegment>5D0EF139-2ECB-576D-BFDC-27D6686E584B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

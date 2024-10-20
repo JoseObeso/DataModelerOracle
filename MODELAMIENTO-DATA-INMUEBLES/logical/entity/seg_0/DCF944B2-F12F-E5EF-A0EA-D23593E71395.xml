@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCF944B2-F12F-E5EF-A0EA-D23593E71395" name="TIPOESTRUCTURA">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 16:48:00 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<engineerTo>
+<item key="17CF2EFF-E7A8-FBEC-B05E-8719B0C22D2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TIPO DE ESTRUCTURA SEGUN EL ANEXO 01 - DATA E INMUEBLE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IIDTIPOESTRUCTURA" id="64C0EBDF-2C4D-C928-031D-5DFC859B0FE1">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 16:49:07 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<engineerTo>
+<item key="17CF2EFF-E7A8-FBEC-B05E-8719B0C22D2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VNOMBRE" id="7B0BE9FA-CD9B-E08E-6EB8-5F1072983AB5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 16:49:41 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<engineerTo>
+<item key="17CF2EFF-E7A8-FBEC-B05E-8719B0C22D2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DFECHAREGISTRO" id="A8B7743A-1834-A61B-FBD3-BEC7DDC19048">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 16:50:14 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<engineerTo>
+<item key="17CF2EFF-E7A8-FBEC-B05E-8719B0C22D2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDUSUARIOREGISTRO" id="554B0C17-AD71-3BD4-100C-163D13A23973">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 16:50:38 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<engineerTo>
+<item key="17CF2EFF-E7A8-FBEC-B05E-8719B0C22D2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BHABILITADO" id="09197795-8E2D-9A3B-288C-A693BEACCC57">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 16:50:59 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<engineerTo>
+<item key="17CF2EFF-E7A8-FBEC-B05E-8719B0C22D2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDINMUEBLE" id="BEA4D27E-38C2-DC24-79B7-E6564946122B">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 16:54:01 UTC</createdTime>
+<comment><![CDATA[iDENTIFICADOR UNICO DEL INMUEBLE]]></comment>
+<generatorID>2A246B6C-DC33-AB9D-A804-651E088F1501</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<engineerTo>
+<item key="17CF2EFF-E7A8-FBEC-B05E-8719B0C22D2C" value="true"/>
+</engineerTo>
+<referedAttribute>23E81A08-77A2-F3EF-B509-232E0DB19222</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="46CDF141-FE0D-E720-A7B3-CC54414D93B3" name="TIPODEESTRUCTURA PK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 16:52:53 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<engineerTo>
+<item key="17CF2EFF-E7A8-FBEC-B05E-8719B0C22D2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64C0EBDF-2C4D-C928-031D-5DFC859B0FE1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

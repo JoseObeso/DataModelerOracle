@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E05FFD6-78E0-A2D0-AA98-F127CE3BB8C1" name="TIPOADMINISTRACION">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>D87BC0E3-F9FC-E514-67E2-F7096975C73A</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<abbreviation>TIPOADMINISTRACION</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDTIPOADMINISTRACION" id="C3872433-28AF-A24A-E418-681F10D9A95B">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<comment><![CDATA[IID DE TIPO DE ADMINISTRACION DEL INMUEBLE]]></comment>
+<generatorID>0CE54A02-E01C-107D-E414-6F9982B3296A</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNOMBRE" id="5B0FD0CA-FE69-A4D6-2B61-05A944B12B42">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>1E98BF24-8E81-7F27-4B9D-526741B22D7E</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="19C10D07-ECD6-C039-8BE2-12D64D866AD5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<comment><![CDATA[FECHA QUE REGISTRO EL TIPO DE INMUEBLE]]></comment>
+<generatorID>2AEA3A0A-C212-8918-45A5-925F8F965887</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRO" id="2CEC500F-5CE9-1CB1-A21E-1E8698BCA290">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<comment><![CDATA[IID USUARIO REGISTRO - USUARIO QUE REGISTRA EL TIPO DE INMUEBLE]]></comment>
+<generatorID>0BE0A934-BD65-1B18-DFDA-A81F8C2AC301</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="7C9313B7-5C88-CEDD-EBB2-7C40AF11FBEC">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>E8F31E4B-0BD9-62AA-E9B1-39CD3C94EDE9</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="819B3624-F5FC-A923-6C51-E2BA601FFFBF" name="TIPOADMINISTRACION_PK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>BF5DC7C9-948E-B2FF-1D3E-C6347CF0886A</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3872433-28AF-A24A-E418-681F10D9A95B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

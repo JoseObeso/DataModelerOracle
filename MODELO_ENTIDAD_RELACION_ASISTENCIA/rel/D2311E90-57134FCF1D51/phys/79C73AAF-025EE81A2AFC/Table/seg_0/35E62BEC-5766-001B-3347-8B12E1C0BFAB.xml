@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="COMPENSACION" directorySegmentName="seg_0" id="35E62BEC-5766-001B-3347-8B12E1C0BFAB">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<schemaObject>A2A1D877-84DE-E497-39BC-5BA1AEF89597</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C7EBB4E4-D3A9-FCC9-F25C-B479D5DEC3A8</segment>
+<tableSpace>C430B425-DBA8-7E1E-05BD-1BABDCCD280D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VDESCRIPCION" id="203C4D77-CEBC-3E25-8478-65830C685D66">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOREGISTRA" id="238E9727-04D0-B2BA-2D74-64EC6A00CDE5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDOFICINA" id="44707AC9-C750-2DF6-ADA7-FFEC99E34DCE">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDCOMPENSACION" id="537DFE6D-629D-D0C5-2C77-7E57B1F67745">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="NAPRUEBA" id="6570B877-4798-B988-DB9B-CD017506EC6F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOEDITA" id="6BD9757F-C927-7AC9-A161-D77FAFEB236A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IAUTORIZA" id="7FDEAFBC-61FB-3811-83BB-8BD754167D2A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDESTADO" id="9BB4A6BC-62FF-F737-A60E-DA3BF591A634">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<defaultValue>6</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DFECHAREGISTRA" id="ACDCF363-120A-08E1-0A88-3A71F13EEE70">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDEMPLEADO" id="BE0A65D7-E649-256F-9FED-50F0171AB396">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="D0EAF266-93C6-DB6E-CD30-845EBF1BCFF0">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<defaultValue>&apos;1&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DFECHAEDITA" id="D2DCDD2C-9BB2-6E7B-293B-9E5FDB3E74AF">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IENVIADO" id="DD6AFC5A-8AD9-D1C3-60BE-41DB164F9FA2">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="INIVEL" id="E1FA47B7-8E7D-B926-7B1A-40C18803C7C4">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMP_PK" id="D9CE545D-9D1E-1FC3-CD84-303112B29CA5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<schemaObject>A2A1D877-84DE-E497-39BC-5BA1AEF89597</schemaObject>
+<segment>06B0BEB2-0A73-64F4-E1C5-08180459CBC4</segment>
+<tableSpace>C430B425-DBA8-7E1E-05BD-1BABDCCD280D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMP_PK" id="BFDFB5E0-C68E-C796-B283-A714051EE6F7">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<segment>06B0BEB2-0A73-64F4-E1C5-08180459CBC4</segment>
+<tableSpace>C430B425-DBA8-7E1E-05BD-1BABDCCD280D</tableSpace>
+<existingIndex>D9CE545D-9D1E-1FC3-CD84-303112B29CA5</existingIndex>
+<indexSegment>06B0BEB2-0A73-64F4-E1C5-08180459CBC4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

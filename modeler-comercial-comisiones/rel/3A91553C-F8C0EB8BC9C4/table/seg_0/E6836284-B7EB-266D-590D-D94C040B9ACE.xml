@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6836284-B7EB-266D-590D-D94C040B9ACE" schemaObject="E36393B9-6FF8-1958-5927-89354BC5A09B" name="CORREOSREGISTRADOS">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>CORREOSREGISTRADOS</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:06 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDCORREOS" id="D815FC88-641F-FE1C-9546-A8502AE2E6A4">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>CORREOSREGISTRADOS</sourceObjSchema>
+<sourceObjName>IIDCORREOS</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VCORREOSOLICITANTE" id="9DEF6D0D-9958-796A-1BBC-02086D5D6869">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>CORREOSREGISTRADOS</sourceObjSchema>
+<sourceObjName>VCORREOSOLICITANTE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VCORREODESTINO" id="BDDBA94D-9478-D761-6651-FF34D1231AAF">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>CORREOSREGISTRADOS</sourceObjSchema>
+<sourceObjName>VCORREODESTINO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VASUNTO" id="D2A6D3F7-591E-0F25-BCFE-955F2C3ADA46">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>CORREOSREGISTRADOS</sourceObjSchema>
+<sourceObjName>VASUNTO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>800 BYTE</dataTypeSize>
+<ownDataTypeParameters>800 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VCUERPO" id="8BBA4916-53CF-36E4-85C1-59B225E307F0">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>CORREOSREGISTRADOS</sourceObjSchema>
+<sourceObjName>VCUERPO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1500 BYTE</dataTypeSize>
+<ownDataTypeParameters>1500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IENVIO" id="C882A0EA-0858-F57C-AAE0-1BC6CDE86C47">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>CORREOSREGISTRADOS</sourceObjSchema>
+<sourceObjName>IENVIO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRO" id="2A6614EF-5033-A98A-AD82-8004BF8518C3">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>CORREOSREGISTRADOS</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VRANDOM" id="ECD1A7B6-9028-8389-E860-17EBD776D223">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>CORREOSREGISTRADOS</sourceObjSchema>
+<sourceObjName>VRANDOM</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VMODULO" id="829F2F7D-13F8-7838-7FEB-B9111829BDD5">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>CORREOSREGISTRADOS</sourceObjSchema>
+<sourceObjName>VMODULO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="887372C8-20E5-5209-8386-F2CF98FB7FB3" name="CORREOSREGISTRADOS_PK">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>CORREOSREGISTRADOS_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:09 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D815FC88-641F-FE1C-9546-A8502AE2E6A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDBA83FE-6D4B-A426-0087-87463C06EDB3" schemaObject="E36393B9-6FF8-1958-5927-89354BC5A09B" name="CORREOSREGISTRADOS_PK">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>CORREOSREGISTRADOS_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:07 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D815FC88-641F-FE1C-9546-A8502AE2E6A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

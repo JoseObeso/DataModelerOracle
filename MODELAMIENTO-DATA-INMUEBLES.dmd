@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELAMIENTO-DATA-INMUEBLES" id="A71BCA17-B4DA-E7DE-FAD0-948638CB2160" version="3.5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 15:29:29 UTC</createdTime>
+<comment><![CDATA[Base de datos de bienes e inmuebles que administra IRTP]]></comment>
+<notes><![CDATA[Base de datos de bienes e inmuebles que administra IRTP]]></notes>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A71BCA17-B4DA-E7DE-FAD0-948638CB2160</designId>
+</OSDM_Design>

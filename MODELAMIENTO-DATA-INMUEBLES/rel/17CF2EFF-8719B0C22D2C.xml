@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="ModelEntidadRelacion_Fisico" id="17CF2EFF-E7A8-FBEC-B05E-8719B0C22D2C" mainViewID="D2CCAB43-C059-9DF7-314C-91AD48220F35">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 15:29:32 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+</relationalModel>

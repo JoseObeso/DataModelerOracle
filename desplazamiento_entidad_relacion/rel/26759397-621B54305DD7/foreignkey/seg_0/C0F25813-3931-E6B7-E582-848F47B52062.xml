@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0F25813-3931-E6B7-E582-848F47B52062" containerWithKeyObject="E36CF16B-DBA8-8A91-4DB1-B258278B7050" localFKIndex="0989956E-AE09-3EA6-6C73-046F8F033B84" name="BIEN_ALMA_FK">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>BIEN_ALMA_FK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<referredTableLongName>DESPLAZAMIENTO.ALMACEN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B2C002E-8F5C-41FF-805C-995C2055F3D5</referredTableID>
+<keyObject>4326FB32-59C4-7924-9132-EA46DDED0DB1</keyObject>
+<referredKeyID>4326FB32-59C4-7924-9132-EA46DDED0DB1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDALMACEN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

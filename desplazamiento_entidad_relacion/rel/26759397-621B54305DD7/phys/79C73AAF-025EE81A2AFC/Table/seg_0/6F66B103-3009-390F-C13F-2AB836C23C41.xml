@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TURNO" directorySegmentName="seg_0" id="6F66B103-3009-390F-C13F-2AB836C23C41">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<schemaObject>EEA38A4F-FB3A-93EF-2E40-09C34CCCC760</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C04C0924-7578-2CED-551D-F3B45C3DB730</segment>
+<tableSpace>EC78D23E-09B2-98B3-3BD9-14E59D016632</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DFECHAEDITA" id="15AD7931-36F0-1C7C-48F6-73F42EDC80C6">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOREGISTRA" id="271D20D1-948D-0324-3CA6-F20A464B8168">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNOMBRE" id="41CDC880-10B7-4847-E014-2542450155CF">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="4F422EC6-1B72-09D9-C6BD-A3DF3349A8F5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<defaultValue>&apos;1&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DHORAINICIO" id="5146BBAE-D70E-FB4A-E8F3-0B3F85B964A3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DHORAFIN" id="7CDE68BD-73D6-34F2-B676-2EDCC92473D0">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VDESCRIPCION" id="B4310BFA-08AC-9BBD-A895-1FB8ED113311">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOEDITA" id="DD731CA6-A110-9272-19ED-7C6406F358B8">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAREGISTRA" id="ED7E8AD9-A5D2-777C-5A92-3CB1562B11F1">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDTURNO" id="FFA874DA-1E26-2331-1A7E-6006F5A6E30A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:56 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TURN__UN" id="B7BF0C2F-59DA-86C9-8764-795F3D152E43">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<schemaObject>EEA38A4F-FB3A-93EF-2E40-09C34CCCC760</schemaObject>
+<segment>526F4F74-AFA2-96C3-DA3C-23F5E9A9B318</segment>
+<tableSpace>EC78D23E-09B2-98B3-3BD9-14E59D016632</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TURNO_PK" id="F7DC7258-87E8-9596-BDBD-877D40F22898">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<schemaObject>EEA38A4F-FB3A-93EF-2E40-09C34CCCC760</schemaObject>
+<segment>526F4F74-AFA2-96C3-DA3C-23F5E9A9B318</segment>
+<tableSpace>EC78D23E-09B2-98B3-3BD9-14E59D016632</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TURNO_PK" id="CE1D50B4-F3E8-C2BC-4655-994472632077">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<segment>526F4F74-AFA2-96C3-DA3C-23F5E9A9B318</segment>
+<tableSpace>EC78D23E-09B2-98B3-3BD9-14E59D016632</tableSpace>
+<existingIndex>F7DC7258-87E8-9596-BDBD-877D40F22898</existingIndex>
+<indexSegment>526F4F74-AFA2-96C3-DA3C-23F5E9A9B318</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="TURN__UN" id="DFDA20E0-BD4B-5630-92FC-A0D2F2200DF5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<segment>526F4F74-AFA2-96C3-DA3C-23F5E9A9B318</segment>
+<tableSpace>EC78D23E-09B2-98B3-3BD9-14E59D016632</tableSpace>
+<existingIndex>B7BF0C2F-59DA-86C9-8764-795F3D152E43</existingIndex>
+<indexSegment>526F4F74-AFA2-96C3-DA3C-23F5E9A9B318</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

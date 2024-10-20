@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="HISTORIALPAPELETA" directorySegmentName="seg_0" id="DE75A205-7599-929F-F9BA-63DF75A4A2A1">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<schemaObject>A2A1D877-84DE-E497-39BC-5BA1AEF89597</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C7EBB4E4-D3A9-FCC9-F25C-B479D5DEC3A8</segment>
+<tableSpace>C430B425-DBA8-7E1E-05BD-1BABDCCD280D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VDESCRIPCION" id="33F2A26E-5F05-AD23-5F22-E9B9F6EC2037">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDPAPELETA" id="359ADEC3-18E5-AA84-402A-649144C2F954">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VUSUARIOPC" id="5408965F-0B64-D83C-8053-F3632D351967">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDESTADO" id="8C503832-B778-71FC-A637-1EB63CB19CB3">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIO" id="A1B6F6E0-E40F-76A4-7E71-CDE7C21221F8">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDHISTORIALPAPELETA" id="CE7C6F73-9FA6-0870-9279-7A82DDB387AB">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHA" id="E37F1102-0767-76D2-9DCE-574A7841E6EC">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HISTORIALPAPELETA_PK" id="A5BDBC94-C0E3-85D7-8600-9E7EC79B8CF8">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:29 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<schemaObject>A2A1D877-84DE-E497-39BC-5BA1AEF89597</schemaObject>
+<segment>06B0BEB2-0A73-64F4-E1C5-08180459CBC4</segment>
+<tableSpace>C430B425-DBA8-7E1E-05BD-1BABDCCD280D</tableSpace>
+<indexSegment>06B0BEB2-0A73-64F4-E1C5-08180459CBC4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

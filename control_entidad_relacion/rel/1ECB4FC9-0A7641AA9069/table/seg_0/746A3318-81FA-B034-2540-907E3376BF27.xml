@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="746A3318-81FA-B034-2540-907E3376BF27" schemaObject="B56B5B1A-6968-2D10-61B4-262E14D6BC4E" name="ESTADO">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDESTADO" id="FF78DCE8-4390-CB6D-503D-145F8D1709AF">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ESTADO</sourceObjSchema>
+<sourceObjName>IIDESTADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNOMBRE" id="AF1D5B37-CF36-EF35-5CD0-2B8EC5530D3C">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ESTADO</sourceObjSchema>
+<sourceObjName>VNOMBRE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDESCRIPCION" id="64B1E89A-9500-4916-2BEF-AE6D4631ADB4">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ESTADO</sourceObjSchema>
+<sourceObjName>VDESCRIPCION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="7817BDB4-C7A7-575D-8F9C-EBE64D5C4139">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>ESTADO</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="385F4899-8E9A-4532-CD4D-BF1B6D4855C4" name="ESTADO_PK">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>ESTADO_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:27 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF78DCE8-4390-CB6D-503D-145F8D1709AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65E59A58-F161-47F4-3889-EC18B095B3D5" schemaObject="B56B5B1A-6968-2D10-61B4-262E14D6BC4E" name="ESTADO_PK">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>ESTADO_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF78DCE8-4390-CB6D-503D-145F8D1709AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

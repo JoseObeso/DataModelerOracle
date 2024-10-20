@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7809390A-86D8-CA91-9FCD-F929B6E7AF4C" containerWithKeyObject="14F79684-23B1-5F07-1A72-00F4D8852872" localFKIndex="2805D6EE-267F-18FA-9FEE-5D02A766CA23" name="DIACOM_COMP_FK">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>DIACOM_COMP_FK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:30 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<referredTableLongName>ASISTENCIA.COMPENSACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>35E62BEC-5766-001B-3347-8B12E1C0BFAB</referredTableID>
+<keyObject>BFDFB5E0-C68E-C796-B283-A714051EE6F7</keyObject>
+<referredKeyID>BFDFB5E0-C68E-C796-B283-A714051EE6F7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDCOMPENSACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

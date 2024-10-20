@@ -1,0 +1,332 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92FE18D3-A615-CFAF-0823-63644BB8C535" schemaObject="B56B5B1A-6968-2D10-61B4-262E14D6BC4E" name="RECOMENDACION">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>RECOMENDACION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDRECOMENDACION" id="43B3552D-CD67-089F-1429-A657D9DD1663">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>IIDRECOMENDACION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>RECOM_IIDRECOMENDACION_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>RECOM_IIDRECOMENDACION_TRIG</autoIncrementTriggerName>
+</Column>
+<Column name="VNOMBRE" id="87142D85-600C-0401-3269-E2E9EB0A01C2">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>VNOMBRE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INRORECOMENDACION" id="8DBB4ED4-AC84-4287-8D18-A454C3E59BEC">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>INRORECOMENDACION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VINFORME" id="6087B169-45C5-8C51-47E8-FE399FF9F640">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>VINFORME</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VCONCLUSION" id="392FF568-E2F8-975A-CDB7-17E6E9EBFDC2">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>VCONCLUSION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDINFORMETRAMITE" id="9C3E116C-3EC0-7D5B-4C88-6A1E66E6277B">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>IIDINFORMETRAMITE</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAINFORME" id="369856F7-CA29-CBC2-1154-82853E65F6BA">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>DFECHAINFORME</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDIAS" id="4FC72E65-9638-541E-0D72-47A9E2325401">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>IDIAS</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDESCRIPCION" id="947715DF-FAC8-6505-2374-0C66FE7598DF">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>VDESCRIPCION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VRUTAARCHIVO" id="E0428D03-2EBB-6E1A-CB15-C564255A542E">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>VRUTAARCHIVO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VARCHIVO" id="7AAB5853-0F4D-0142-7A8C-70A2F9208FD9">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>VARCHIVO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNRODOCUMENTO" id="5524018C-44B5-378D-1977-E5A908EC8122">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>VNRODOCUMENTO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDESTADO" id="16832B04-F2A1-1595-8D72-045437CD0A0A">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>IIDESTADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7C0547E-C9BC-46A5-8245-09342B1BACD3" referredColumn="FF78DCE8-4390-CB6D-503D-145F8D1709AF"/>
+</associations>
+</Column>
+<Column name="VPERIODO" id="C64327A7-1F93-F6BE-F4A2-78E51795C4EC">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>VPERIODO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="CBBF0552-B483-B355-5BD4-11B886D698FE">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="415422F5-3CCA-55F8-15F6-A4D355ED6BD5">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>DFECHAEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="F90EB8F5-AFB0-7EC5-9970-17B78B1A101D">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>IIDUSUARIOREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="6C6E7B63-A35E-CE49-91A1-D312577CAB21">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>IIDUSUARIOEDITA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="1A629595-E4C9-0AA6-76D3-DD32EB7DA762">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>RECOMENDACION</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59C19807-FF31-20FC-E878-28640E797910" name="RECOMENDACION_PK">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>RECOMENDACION_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:27 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43B3552D-CD67-089F-1429-A657D9DD1663"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18CA6BE3-D1C6-84F9-0A76-05D448619A9D" schemaObject="B56B5B1A-6968-2D10-61B4-262E14D6BC4E" name="RECOMENDACION_PK">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>RECOMENDACION_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43B3552D-CD67-089F-1429-A657D9DD1663"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C1AF1D8-C037-0495-EEB5-E69C90FD143D" name="IIDESTADO_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:27 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16832B04-F2A1-1595-8D72-045437CD0A0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

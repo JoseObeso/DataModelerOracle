@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4D61932-F933-718F-9E08-C471AB491AB8" name="VACACIONES_ESTADO">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-07-09 16:48:28 UTC</createdTime>
+<ownerDesignName>ER-VACACIONES</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<abbreviation>VACACIONES_ESTADO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDESTADO" id="026A7DF0-AF03-EF84-723E-7DBB153F3FD8">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-07-09 16:49:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[IIDESTADO VACACIONES]]></commentInRDBMS>
+<ownerDesignName>ER-VACACIONES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNOMBRE" id="121181C7-B982-E16C-2F3A-7BAEB112F823">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-07-09 16:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL ESTADO: REGISTRADO, APROBADO, SUSPENDIDO]]></commentInRDBMS>
+<ownerDesignName>ER-VACACIONES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="898F2F56-DC1B-C8D6-6D1A-F3451205636E">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-07-09 16:50:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[HABILITADO EN CONDICION 1 Y CERO]]></commentInRDBMS>
+<ownerDesignName>ER-VACACIONES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRO" id="BA80601F-5BA6-9C57-B8AE-AEDC28981D8D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-07-09 16:51:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE REGISTRO DEL SISTEMA]]></commentInRDBMS>
+<ownerDesignName>ER-VACACIONES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="490398FD-317F-29CC-444C-E7993B2BA24A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-07-09 16:53:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[IIDUSUARIO QUE REGISTRA EN EL SISTEMA]]></commentInRDBMS>
+<ownerDesignName>ER-VACACIONES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F7376C4-DD1A-38D2-0AC1-B6394C6A1052" name="VACACIONES_ESTADO_PK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-07-09 16:53:12 UTC</createdTime>
+<ownerDesignName>ER-VACACIONES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="026A7DF0-AF03-EF84-723E-7DBB153F3FD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

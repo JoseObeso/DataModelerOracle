@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="IRTP" directorySegmentName="seg_0" id="8B34EA73-1158-8EA2-EAEF-B620510BE0D6">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjName>IRTP</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:28 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="9D1D19C1-3C74-7F30-D8B6-45BADB3B050E">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:28 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>398680CA-25CC-50F2-5151-A3F17AB7C675</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions2" id="32EE4A88-E1AB-78C1-84DE-768A221F3DB4">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:28 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>99BEFBF0-CEC3-3151-377B-9B56D09CA680</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

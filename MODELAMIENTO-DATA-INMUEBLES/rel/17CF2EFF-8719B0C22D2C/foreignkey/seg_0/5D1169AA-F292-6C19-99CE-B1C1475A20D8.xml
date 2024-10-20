@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5D1169AA-F292-6C19-99CE-B1C1475A20D8" containerWithKeyObject="3AC4D396-0CA4-5CE4-3351-62C52B83F758" localFKIndex="2707D5CD-D3EB-D829-5B88-6292919C65F5" name="INMUEBLES_INMUEBLES_ARBITRIOSMUNICIPALES_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:35 UTC</createdTime>
+<generatorID>A7B4D9DB-EE9C-776C-7A4E-9B6E55490B1F</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<referredTableLongName>INMUEBLES_ARBITRIOSMUNICIPALES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1563BC9B-B821-F865-DDB3-1AD5C181843C</referredTableID>
+<keyObject>0C133011-2A92-2AAA-998D-D369A8E2EC44</keyObject>
+<referredKeyID>0C133011-2A92-2AAA-998D-D369A8E2EC44</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDARBITRIOS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

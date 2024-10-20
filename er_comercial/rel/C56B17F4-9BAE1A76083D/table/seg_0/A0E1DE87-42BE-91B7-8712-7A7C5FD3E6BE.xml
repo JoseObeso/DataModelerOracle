@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0E1DE87-42BE-91B7-8712-7A7C5FD3E6BE" schemaObject="3281C1D1-9008-4404-714D-323063723EEB" name="LIQUIDACION_FACTURA">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>LIQUIDACION_FACTURA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:45 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDLIQUIDACIONCOBRANZA" id="5B258882-B1CD-B8C5-F264-D29203CF8042">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_FACTURA</sourceObjSchema>
+<sourceObjName>IIDLIQUIDACIONCOBRANZA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC1CC1E8-59C0-271D-B428-97585B2D9E7B" referredColumn="2D8D0446-1DF8-061F-36CE-00C06E5392C3"/>
+</associations>
+</Column>
+<Column name="IIDFACTURA" id="8E6341A0-260F-DC50-0E8E-65317B2AC9AA">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_FACTURA</sourceObjSchema>
+<sourceObjName>IIDFACTURA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB2F77A9-B14E-BB95-4CE1-84DA3417C714" referredColumn="6B81C684-F836-5D92-117B-A52ABE9AE4C1"/>
+</associations>
+</Column>
+<Column name="DFECHAREGISTRA" id="FF96DCEB-D946-8F0E-FE3F-62CD84A759A3">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>LIQUIDACION_FACTURA</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39C68BB3-5703-4103-A471-D577BB372F66" name="LIQUFACT_PK">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>LIQUFACT_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B258882-B1CD-B8C5-F264-D29203CF8042"/>
+<colUsage columnID="8E6341A0-260F-DC50-0E8E-65317B2AC9AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F90A8EDD-8934-8E5B-C025-40E987F5E020" schemaObject="3281C1D1-9008-4404-714D-323063723EEB" name="LIQUIDACION_FACTURA_PK">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>LIQUIDACION_FACTURA_PK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:46 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B258882-B1CD-B8C5-F264-D29203CF8042"/>
+<colUsage columnID="8E6341A0-260F-DC50-0E8E-65317B2AC9AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A797D283-1FB4-7A28-DF8D-3164544AA432" name="LIQUFACT_FACTURA_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:47 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E6341A0-260F-DC50-0E8E-65317B2AC9AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85F1900F-C151-8C2A-A94B-DED70F7CF980" name="LIQUFACT_LIQUCOBR_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:47 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B258882-B1CD-B8C5-F264-D29203CF8042"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

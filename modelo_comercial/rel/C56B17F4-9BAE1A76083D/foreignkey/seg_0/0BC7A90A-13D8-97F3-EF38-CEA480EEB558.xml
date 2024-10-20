@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0BC7A90A-13D8-97F3-EF38-CEA480EEB558" containerWithKeyObject="98F819D4-12C9-59CB-9501-02F5718F7B39" localFKIndex="129A4C8A-5C00-149F-6A01-0CACD2F26FD9" name="OIPPUBLI_OIP_FK">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>OIPPUBLI_OIP_FK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:47 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+<referredTableLongName>COMERCIAL.OIP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>45F39902-4F20-563F-B5C7-DCCD3617F87E</referredTableID>
+<keyObject>FA9DD09B-D081-0BF1-9A7F-652FF718DAA3</keyObject>
+<referredKeyID>FA9DD09B-D081-0BF1-9A7F-652FF718DAA3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDOIP,IREVISION,IANOTRANSMISION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

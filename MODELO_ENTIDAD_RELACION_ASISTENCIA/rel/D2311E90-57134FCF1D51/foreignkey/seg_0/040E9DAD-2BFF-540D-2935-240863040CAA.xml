@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="040E9DAD-2BFF-540D-2935-240863040CAA" containerWithKeyObject="7335025B-C31A-4106-83BE-6171373A249E" localFKIndex="09AEF4A0-6979-40BB-8BCE-2C4768C86C4D" name="HISTCOMI_COM_FK">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>HISTCOMI_COM_FK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:30 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<referredTableLongName>ASISTENCIA.COMISION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B38933AE-4E91-267E-78F9-D188E0FD5E0A</referredTableID>
+<keyObject>A6B766E8-23A8-D536-3547-0C818179A2C6</keyObject>
+<referredKeyID>A6B766E8-23A8-D536-3547-0C818179A2C6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDCOMISION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modeler-comercial-comisiones" id="4DA22D1B-0F8D-1A19-F527-D924CA876111" version="3.5">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:31:38 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4DA22D1B-0F8D-1A19-F527-D924CA876111</designId>
+</OSDM_Design>

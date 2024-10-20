@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="ER_VacacionesOIE" id="28351A9D-801D-1788-BB80-73A22E9921FF">
+<createdBy>jobeso</createdBy>
+<modifiedBy>jobeso</modifiedBy>
+<createdTime>2024-07-09 15:12:28 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="A4D61932-F933-718F-9E08-C471AB491AB8" otype="Table" vid="CF4D17A3-2EB0-8DB4-1F50-76BDA7216681">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="564" y="80" width="223" height="200"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="C6873D7D-DFF6-C63F-43C8-9CC2A92FEF04" otype="Table" vid="A24B33FE-5F48-B6CC-811C-8A49F9F03A10">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="167" y="51" width="275" height="266"/>
+</OView>
+</objectViews>
+</Diagram>

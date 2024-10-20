@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="IRTP" directorySegmentName="seg_0" id="FE79F213-3E40-9F9D-5BBF-BE1C8744E0D3">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjName>IRTP</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="4541D3B9-BDD6-7853-F244-D0837F97953D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>2B2C002E-8F5C-41FF-805C-995C2055F3D5</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions10" id="99AA578C-FCC7-7726-26FF-9DD41E33CAFE">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>694617B0-4660-4711-AFD9-6974E6B30C78</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions11" id="396B0C72-9617-0595-888A-F0F7AD200145">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>713CE884-25EE-E8AB-6108-91A778A0C4FF</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions12" id="52C9136B-0F09-904E-DF5E-360B01E5BABE">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>EED2F7EA-5E90-FC8A-33DD-27B895E352A3</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions13" id="E8E94B9D-E0B8-FDE6-C29E-6CD01DE46DDD">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>7AC97E6F-9247-50BC-B352-4CC38D59CF5A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions2" id="DEA1A1B9-9747-CEEA-E491-5EEB7D800E6D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>5819949E-173E-EAC6-005F-D50354B45C99</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions3" id="10741476-B3BB-1048-6336-F8F64C4E31A4">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>2AFE522C-E430-6210-6FC9-7F9EA42DB39F</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions4" id="7CF6496C-616D-06CA-FC41-B383A4FC9987">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>AFFC487E-0A5B-EE7C-0DC4-0DF6609E52A1</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions5" id="78929D38-0BEA-125D-535B-46CA060A04E7">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>853CF439-E6EA-1384-297C-D64572B20159</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions6" id="CF229807-431E-CF60-AC26-50A6385219D0">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>EDBE3C05-039A-C990-C657-39B2B273957A</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E7C0547E-C9BC-46A5-8245-09342B1BACD3" containerWithKeyObject="92FE18D3-A615-CFAF-0823-63644BB8C535" localFKIndex="0C1AF1D8-C037-0495-EEB5-E69C90FD143D" name="IIDESTADO_FK">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>IIDESTADO_FK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:27 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<referredTableLongName>CONTROL.ESTADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>746A3318-81FA-B034-2540-907E3376BF27</referredTableID>
+<keyObject>385F4899-8E9A-4532-CD4D-BF1B6D4855C4</keyObject>
+<referredKeyID>385F4899-8E9A-4532-CD4D-BF1B6D4855C4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDESTADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

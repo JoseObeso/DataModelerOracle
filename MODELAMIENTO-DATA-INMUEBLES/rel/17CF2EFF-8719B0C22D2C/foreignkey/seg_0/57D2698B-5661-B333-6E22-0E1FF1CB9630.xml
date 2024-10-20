@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="57D2698B-5661-B333-6E22-0E1FF1CB9630" containerWithKeyObject="3AC4D396-0CA4-5CE4-3351-62C52B83F758" localFKIndex="AAB3CA3C-69EC-AB7E-351F-9919779FA95B" name="INMUEBLES_TIPOADMINISTRACION_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:35 UTC</createdTime>
+<generatorID>2FF09641-C4EB-07C6-EF01-FA7AADB67A09</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<referredTableLongName>TIPOADMINISTRACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2E05FFD6-78E0-A2D0-AA98-F127CE3BB8C1</referredTableID>
+<keyObject>819B3624-F5FC-A923-6C51-E2BA601FFFBF</keyObject>
+<referredKeyID>819B3624-F5FC-A923-6C51-E2BA601FFFBF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDTIPOADMINISTRACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

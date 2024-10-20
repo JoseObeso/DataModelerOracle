@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rel_1_1inmueble_informaciontecnica" directorySegmentName="seg_0" id="1D0584E2-7B9C-4951-BA75-4CF05A13D8C4">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:09:17 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<engineerTo>
+<item key="17CF2EFF-E7A8-FBEC-B05E-8719B0C22D2C" value="true"/>
+</engineerTo>
+<sourcePk>54A210D9-D849-124B-901D-0973E89B8601</sourcePk>
+<targetPk>DF395FE0-83D6-5887-4F85-FE619263648D</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5348761B-F9E8-40A0-3968-73EC5DF15050</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>692107A6-E28C-A70B-ED7D-C048345564C8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

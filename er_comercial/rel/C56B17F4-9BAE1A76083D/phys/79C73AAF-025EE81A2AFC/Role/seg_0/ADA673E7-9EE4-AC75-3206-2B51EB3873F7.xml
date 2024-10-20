@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="RADIO" directorySegmentName="seg_0" id="ADA673E7-9EE4-AC75-3206-2B51EB3873F7">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjName>RADIO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:50 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions16" id="A81D4DB4-D626-791A-8AD1-14669ED76147">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:50 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>91CD50F0-C51B-3134-6C1C-2725BCFD770E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions22" id="B9AD336D-9C68-DC96-84BA-1271C89C3873">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:50 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>EB5BBC2A-AC5B-7A79-2805-E409AEF07273</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions41" id="F85FFCB8-B413-5E2A-923B-58834AF71F51">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:50 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>49DCC062-17C5-2D93-9C5E-9F48E63956CE</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

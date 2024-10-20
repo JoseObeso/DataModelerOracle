@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="394CBF5C-2B39-6AEA-D46A-A4323D55C61A" containerWithKeyObject="8DDCC518-1555-4FB4-95FE-21DA9E229FC9" localFKIndex="918253B4-81B0-5D54-7BF6-5C1E5AD1449E" name="SYS_C009212">
+<sourceConnName>DEVDBIRTP_ASISTENCIA_172.22.10.95</sourceConnName>
+<sourceObjSchema>ASISTENCIA</sourceObjSchema>
+<sourceObjName>SYS_C009212</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:45:30 UTC</createdTime>
+<ownerDesignName>MODELO_ENTIDAD_RELACION_ASISTENCIA</ownerDesignName>
+<referredTableLongName>ASISTENCIA.TIPOUSUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>81BBB778-0A92-1740-557D-B3A60DC7F12D</referredTableID>
+<keyObject>091B8908-F264-62C5-33BB-86291AF23296</keyObject>
+<referredKeyID>091B8908-F264-62C5-33BB-86291AF23296</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IIDTIPOUSUARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

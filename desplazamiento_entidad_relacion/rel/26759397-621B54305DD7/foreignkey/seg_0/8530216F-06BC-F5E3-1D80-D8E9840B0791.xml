@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8530216F-06BC-F5E3-1D80-D8E9840B0791" containerWithKeyObject="DF54BBE7-B4A0-38DB-718F-3E59C1757538" localFKIndex="F7A291A9-F6AD-C1FA-5F26-94757C6674AD" name="SOLI_TURN_FK">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>SOLI_TURN_FK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<referredTableLongName>DESPLAZAMIENTO.TURNO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6F66B103-3009-390F-C13F-2AB836C23C41</referredTableID>
+<keyObject>CE1D50B4-F3E8-C2BC-4655-994472632077</keyObject>
+<referredKeyID>CE1D50B4-F3E8-C2BC-4655-994472632077</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IIDTURNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

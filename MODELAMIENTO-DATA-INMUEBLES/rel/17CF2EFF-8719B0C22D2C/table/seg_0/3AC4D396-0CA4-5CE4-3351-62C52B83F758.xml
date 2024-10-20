@@ -1,0 +1,475 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AC4D396-0CA4-5CE4-3351-62C52B83F758" name="INMUEBLES">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>5348761B-F9E8-40A0-3968-73EC5DF15050</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<abbreviation>INMUEBLES</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDINMUEBLE" id="18C27954-828D-B69C-4DDB-473DDF8EF12A">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<comment><![CDATA[iDENTIFICADOR UNICO DEL INMUEBLE]]></comment>
+<generatorID>23E81A08-77A2-F3EF-B509-232E0DB19222</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRO" id="DEEF6DE3-23CC-2CE9-C52C-4ADCE18FB470">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<comment><![CDATA[FECHA EN QUE REGISTRA EL INMUEBLE]]></comment>
+<generatorID>72F4CA09-D23F-3186-93E5-12525F329664</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="4ED3EA80-AFDD-908F-67C6-06B66BB9EC70">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<comment><![CDATA[FECHA QUE EDITAN EL REGISTRO]]></comment>
+<generatorID>1E6E93A8-5BDA-897A-042A-148297138FDD</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="7B11D981-F99F-5ED7-5BB5-C8BF038C377C">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<comment><![CDATA[IID DEL USUARIO QUE REGISTRA]]></comment>
+<generatorID>DF1617DB-C361-315D-EB98-750693BDFB88</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="D35BF420-BD5D-FFA4-4260-F7FB613E6BCD">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<comment><![CDATA[IID USUARIO QUE EDITA]]></comment>
+<generatorID>D011FC4E-5A85-A459-1245-D441601DE612</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="026E5C37-5333-0140-E912-3149A3E759C4">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<comment><![CDATA[HABILITADO PARA SU LECTURA Y/O DESABILITADO]]></comment>
+<generatorID>8592BA5B-4209-5D15-0545-B03816349373</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDTIPOADMINISTRACION" id="AA9E9B0C-5E6F-21A1-C9EF-8383070D13FD">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>57E9EC66-D6D0-8265-0BCB-B26ED66EE71D</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDTIPOESTRUCTURA" id="5ECEA3DE-E606-C58F-2E9F-DA088F67AD37">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>42F5451F-5645-3738-BE51-7FBCBB035BCB</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDTIPODENOMINACION" id="7744A096-FF05-7A58-5526-8AA49ED2B416">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>15A0F8B5-E729-EB1C-2A21-5037EEBBBE9D</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPODENOMINACION_IIDTIPODENOMINACION" id="733F20AD-19B8-56DD-E1BD-7DD61B1F7506">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>873DC40A-7E1D-140C-1368-BC0FB4B0F2AA</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72DABD83-917A-385E-AE3D-D8DF383F85A4" referredColumn="1084FDD3-0A37-AB2D-BAD3-3F1F7B7E6B83"/>
+</associations>
+</Column>
+<Column name="TIPOADMINISTRACION_IIDTIPOADMINISTRACION" id="AFCA37F6-232C-EA82-5BDC-239CFEF6B82F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<comment><![CDATA[IID DE TIPO DE ADMINISTRACION DEL INMUEBLE]]></comment>
+<generatorID>BBF8BEDF-330B-2331-C834-5EF7ABC0EEFB</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57D2698B-5661-B333-6E22-0E1FF1CB9630" referredColumn="C3872433-28AF-A24A-E418-681F10D9A95B"/>
+</associations>
+</Column>
+<Column name="ISITUACION" id="3CE7DC9D-7668-8FA6-24E2-052AF3E2DEE4">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[SITUACION ACTUAL -- OCUPADO --> 1 // DESOCUPADO --> 2]]></commentInRDBMS>
+<generatorID>326CF631-7345-237A-F65F-EECB4B24D2FD</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDESTADOCONSERVACION" id="E77D1663-E5D9-F03A-D743-C4F473B22B5C">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>B63E5470-34E0-0558-F268-B5E9908B02BA</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDTIPOMATERIALCONSTRUCCION" id="6DB0CBBB-AEA7-ADA8-E310-EA8E5238A8F0">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>E087E087-9DAE-7A03-2BAA-E21B1A593FEA</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INMUEBLES_ARBITRIOSMUNICIPALES_IIDARBITRIOS" id="0AF86B41-6587-2142-A08C-3774FA2829FC">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>499F3817-498A-AAB5-63C7-0356955CC34B</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D1169AA-F292-6C19-99CE-B1C1475A20D8" referredColumn="41FE79D8-C671-E378-CFC6-AEAA5074D5C6"/>
+</associations>
+</Column>
+<Column name="IAREATERRENO" id="277CAE28-F040-6EBD-2CD5-E65BE2F47278">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[UNIDADES EN METRO CUADRADO]]></commentInRDBMS>
+<generatorID>85D68714-E0A6-A591-BC48-93EA3C878FF1</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ILINDEROSTERRENO" id="85C3AB13-26CE-0CC5-3D98-9B1227DE2D10">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[CORRESPONDE A LOS LIMITES QUE LO SEPARAN DE LOS DEMAS TERRENOSEN METROS LINEALES]]></commentInRDBMS>
+<generatorID>ECCB45D4-85A9-8C93-2C1D-158708B34907</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IPERIMETROTERRENO" id="46E02753-DED2-8FFA-ABE0-78EE9CE6CF45">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[SE RELACIONA AL CONTORNO DE LA SUPERFICIE DEL TERRENO METROS LINEALES]]></commentInRDBMS>
+<generatorID>68C1A8DE-12F3-6BE9-3D12-1CE03728A316</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IAREAEDIFICACION" id="7DE4F9C0-B35C-00A4-7C44-31A067EDD553">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[CORRESPONDE AL AREA TOTAL CONSTRUIDA EN EL TERRENO EN METROS CUADRADOS]]></commentInRDBMS>
+<generatorID>84009CEB-9424-AA95-B1CD-3350947EB2CD</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IAREACASETA" id="7EDC25CB-A560-F5D8-A40D-C701285EDF16">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[AREA TOTAL CONSTRUIDA EN EL TERRENO EN METROS CUADRADOS]]></commentInRDBMS>
+<generatorID>518730A3-09EE-0A3F-849C-F24EB4BB37CD</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IAREALIBRE" id="606F8149-AA38-D44F-22DA-883C1748BF87">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[CORRESPONDE AL AREA QUE NO ES OCUPADA POR LA CONSTRUCCION EN METROS CUADRADOS]]></commentInRDBMS>
+<generatorID>9D8FE9A6-2D57-47C7-BBC7-72EC217C5DDD</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INUMEROPISOS" id="FA87546C-B327-AF5B-5EAF-DA0EE2E74A9D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICA CUANTOS PISOS ESTA CONFORMADO LA EDIFICACION]]></commentInRDBMS>
+<generatorID>AD6F6B4C-989C-DD53-E176-6D117A425345</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDIRECCION" id="DB67ECF7-0C9F-F1E7-6C3C-1840AC7C72CD">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>403F4399-7716-6DAF-4DDB-46651F4D06F4</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VUBICACION" id="3955D2B5-A31A-AF9F-B6B2-55A7A082CD3B">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[INFORMACION CARTOGRAFICA]]></commentInRDBMS>
+<generatorID>02105A65-C22F-EE1E-81A5-1D94E909DA82</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IVALORCONTABLETERRENO" id="36F83D89-7116-1157-55A0-D65E1BFB0A24">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR CONTABLE DEL BIEN INMUEBLE]]></commentInRDBMS>
+<generatorID>76C6B9B8-AB0C-31CE-CE57-DFB94780A97A</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IVALORCONTABLEEDIFICACION" id="D69EDCAA-0571-7F85-1F60-F95362052F2D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>3B564864-0FCF-D42B-9DDC-E1E77C98F877</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICUENTACONTABLE" id="C14454F1-714B-93E6-9DE7-3B0AB97DDE30">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>A8D53F67-F49B-F874-C832-9EF33F62B760</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDEMPLEADO" id="16A8149A-C73D-073E-915C-29B2DEF87962">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[IIDEMPLEADO, OBTENIDO DE LA TABLA PERSONAL.EMPLEADO]]></commentInRDBMS>
+<generatorID>15F641FF-0DA0-BCC6-5B48-20AF8E04EF78</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOBSERVACIONES" id="26547F6E-1CFD-8ECF-FA79-7515A9C00820">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>B94E2C67-048F-4459-9125-2BD7F1CC894F</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42A08724-C032-C767-FC4E-8E2C42F92E1F" name="INMUEBLES_PK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:34 UTC</createdTime>
+<generatorID>54A210D9-D849-124B-901D-0973E89B8601</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18C27954-828D-B69C-4DDB-473DDF8EF12A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70D13CE1-6F8E-29B5-3FEE-1459F36D6A50" name="INMUEBLES__IDX">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:35 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2FF09641-C4EB-07C6-EF01-FA7AADB67A09</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AFCA37F6-232C-EA82-5BDC-239CFEF6B82F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0808EEB-E829-7B41-9794-F65F9A65D1E5" name="INMUEBLES__IDXv1">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:35 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A7B4D9DB-EE9C-776C-7A4E-9B6E55490B1F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0AF86B41-6587-2142-A08C-3774FA2829FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AE6F5DD-4F9F-7796-4512-74B4A4DF55DA" name="INMUEBLES__IDXv2">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:35 UTC</createdTime>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>76797C06-4DC4-5BA9-5B19-EE5A4B3A32D3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="733F20AD-19B8-56DD-E1BD-7DD61B1F7506"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAB3CA3C-69EC-AB7E-351F-9919779FA95B" name="INMUEBLES_TIPOADMINISTRACION_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:35 UTC</createdTime>
+<generatorID>2FF09641-C4EB-07C6-EF01-FA7AADB67A09</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFCA37F6-232C-EA82-5BDC-239CFEF6B82F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2707D5CD-D3EB-D829-5B88-6292919C65F5" name="INMUEBLES_INMUEBLES_ARBITRIOSMUNICIPALES_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:35 UTC</createdTime>
+<generatorID>A7B4D9DB-EE9C-776C-7A4E-9B6E55490B1F</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AF86B41-6587-2142-A08C-3774FA2829FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D327015-DBCD-A085-CE28-C4F85195C9FE" name="INMUEBLES_TIPODENOMINACION_FK">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-09-27 22:50:35 UTC</createdTime>
+<generatorID>76797C06-4DC4-5BA9-5B19-EE5A4B3A32D3</generatorID>
+<ownerDesignName>MODELAMIENTO-DATA-INMUEBLES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="733F20AD-19B8-56DD-E1BD-7DD61B1F7506"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

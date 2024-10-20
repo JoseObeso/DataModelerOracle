@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="ASISTENCIA" directorySegmentName="seg_0" id="A8F6A861-03D9-FFD2-3DD5-73ABC8DFBB64">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjName>ASISTENCIA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions7" id="7BC6EF54-B23A-F9D1-372E-5E933BA07692">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<privileges>INSERT</privileges>
+<table>1F9641A3-823A-5FF6-C02E-2767368C6C33</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

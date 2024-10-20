@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="NUCLEO" directorySegmentName="seg_0" id="E4D84B05-2AD4-9DFE-A1F5-FBD795C522C1">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjName>NUCLEO</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:50 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions30" id="7823797B-7696-999C-3517-A95993724610">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:50 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+<privilegesWithGrantOption>SELECT, REFERENCES</privilegesWithGrantOption>
+<table>B2AEF2A0-EE94-E0DC-E901-F00D414C08FF</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

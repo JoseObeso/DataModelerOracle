@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CEF5982D-25A2-1116-A01B-C08835DE35D6" containerWithKeyObject="E36CF16B-DBA8-8A91-4DB1-B258278B7050" localFKIndex="F3B0A363-0AE4-3A65-EE35-02956D816861" name="BIEN_BIENPRES_FK">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjSchema>DESPLAZAMIENTO</sourceObjSchema>
+<sourceObjName>BIEN_BIENPRES_FK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:12:57 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<referredTableLongName>DESPLAZAMIENTO.BIENPRESTAMO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AFFC487E-0A5B-EE7C-0DC4-0DF6609E52A1</referredTableID>
+<keyObject>B0F26392-89C8-F88D-B61B-B3CD8F2572D5</keyObject>
+<referredKeyID>B0F26392-89C8-F88D-B61B-B3CD8F2572D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDBIENPRESTAMO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ACCION" directorySegmentName="seg_0" id="398680CA-25CC-50F2-5151-A3F17AB7C675">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<schemaObject>B56B5B1A-6968-2D10-61B4-262E14D6BC4E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7B721A1F-85E2-7788-BEBD-3BD776417F3F</segment>
+<tableSpace>3DB43CE0-920D-6AF9-844B-833415EFD6C7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IPLAZO" id="00AA9378-E2DB-84F4-8231-1334D7584B82">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DFECHAEDITA" id="05BB7506-CB34-B3B5-9525-AA6C7D23EC06">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAREGISTRA" id="1716E8C8-3221-DA46-C166-189BF8E23B7E">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IORDEN" id="1C8ADAE8-DFCE-6A9F-FCCD-7359F9960661">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAINICIO" id="255AA3AC-57F6-D6DA-D356-3DC40DFF597D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="27A472D8-282F-90EA-C184-93F7433B1844">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<defaultValue>&apos;1&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOREGISTRA" id="2FA8FAA5-1A02-702A-3575-4F0639914EAF">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOEDITA" id="30461E28-D934-1AF0-B1ED-4D9F10C23E0F">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDACCION" id="65019DBD-33AC-563A-F555-34E4F285D2BC">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="IIDPREDECESORA" id="7CEECFF8-953C-E2DF-2862-E6E1D7FBB201">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAFIN" id="8F6A32C8-CD8C-095D-A65F-25108FA8B66D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDRECOMENDACION" id="A20A666E-6533-0E12-173D-D21E14696C54">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNOMBRE" id="DB7C1EC5-4A8E-25E0-DEE1-6BAB3A46E833">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDOFICINA" id="DDFE2075-B3BF-CA1C-4517-9B4774FA74AD">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VDESCRIPCION" id="E5EE5C5D-4385-8FAF-E801-172A35D06260">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDESTADOACCION" id="E99C4BA5-7F1F-BB8E-438C-5EC5B5ED3657">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ACCION_PK" id="DD6CF821-34DC-B749-9C1D-F9CD18A98958">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:26 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<schemaObject>B56B5B1A-6968-2D10-61B4-262E14D6BC4E</schemaObject>
+<segment>96FADC66-BC75-6BA2-444B-95F6D603DDB2</segment>
+<tableSpace>3DB43CE0-920D-6AF9-844B-833415EFD6C7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="IIDESTADOACCION_FK" id="0C8808AA-AA6E-10A0-2981-561346B0D9AC">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:27 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ACCION_PK" id="E3262067-C6B4-95DF-590A-7DA9DFD1AF1D">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:27 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<segment>96FADC66-BC75-6BA2-444B-95F6D603DDB2</segment>
+<tableSpace>3DB43CE0-920D-6AF9-844B-833415EFD6C7</tableSpace>
+<existingIndex>DD6CF821-34DC-B749-9C1D-F9CD18A98958</existingIndex>
+<indexSegment>96FADC66-BC75-6BA2-444B-95F6D603DDB2</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

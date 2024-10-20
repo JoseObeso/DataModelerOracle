@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C5F76591-2D54-7A45-9213-7254285B59A3" mainViewID="52EBF177-3FE1-7895-B472-7B50D68EA080">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-07-09 15:11:30 UTC</createdTime>
+<ownerDesignName>ER-VACACIONES</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

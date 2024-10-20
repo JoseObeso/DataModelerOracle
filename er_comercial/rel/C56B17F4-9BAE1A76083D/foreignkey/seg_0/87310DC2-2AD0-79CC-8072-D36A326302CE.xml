@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87310DC2-2AD0-79CC-8072-D36A326302CE" containerWithKeyObject="E90A1279-D1A1-8A43-E3F4-1A90FAB571AD" localFKIndex="A20092D0-9627-10EC-75F0-6186CACB6E37" name="CONTACTOS_CLIENTE_FK1">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>CONTACTOS_CLIENTE_FK1</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:47 UTC</createdTime>
+<ownerDesignName>er_comercial</ownerDesignName>
+<referredTableLongName>COMERCIAL.CLIENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>95307FC6-75DA-2DB1-72F4-56B10D5A5EF1</referredTableID>
+<keyObject>196C2490-71A5-43BD-77A6-33C5AAAB216A</keyObject>
+<referredKeyID>196C2490-71A5-43BD-77A6-33C5AAAB216A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IIDCLIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

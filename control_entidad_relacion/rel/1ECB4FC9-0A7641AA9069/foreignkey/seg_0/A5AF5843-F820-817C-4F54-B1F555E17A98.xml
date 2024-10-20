@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A5AF5843-F820-817C-4F54-B1F555E17A98" containerWithKeyObject="F81B290C-415D-C7B9-1A45-BDA113562A65" localFKIndex="5A878EFF-9AFC-66B1-E35A-321E317A1248" name="IIDACCION_FK">
+<sourceConnName>DEVDBIRTP_CONTROL_172.22.10.95</sourceConnName>
+<sourceObjSchema>CONTROL</sourceObjSchema>
+<sourceObjName>IIDACCION_FK</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 20:38:27 UTC</createdTime>
+<ownerDesignName>control_entidad_relacion</ownerDesignName>
+<referredTableLongName>CONTROL.ACCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>398680CA-25CC-50F2-5151-A3F17AB7C675</referredTableID>
+<keyObject>E3262067-C6B4-95DF-590A-7DA9DFD1AF1D</keyObject>
+<referredKeyID>E3262067-C6B4-95DF-590A-7DA9DFD1AF1D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDACCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

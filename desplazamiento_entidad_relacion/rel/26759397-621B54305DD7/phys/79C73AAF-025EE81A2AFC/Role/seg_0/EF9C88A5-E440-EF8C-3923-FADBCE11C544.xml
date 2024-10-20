@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="TRANSPARENCIA" directorySegmentName="seg_0" id="EF9C88A5-E440-EF8C-3923-FADBCE11C544">
+<sourceConnName>DEVDBIRTP_DESPLAZAMIENTO_172.22.10.95</sourceConnName>
+<sourceObjName>TRANSPARENCIA</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions9" id="75CE58DB-31D6-7175-6D7E-3C99E8EA835B">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 22:13:00 UTC</createdTime>
+<ownerDesignName>desplazamiento_entidad_relacion</ownerDesignName>
+<privileges>INSERT</privileges>
+<table>1F9641A3-823A-5FF6-C02E-2767368C6C33</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

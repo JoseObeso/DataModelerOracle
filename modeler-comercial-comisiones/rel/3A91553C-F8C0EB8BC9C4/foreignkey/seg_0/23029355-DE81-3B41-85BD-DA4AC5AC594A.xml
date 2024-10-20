@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="23029355-DE81-3B41-85BD-DA4AC5AC594A" containerWithKeyObject="7B9CCA9F-5743-D34E-E55C-FC17DE420C3C" localFKIndex="2BDBD624-C55D-8393-7326-0648F3CE23D1" name="FACTURA_OIPS_FK1">
+<sourceConnName>Cnx_Comercial_172.22.10.95</sourceConnName>
+<sourceObjSchema>COMERCIAL</sourceObjSchema>
+<sourceObjName>FACTURA_OIPS_FK1</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-06-24 16:54:09 UTC</createdTime>
+<ownerDesignName>modeler-comercial-comisiones</ownerDesignName>
+<referredTableLongName>COMERCIAL.FACTURA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B75B9226-7C02-71F4-3835-BB0B961722F4</referredTableID>
+<keyObject>23F3DEA3-9A37-E450-9A04-784656623E55</keyObject>
+<referredKeyID>23F3DEA3-9A37-E450-9A04-784656623E55</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IIDFACTURA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

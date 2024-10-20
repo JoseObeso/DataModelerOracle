@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="PROGRAMACION" directorySegmentName="seg_0" id="04EB12DC-E2EB-21AB-F96C-F488CC0CB5FF">
+<sourceConnName>DEVDBIRTP_COMERCIAL_172.22.10.95</sourceConnName>
+<sourceObjName>PROGRAMACION</sourceObjName>
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:50 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions26" id="49F5E8EE-6796-C038-1B74-CFF5FFF5A443">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:50 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+<privilegesWithGrantOption>SELECT</privilegesWithGrantOption>
+<table>45F39902-4F20-563F-B5C7-DCCD3617F87E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions27" id="21300B54-86CE-B8C0-3CB7-9DDA42549025">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:50 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+<privilegesWithGrantOption>SELECT</privilegesWithGrantOption>
+<table>98F819D4-12C9-59CB-9501-02F5718F7B39</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions28" id="0185B678-6A77-8A16-7322-7690A266C871">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:50 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+<privilegesWithGrantOption>SELECT</privilegesWithGrantOption>
+<table>0894C1F0-E99C-D101-4189-4668DD9C628F</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions32" id="9D9FC175-B7A7-FB6D-D565-885B7491CFC0">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:50 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+<privilegesWithGrantOption>SELECT</privilegesWithGrantOption>
+<table>D7389C2A-768A-486E-1F99-451669A42810</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions54" id="FA636295-B487-19CF-C8A2-5116E40B4378">
+<createdBy>jobeso</createdBy>
+<createdTime>2024-04-04 19:53:50 UTC</createdTime>
+<ownerDesignName>modelo_comercial</ownerDesignName>
+<privilegesWithGrantOption>SELECT</privilegesWithGrantOption>
+<table>BEB96509-799C-CF2C-B8DA-B408E3809667</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>
