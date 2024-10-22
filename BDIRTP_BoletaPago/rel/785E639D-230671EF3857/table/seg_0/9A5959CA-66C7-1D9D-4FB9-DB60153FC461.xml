@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A5959CA-66C7-1D9D-4FB9-DB60153FC461" name="BOLETA_BOLETAPAGO">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CORREO_BOLETAPAGO_VCODIGOEMPLEADO" id="7B7C4B0C-7098-A5E6-426A-E59D5A021049">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E94FB05A-CBA7-0F33-2C7F-F480C229D5A4" referredColumn="4BAD83B1-D5C1-D3DC-B341-6F79A45AD4F7"/>
+</associations>
+</Column>
+<Column name="BOLETA_IIDBOLETA" id="5B677BC9-77E6-DE81-ABAB-A08AC0FA2393">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D51C178-4FD0-E6BF-A6CA-839F7FBF7234" referredColumn="E110854C-DC57-E829-9217-1A82AC72507B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCBA1A7A-B3C1-29B1-1BCA-8E3B9BEBC06C" name="BOLETA_BOLETAPAGO_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B7C4B0C-7098-A5E6-426A-E59D5A021049"/>
+<colUsage columnID="5B677BC9-77E6-DE81-ABAB-A08AC0FA2393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5C51FB6-D44C-8462-1947-1AEFE60A84EB" name="BOLETA_BOLETAPAGO_CORREO_BOLETAPAGO_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>3DBEF128-077A-30D1-0DFB-20D9E587EE77</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B7C4B0C-7098-A5E6-426A-E59D5A021049"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29F753FA-585C-9616-47AC-CE55CE5E359B" name="BOLETA_BOLETAPAGO_BOLETA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>3DBEF128-077A-30D1-0DFB-20D9E587EE77</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B677BC9-77E6-DE81-ABAB-A08AC0FA2393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

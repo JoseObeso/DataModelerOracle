@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0D70F24-4EDF-0F72-DA65-7D6B35DAAC28" containerWithKeyObject="0205D312-125F-55F1-D219-7AFA51D7E6BB" localFKIndex="1AA85679-7317-1544-3F7E-D20279E47A37" name="BOLETA_HISTEMP_BOLETA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>D313F3E9-EEDE-3487-C36D-61AFDC7BC8F0</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<referredTableLongName>BOLETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5D92A2A2-7960-0DC5-38AD-64C6DAA4DAAF</referredTableID>
+<keyObject>8081C31D-5853-6130-9C2A-8ACB2C96FD6F</keyObject>
+<referredKeyID>8081C31D-5853-6130-9C2A-8ACB2C96FD6F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDBOLETA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

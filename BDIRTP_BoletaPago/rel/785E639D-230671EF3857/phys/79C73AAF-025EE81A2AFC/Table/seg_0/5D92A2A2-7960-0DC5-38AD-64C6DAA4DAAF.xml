@@ -1,0 +1,253 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="BOLETA" directorySegmentName="seg_0" id="5D92A2A2-7960-0DC5-38AD-64C6DAA4DAAF">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IHORASLABORADOS" id="08793926-DE6E-8175-6D3B-A73EC3157442">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCONDICIONLABORAL" id="193140CF-598E-05AB-C89C-8C344D3A22AC">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCUSPP" id="1DB3F578-13F8-A533-FB2D-B73C13A865D1">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHADESCARGA" id="21B432D1-BA02-BAEA-A120-17E231CB1EE3">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ITOTALLIQUIDO" id="22CE0256-F857-7764-437D-4171625C0975">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ITOTALDESCUENTO" id="272B79D4-B302-F442-91CF-E8155D553F9E">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAINGRESO" id="2847D9E1-8A89-65B8-2E39-3648D6FF076E">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMES" id="2B51400C-F311-E416-1F62-4B7814FBC48A">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNIVELREMUNERATIVO" id="2ED524DA-036B-FCF1-0817-B24BF0524D05">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VFRACCIONTIPOPENSION" id="33EF7C2B-8419-324D-08A2-E8D36A3080C0">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IANO" id="47A0506A-A184-5EF6-A16B-0498479E5B31">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ITOTALAPORTE" id="4FD3FAEB-3346-8C33-B0E4-C96CD9F74609">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VHORACIERRE" id="50B71D28-FB8D-0CCF-E175-8CC5F4E6062D">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VOBSERVACION" id="52D4E579-971B-31FC-77A4-3D45C6F0A31B">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAVISUALIZADO" id="6CDC18D7-B027-EE83-AFA0-48011E5CDB2F">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VTEXTOADICIONAL" id="709D1AD9-771F-1925-87A3-70903538BC62">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ICORRELATIVO" id="756C1FF8-74E0-0E78-CF9B-F74BAD6A13DA">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHACIERRE" id="772AB59B-1044-D247-9D27-D0AE6E772EAB">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDTIPOPLANILLA" id="7DA3C3BB-4FF7-1DA8-3ECA-8D94D1FA29D9">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDIASLABORADOS" id="888775A0-7255-61D3-74D5-D9F541079EDE">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNUMEROCUENTA" id="8ECB9C08-0848-BF40-537B-FAACC3A0C573">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNOMBREEMPLEADO" id="95DB93F5-AFA2-E894-274C-8F8DA7EEB396">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VSUBSIDIODIAS" id="A1FF2A29-2429-3BAF-359A-C435030A97E2">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VMODALIDADTRABAJO" id="A69231DE-77AE-D735-BD3F-B6D57B979F8B">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VGRUPOOCUPACIONAL" id="AE7D3F71-7A4E-74E5-B814-57B36D1A8CE1">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCARGOESTRUCTURAL" id="B11B8138-3DA4-11F4-C821-F5963B2CF357">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOLETADETALLE_IIDBOLETA" id="B1493387-A9AA-1627-A548-DD1A35B42AFA">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VRUBROFINANCIAMIENTO" id="BAF171C4-33C4-F986-C539-854E7C8777AD">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VTOTALLIQUIDOTEXTO" id="BD0019A1-30A2-728F-FAA2-FB38500D67FC">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCARNETESSALUD" id="C082918C-59FE-3FBE-6BDB-B11DF122F1E6">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VMETAPRESUPUESTAL" id="C0B6BB4C-62E3-B393-6F18-47DD8F46D4E7">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCODIGOEMPLEADO" id="C0E94531-2791-45BB-9722-CCCA1B6E6BAE">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDEXCELCARGA" id="C2CEBFAC-7178-6F9C-B989-D1325DB1BCD3">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ITOTALINGRESO" id="CA5F7F21-314B-31CC-2E26-5452380ED85F">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VAFP" id="CC11645F-BA4B-9C70-E3F0-F5B5FDD9008D">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VTIEMPOSERVICIO" id="D11A2927-9A9D-62AB-96E5-46CC087A8D17">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAFINVACACIONES" id="DCE41216-A593-976B-D0DB-010D773C6735">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDBOLETA" id="E110854C-DC57-E829-9217-1A82AC72507B">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXCELCARGA_IIDEXCELCARGA" id="E242B147-0113-0646-636C-9A9D2C7F0647">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAINIVACACIONES" id="E3BE892E-1013-4CA2-DED2-593C25255C3C">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VDEPENDENCIA" id="E9F1A2B0-BC4E-1F72-040B-425F11054BD2">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNUMERODOCUMENTO" id="EFB60F19-8B60-B493-3AE6-51A4C8B8A41C">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCODIGOAIRHSP" id="F0F7459F-4397-6834-1116-CEE4AF311242">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VESTABLECIMIENTO" id="F4A71BF4-7EA1-6A8D-A142-02E612954291">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BOLETA_BOLETADETALLE_FK" id="704A707A-21D2-6500-7EB3-812D9F043723">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BOLETA_EXCELCARGA_FK" id="919A0B88-CDFD-4E75-F944-B551B58582F0">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BOLETA_PK" id="8081C31D-5853-6130-9C2A-8ACB2C96FD6F">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

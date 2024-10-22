@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D51C178-4FD0-E6BF-A6CA-839F7FBF7234" containerWithKeyObject="9A5959CA-66C7-1D9D-4FB9-DB60153FC461" localFKIndex="29F753FA-585C-9616-47AC-CE55CE5E359B" name="BOLETA_BOLETAPAGO_BOLETA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>3DBEF128-077A-30D1-0DFB-20D9E587EE77</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<referredTableLongName>BOLETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5D92A2A2-7960-0DC5-38AD-64C6DAA4DAAF</referredTableID>
+<keyObject>8081C31D-5853-6130-9C2A-8ACB2C96FD6F</keyObject>
+<referredKeyID>8081C31D-5853-6130-9C2A-8ACB2C96FD6F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDBOLETA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

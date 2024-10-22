@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A24D9903-2B73-2058-D0B6-DE299F9DAA35" name="BOLETA_MES">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MES_IIDMES" id="9F2FC9F9-4356-E7FD-DE9A-2B93899DA8D2">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F5C189E-C0B1-022B-B628-B765990AF0AB" referredColumn="6B6D390D-D1ED-1A8D-C127-CC54686A2707"/>
+</associations>
+</Column>
+<Column name="BOLETA_IIDBOLETA" id="C92E1784-83F5-79AE-E636-A9C5B64E6086">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9FC895A-5D1C-B64A-3883-D719A5F7E91F" referredColumn="E110854C-DC57-E829-9217-1A82AC72507B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C917CB42-48B3-5BB9-4D42-9DEDE19569A9" name="BOLETA_MES_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F2FC9F9-4356-E7FD-DE9A-2B93899DA8D2"/>
+<colUsage columnID="C92E1784-83F5-79AE-E636-A9C5B64E6086"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDD18284-83DB-A659-532B-2B79598CD478" name="BOLETA_MES_MES_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>337A405B-6981-33C2-7078-33E962F13D78</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F2FC9F9-4356-E7FD-DE9A-2B93899DA8D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C180C5F7-D93D-DCB4-8E2F-6FBA77DAED3D" name="BOLETA_MES_BOLETA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>337A405B-6981-33C2-7078-33E962F13D78</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C92E1784-83F5-79AE-E636-A9C5B64E6086"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

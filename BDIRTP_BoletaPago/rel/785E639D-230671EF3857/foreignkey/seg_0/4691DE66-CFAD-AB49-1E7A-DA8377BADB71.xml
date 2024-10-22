@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4691DE66-CFAD-AB49-1E7A-DA8377BADB71" containerWithKeyObject="5D92A2A2-7960-0DC5-38AD-64C6DAA4DAAF" localFKIndex="919A0B88-CDFD-4E75-F944-B551B58582F0" name="BOLETA_EXCELCARGA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>11E62284-2D04-EBCC-9BE8-ACEE6423E2E0</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<referredTableLongName>EXCELCARGA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>661FA9DE-F0AC-5164-6CBF-6A6AC1D89F8E</referredTableID>
+<keyObject>1FB9EF7B-3B4F-C404-E95E-444AE8233FE2</keyObject>
+<referredKeyID>1FB9EF7B-3B4F-C404-E95E-444AE8233FE2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDEXCELCARGA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
