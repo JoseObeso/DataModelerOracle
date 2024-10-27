@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC3B879A-CB12-FCEC-0255-4166E498D440" containerWithKeyObject="B88C7F0E-2D5C-732B-A99B-57A19EEA9D0E" localFKIndex="BA21E9A5-39FF-A63E-8E71-E353751A0DE7" name="BOLETA_TIPOPLANILLA_TIPOPLANILLA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>E132C1F6-3675-9DFC-0F6F-2D3E3C84C31A</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<referredTableLongName>TIPOPLANILLA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F6B1770-BA2F-3094-FE8D-7DBDF94BB029</referredTableID>
+<keyObject>F4D6BAC1-6868-48BD-2553-94C076DF0135</keyObject>
+<referredKeyID>F4D6BAC1-6868-48BD-2553-94C076DF0135</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDTIPOPLANILLA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

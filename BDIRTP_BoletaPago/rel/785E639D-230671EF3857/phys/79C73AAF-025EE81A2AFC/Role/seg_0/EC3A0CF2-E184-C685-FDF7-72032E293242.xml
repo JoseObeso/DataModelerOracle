@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="IRTP" directorySegmentName="seg_0" id="EC3A0CF2-E184-C685-FDF7-72032E293242">
+<sourceConnName>DEVDBIRTP_BOLETAPAGO_172.22.10.95</sourceConnName>
+<sourceObjName>IRTP</sourceObjName>
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:18 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="18DED193-6E4B-B8A5-D54F-759186C760D0">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:18 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>04F7CEB6-16A8-D50D-8CEE-A6B145F0687F</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions2" id="9042A7AA-83B5-C6BC-1C4D-DDAE12B37B19">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:18 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>F0A253C0-ED8A-2679-F700-B711B6095139</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

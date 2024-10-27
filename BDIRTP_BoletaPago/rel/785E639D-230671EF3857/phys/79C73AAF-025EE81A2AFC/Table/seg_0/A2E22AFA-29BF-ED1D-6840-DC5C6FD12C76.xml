@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="LOGEMP" directorySegmentName="seg_0" id="A2E22AFA-29BF-ED1D-6840-DC5C6FD12C76">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IANO" id="0C67B244-3C5C-8719-0702-0F0864C26239">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VDNI" id="0D815A18-2B2B-B28D-B797-371C83E84E41">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISEXO" id="2691F732-0559-165C-F5DB-D67E4E2D8A85">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAREGISTRA" id="2835EF1C-179D-4308-988E-EEF02B8343E7">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ITIPOPLANILLA" id="352E8A1D-8B33-985B-049B-0E9213241572">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNOMUSU" id="372527BB-F02B-4864-BEB9-40797CD1D547">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMES" id="4AE4A3D5-2168-85E1-BDFC-596CB262A537">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCARGO" id="5805A810-5E09-2EAF-AB5A-54E6F2085A0E">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECNAC" id="5AF8F798-20D8-0BB6-997E-9A277EB0D86E">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECING" id="90D47B19-F984-73EB-5675-3E3AB1B9944D">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VNOMBRE" id="A1CA0C23-8B5B-0F33-02C5-040189795FC8">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VOFICINA" id="BEC299FF-66F6-E9A3-9173-938084AC2556">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VAPEMATERNO" id="E8D59E2A-AF8F-D21B-FA75-5600F5FB0358">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VAPEPATERNO" id="EA065806-410C-8DC3-062C-234A1AF89A24">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCODEMP" id="F3C02E82-73E4-C032-55A1-858142FCDA3F">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev12c>

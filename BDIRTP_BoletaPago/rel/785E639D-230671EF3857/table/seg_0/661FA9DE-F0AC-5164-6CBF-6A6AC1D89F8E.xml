@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="661FA9DE-F0AC-5164-6CBF-6A6AC1D89F8E" name="EXCELCARGA">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>4054C310-BA5E-651D-94D6-8916CBD1E4BD</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDEXCELCARGA" id="86681CB8-688A-AB71-1A48-C8B94105A84E">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>7B80FB2F-0382-49A8-6149-6A41BC8D56A1</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="3384C5B7-30D7-3228-23FD-E63254CE0EB8">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>CDFBF993-D544-C084-4862-D2A974607A85</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="654902F0-4B7C-6CA7-CE3B-E684092223C7">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>872E884F-BF30-F2C1-1A62-8B94441CCF85</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="7162FE55-6A7F-6AE6-B189-5C4FBADE1BE9">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>64135E4C-31F3-A5D9-54B8-8834B2537C5C</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="E1428280-A57F-80AA-736E-E4E54F1C624E">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>77DBC81A-609E-EC5B-F65D-1F6187FD171D</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDESCRIPCION" id="E6B87379-1058-57D7-BD2F-64A045DCF895">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>891FC314-9919-06F3-4C7E-47491C465719</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDTIPOPLANILLA" id="5F60B5BD-E26F-FD57-0D58-2B909AB6EB7C">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>591B4775-FB92-673B-195A-EFFF35C2F252</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMES" id="8FF07704-5688-780A-F484-2928764B5513">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>62663592-CC17-0489-BE9B-6A1328D0649C</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IANO" id="805C3210-E9D2-719A-4B11-D904813861C8">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>7ED5126F-5BBE-5E28-0F37-EC2AADD5D765</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHANOTIFICA" id="3B48E8BC-1F97-1E96-3E04-A118818277D8">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>2DF031B4-273C-0F4A-881A-D7FF1CA88627</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITOTALBOLETAS" id="E833D40D-06AF-79FF-D070-EB4089D87D8B">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>A303DD85-887D-39C1-C2AD-69248964197C</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FB9EF7B-3B4F-C404-E95E-444AE8233FE2" name="EXCELCARGA_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>105940CE-CFD3-9D6F-7145-5F503A3CC410</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86681CB8-688A-AB71-1A48-C8B94105A84E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

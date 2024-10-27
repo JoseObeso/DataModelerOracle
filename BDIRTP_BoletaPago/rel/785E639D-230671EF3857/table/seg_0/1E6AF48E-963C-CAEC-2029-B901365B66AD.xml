@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E6AF48E-963C-CAEC-2029-B901365B66AD" name="CORREO_BOLETAPAGO">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>A73BB971-D80D-4BAA-25AC-ABC9ABF1ACB0</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VCODIGOEMPLEADO" id="4BAD83B1-D5C1-D3DC-B341-6F79A45AD4F7">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>D299666A-A2AD-D845-44FE-E1911126F270</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VCORREO" id="A51007B2-B2F8-559E-E22E-FCB58022D73C">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>E071A2FA-CFC0-DD25-7C69-4D31B56D0C6C</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F244A387-923C-6276-9FA7-AAB1740675E8" name="CORREO_BOLETAPAGO_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>56BD995B-CFBD-9958-B049-37308C93EF9F</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BAD83B1-D5C1-D3DC-B341-6F79A45AD4F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

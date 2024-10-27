@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0FDDA849-0083-F6DE-3528-BB17D8BE51B5" name="PARAMETROS">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>8D5ED5EB-E87E-7D7D-D48F-BEE96DCBA618</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VEMPLEADOR" id="FE0AD92F-F384-7830-ABE5-B524A6467BE5">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>21C5AEEB-3323-8CE8-027D-687124C7D9C1</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEMAILCAS" id="990F7B8F-CB93-EAA6-2142-E9D56A383EF0">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>62DFB8F3-02A2-28CA-EB63-E5B6B031DFCD</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEMAILCAP" id="B85FB53B-3268-C66E-E71E-D9444480A03D">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>C1FCF245-CB09-305D-7B5D-AE8996C742D3</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEMAILRRHH" id="4B33198C-587E-FE07-D3EE-E9A6FFA16692">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>9441C0EE-6145-9739-F71E-917B53172183</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VRUTAACCESO" id="4374499D-01F9-6F5A-07E2-4887CAE82903">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>69B29915-D92B-C97B-7210-BE7A6868BD97</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VDEMAILRRHH" id="BA1D0C40-FEAD-219F-9540-4DCA40373ED5">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>52911568-CE09-90A9-0E43-F13BE3DAC43C</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DFECHAFIN" id="7CBB38EA-6A34-D582-75EF-E06235AA5140">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>ED625281-FC00-3645-3E65-30816E2523C5</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DFECHAINICIO" id="C9D3D394-FBDC-A7F1-868C-CC00FDD566F7">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>8EE6A245-B066-1E13-5183-AF73F02861FA</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VRUTAFIRMA" id="3B112517-9F7D-D9B4-6B64-10AB6C2F399C">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>DF242C35-FA62-2C99-7AF6-1467E9C529A0</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VRUTASELLO" id="A3A06963-300A-34CE-F1B3-1A6103EAD7C5">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>FF8323A9-0C77-62EE-AC91-3728F994CF37</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VRUTALOGO" id="BDF36DF9-2F1C-F930-B8CC-17D4918500AC">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>D3D75145-20F7-5D06-749E-8F8E53E33EDD</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VCARGO" id="1DA2C799-A6CF-E9D4-0C0C-EDD910E1EBAA">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>577BA89D-ED80-D550-8C6E-3E40710D6338</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

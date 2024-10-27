@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PARAMETROS" directorySegmentName="seg_0" id="F7DC4B7A-10EF-D733-D7FC-C9136BADCDF6">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DFECHAINICIO" id="1CEBD332-A2D3-FABE-2710-CAF4EBE7A804">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VDEMAILRRHH" id="27C20B55-64D5-428F-37CA-061091A827C8">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEMPLEADOR" id="3D73D5D3-181E-D6D0-2795-97A7FEA70A82">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEMAILCAP" id="4D317286-2C50-AC27-74F9-DC3CCDC3A008">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAFIN" id="550FE03F-1B01-36C3-A092-54A5AB857368">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VCARGO" id="783C593E-C414-011D-799D-D6AABF8B843E">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEMAILRRHH" id="8753B76B-1EEF-D586-8F71-1708E1894C9B">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VRUTAFIRMA" id="88A8F824-19AD-D247-3967-D2A25D4CFD10">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VRUTAACCESO" id="B4FAB62D-B275-7851-7A0B-5EB43AC76727">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VRUTASELLO" id="D5D8ED23-BC54-3FAF-3CF7-B66213B080A0">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VRUTALOGO" id="DCBE7B38-A361-C441-02F4-AD50F07F2124">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEMAILCAS" id="F37F920C-C08A-2EEE-1EE9-503AABCA48B8">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev12c>

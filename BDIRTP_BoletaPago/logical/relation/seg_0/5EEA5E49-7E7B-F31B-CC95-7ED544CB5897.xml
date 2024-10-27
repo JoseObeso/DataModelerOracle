@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BOLETA_BOLETADETALLE" directorySegmentName="seg_0" id="5EEA5E49-7E7B-F31B-CC95-7ED544CB5897">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:57:05 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<sourcePk>3AF9488C-68BD-438C-B14D-33F4623B6985</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF101B1B-F638-0A98-68B8-F4F6B8E28175</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>609E44F7-1219-74A3-60BA-F625F48E03E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

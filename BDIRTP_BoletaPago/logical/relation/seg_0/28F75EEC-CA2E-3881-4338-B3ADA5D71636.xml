@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BOLETA_LVACACIONES" directorySegmentName="seg_0" id="28F75EEC-CA2E-3881-4338-B3ADA5D71636">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:59:36 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<sourcePk>56BE500A-AAD6-5EEC-FDA5-E5CBA7937FDC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>609E44F7-1219-74A3-60BA-F625F48E03E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>89946909-0AC6-C1EA-50B4-1FB9FB8CE94C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

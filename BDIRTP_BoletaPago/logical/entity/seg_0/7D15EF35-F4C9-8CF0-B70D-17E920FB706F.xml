@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D15EF35-F4C9-8CF0-B70D-17E920FB706F" name="LVACACIONESTMP">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>30BB9849-946E-4319-8824-7E445AFF2FB8</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VCODIGOEMPLEADO" id="B027CE11-E6C7-6799-1BC0-C320590F725A">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>1EB690CD-9DE3-4C02-8689-F26C2CA32D3E</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VYEAR" id="09332715-F389-4C4B-7BF5-1E339BB7E7B8">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>409368E0-E3BA-7AD3-2A13-7B3ADBE5E70D</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VMONTH" id="DDCB738D-0133-C159-C4B1-81C52469FBAD">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>494D3F86-8936-D165-C417-378D87531950</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DFECHAINIVACACIONES" id="84D9727B-7C3D-5877-D699-54294B7893AD">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>B8C99C2B-E791-ED50-FDB9-477B22928B4A</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DFECHAFINVACACIONES" id="AE71C8CD-78B8-537F-95AD-B11C7E448505">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:29 UTC</createdTime>
+<generatorID>367B6A53-CE5F-071B-3458-DD46C42845CA</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<engineerTo>
+<item key="785E639D-4A67-D8A7-BACC-230671EF3857" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

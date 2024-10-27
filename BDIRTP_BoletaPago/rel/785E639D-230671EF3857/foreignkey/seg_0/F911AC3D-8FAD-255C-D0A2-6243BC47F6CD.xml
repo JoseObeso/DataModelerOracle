@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F911AC3D-8FAD-255C-D0A2-6243BC47F6CD" containerWithKeyObject="0205D312-125F-55F1-D219-7AFA51D7E6BB" localFKIndex="AA5F72E5-55A3-6FF4-F2DA-6E470C54A08E" name="BOLETA_HISTEMP_HISTEMP_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>D313F3E9-EEDE-3487-C36D-61AFDC7BC8F0</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<referredTableLongName>HISTEMP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8BC354DD-E764-DE2A-4B4A-B23C47EC4FE5</referredTableID>
+<keyObject>0E2A518A-385E-7D07-6897-D41BBA78DAB3</keyObject>
+<referredKeyID>0E2A518A-385E-7D07-6897-D41BBA78DAB3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>VDNI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

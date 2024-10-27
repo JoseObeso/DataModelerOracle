@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="TBL_DESPLAZAMIENTO" directorySegmentName="seg_0" id="EF4FDE25-000D-3E1E-18BF-1BE6FEB91FF6">
+<sourceConnName>DEVDBIRTP_BOLETAPAGO_172.22.10.95</sourceConnName>
+<sourceObjSchema>BOLETAPAGO</sourceObjSchema>
+<sourceObjName>TBL_DESPLAZAMIENTO</sourceObjName>
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 20:52:13 UTC</createdTime>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

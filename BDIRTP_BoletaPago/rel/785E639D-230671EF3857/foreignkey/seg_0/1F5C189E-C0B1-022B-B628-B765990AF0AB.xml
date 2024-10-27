@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F5C189E-C0B1-022B-B628-B765990AF0AB" containerWithKeyObject="A24D9903-2B73-2058-D0B6-DE299F9DAA35" localFKIndex="DDD18284-83DB-A659-532B-2B79598CD478" name="BOLETA_MES_MES_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:09:53 UTC</createdTime>
+<generatorID>337A405B-6981-33C2-7078-33E962F13D78</generatorID>
+<ownerDesignName>BDIRTP_BoletaPago</ownerDesignName>
+<referredTableLongName>MES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65AA3EDE-23FC-8137-E72F-6EE7C16CC0A7</referredTableID>
+<keyObject>412EC113-1B62-C3DB-C299-7D03B98C7D2D</keyObject>
+<referredKeyID>412EC113-1B62-C3DB-C299-7D03B98C7D2D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDMES</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
