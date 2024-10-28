@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FECHADEINSCRIPCION_ESTADO" directorySegmentName="seg_0" id="A95C9E1E-5774-D91D-16FA-0F7990551A5A">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-23 17:38:15 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>78A526BF-CB6D-F556-5D4A-60B4E611AAEE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E894C7AD-3546-5485-651F-B7832CD994A9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

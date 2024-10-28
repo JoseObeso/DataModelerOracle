@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FA557779-79C0-F48C-95F1-A362EBF6085B" containerWithKeyObject="B10F41B2-B672-7CD1-6B75-4167FCB3E8C0" localFKIndex="7F35DD4D-56D1-BCBD-6490-FA34482F4756" name="MARCACION_TIPOMARCACION_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>B40C3C10-B9B9-9205-2368-5DCEA1A3563B</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<referredTableLongName>TIPOMARCACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B71F4FBD-0AFC-107B-5956-173CB77AC6E0</referredTableID>
+<keyObject>F7242CDB-12D7-5294-6BCD-AB75D4EDD51E</keyObject>
+<referredKeyID>F7242CDB-12D7-5294-6BCD-AB75D4EDD51E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IIDTIPOMARCACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

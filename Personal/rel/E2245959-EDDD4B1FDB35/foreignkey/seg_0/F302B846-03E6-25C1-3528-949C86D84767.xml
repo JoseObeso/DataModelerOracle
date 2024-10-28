@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F302B846-03E6-25C1-3528-949C86D84767" containerWithKeyObject="B10F41B2-B672-7CD1-6B75-4167FCB3E8C0" localFKIndex="C1298D87-643B-A0FF-5CE9-D1F8BAC59471" name="MARCACION_TIPOPERSONAL_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>E941E97E-E306-C7E1-4FE3-81165296CFC0</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<referredTableLongName>TIPOPERSONAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7D382AE-5513-42BE-9F95-CA18124D3F2F</referredTableID>
+<keyObject>C1491F64-7D92-234D-3120-4C4AACB2B407</keyObject>
+<referredKeyID>C1491F64-7D92-234D-3120-4C4AACB2B407</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IIDTIPOPERSONA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

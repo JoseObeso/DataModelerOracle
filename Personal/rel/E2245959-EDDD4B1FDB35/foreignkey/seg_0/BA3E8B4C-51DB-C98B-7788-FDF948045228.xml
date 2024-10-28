@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BA3E8B4C-51DB-C98B-7788-FDF948045228" containerWithKeyObject="9252E7FC-CC22-E3C5-0267-3DE66C26EA83" localFKIndex="BCBDD579-0509-2382-A22A-DDEC2C4799D0" name="CERTIFICADO_ESTADOTRAMITE_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>504CA74B-2CC8-DD5B-0961-59C165A245D9</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<referredTableLongName>ESTADOTRAMITE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D2914644-8D0F-E682-C266-E0F3DF571F3D</referredTableID>
+<keyObject>1B667209-A34B-F345-EDB6-C70DBF788A1C</keyObject>
+<referredKeyID>1B667209-A34B-F345-EDB6-C70DBF788A1C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IIDESTADOTRAMITE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

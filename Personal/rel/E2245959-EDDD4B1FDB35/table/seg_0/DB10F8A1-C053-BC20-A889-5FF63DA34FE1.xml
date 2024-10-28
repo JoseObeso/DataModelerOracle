@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB10F8A1-C053-BC20-A889-5FF63DA34FE1" name="DISTRITO">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>23F04DF7-24CD-2589-CFC1-B3226F4E03EA</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDDISTRITO" id="BCBF7017-4B6F-0186-CDCF-0EDEB2AE196F">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>1B5C7562-22BD-8AC3-D50B-FEE273B0C2CB</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="E70F6D13-BA10-9FFB-B3F2-50C2E3F938B6">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>10CA5719-986C-CBA9-A617-F9E21A5B39B9</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCIA_IIDPROVINCIA" id="E61FB101-3A3C-18AD-A694-3C00B4D20004">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>D1F1DD54-EDB3-B7F8-8A97-F5B317ED2C4B</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FA7703D-0FDE-CE00-50EC-BB3752B71F3D" referredColumn="7D4BE80D-7C08-CFE9-F9E2-E496BC3FD803"/>
+</associations>
+</Column>
+<Column name="DEPARTAMENTO_IIDDEPARTAMENTO" id="D57EFA22-9B88-1374-0378-8BE31BFF3CFE">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>35BEE9AA-08EA-1C7E-BB17-DCC3B313F732</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AE705F4-85DC-137B-850B-2C2FDE814985" referredColumn="A711D16A-0F26-C10D-B158-43F90F3812EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1545A4FF-B887-62B1-A0BB-04630FCC5A50" name="DISTRITO_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>F8ADDD5C-AB5A-CD8F-1DD0-EF1E25D6767A</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCBF7017-4B6F-0186-CDCF-0EDEB2AE196F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="295EDF07-94F8-0C16-35E9-5610A9601A39" name="DISTRITO_PROVINCIA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>566956E4-92C1-10C7-3DE4-48B864F5FF64</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E61FB101-3A3C-18AD-A694-3C00B4D20004"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28EB01BB-AD91-195E-B8D6-7458FB366404" name="DISTRITO_DEPARTAMENTO_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>86D2E710-DD47-FACE-A004-B9140DC59F23</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D57EFA22-9B88-1374-0378-8BE31BFF3CFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

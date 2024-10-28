@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66CDA285-7883-86AD-CFF8-48F89463B60F" name="MARCACION_SEDE">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEDE_IIDSEDE" id="EF52D1A6-7FA4-BD5F-B271-5933224956CB">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69854918-E792-6215-4C9D-01A1B12B4C87" referredColumn="CB7BCC56-32A8-ABCB-BB41-01F0F6644DB2"/>
+</associations>
+</Column>
+<Column name="MARCACION_IIDMARCACION" id="6C603E4B-BD69-587B-B69F-869075EC5854">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD52BF3E-BBCE-74BA-560D-623ED7B075D5" referredColumn="930D014D-224F-A80C-20CC-27CD39A99D03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2098D89A-78FA-1A10-9981-1704077E2D96" name="MARCACION_SEDE_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF52D1A6-7FA4-BD5F-B271-5933224956CB"/>
+<colUsage columnID="6C603E4B-BD69-587B-B69F-869075EC5854"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15986EAB-C383-75D7-8119-FFF674EC0AE5" name="MARCACION_SEDE_SEDE_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>E3EBFBB2-3E7F-E49C-A975-E1EDE82E2FEF</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF52D1A6-7FA4-BD5F-B271-5933224956CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD2BDA94-22C6-E9E4-C64F-F7CE5CEC380F" name="MARCACION_SEDE_MARCACION_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>E3EBFBB2-3E7F-E49C-A975-E1EDE82E2FEF</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C603E4B-BD69-587B-B69F-869075EC5854"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTULANTECAPACITACION_TIPOCAPACITACION" directorySegmentName="seg_0" id="C30094DF-C201-EE5F-A49E-BA46F234C2D1">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:56:33 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>97C5478D-DE59-69BB-0F2A-1AD8280F4D15</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7FF2483B-9359-876F-836A-979D92862FF5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

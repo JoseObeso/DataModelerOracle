@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPLEADO_CARGOTIPO" directorySegmentName="seg_0" id="AA167F64-53CD-1478-7F93-90BE7115191A">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 22:35:29 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<sourcePk>8F5C7A31-6E8F-267C-4094-9B23259BC39E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9F6DA8D9-1E8D-8B41-F64A-D3CCF90C11D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AE9F4D05-FDC9-EC59-B59B-069E7DECF9E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CARGTIPOFIC_CARGTIP_FK" directorySegmentName="seg_0" id="B77F2CF1-60B5-901F-5681-ABCCEAFE58AA">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>9EFA9323-0025-1BBA-B570-9DD4AA75C8C9</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<sourcePk>8F5C7A31-6E8F-267C-4094-9B23259BC39E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9F6DA8D9-1E8D-8B41-F64A-D3CCF90C11D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>93923D27-6B5E-AAFE-F428-BD981C3807D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

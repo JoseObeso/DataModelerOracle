@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IDENTIPPERS_IDENTIP_FK" directorySegmentName="seg_0" id="FCA29864-A3D3-08C7-25FF-AA175457B47A">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>D917442A-F607-D7B7-09D7-E76FAA47AA97</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<sourcePk>7059B199-7A0B-5B55-3027-00D746F18383</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FEC3DE07-BF81-6FB9-E5BB-3915AC794F52</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FDBEAE01-2CD4-8645-E761-2A2ACA3A1F1F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

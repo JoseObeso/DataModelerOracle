@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D56B7B4-1630-AEF7-7286-52ECB04257BA" name="EMPLEADO_TIPOHORARIO">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPOHORARIO_IIDTIPOHORARIO" id="6D981B25-4F22-F607-B51F-277412AAE2EA">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CA5A13D-7A93-8163-86F4-45E1C584E4A0" referredColumn="CE6FF123-A601-C4EC-BD56-2AF828490D1F"/>
+</associations>
+</Column>
+<Column name="EMPLEADO_IIDEMPLEADO" id="B0307E25-F368-9C29-4EE7-0233EB6F33A9">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FFAE8F4-C150-E221-4C04-DBA678CAE3E7" referredColumn="D01D3A40-FC1A-56A1-D937-4B026874D808"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C606B2E3-6097-8488-BFF4-19CFB0E4A477" name="EMPLEADO_TIPOHORARIO_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D981B25-4F22-F607-B51F-277412AAE2EA"/>
+<colUsage columnID="B0307E25-F368-9C29-4EE7-0233EB6F33A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D97DE6FF-DC72-F2ED-02BE-4A567E0C1129" name="EMPLEADO_TIPOHORARIO_TIPOHORARIO_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>9F43A301-B555-7EF9-66D6-6F6B8E241495</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D981B25-4F22-F607-B51F-277412AAE2EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6411EFC3-86EB-A884-777E-251A15DD1290" name="EMPLEADO_TIPOHORARIO_EMPLEADO_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>9F43A301-B555-7EF9-66D6-6F6B8E241495</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0307E25-F368-9C29-4EE7-0233EB6F33A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

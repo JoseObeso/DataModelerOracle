@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7DDD14D-3EDD-DCDD-FEB7-F0611FB54A77" containerWithKeyObject="9B7399A2-0074-0735-AB01-1D6DA78BC52E" localFKIndex="0F165FA2-C067-EF88-E735-40A23B8108ED" name="FECHADEINSCRIPCION_ESTADO_FICHADEINSCRIPCION_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>A95C9E1E-5774-D91D-16FA-0F7990551A5A</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<referredTableLongName>FICHADEINSCRIPCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B4F83C07-3CD7-20E8-39B4-E7311C750BF8</referredTableID>
+<keyObject>197133C3-2EF8-A9E9-EC97-F624DF6B449D</keyObject>
+<referredKeyID>197133C3-2EF8-A9E9-EC97-F624DF6B449D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDFICHAINSCRIPCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

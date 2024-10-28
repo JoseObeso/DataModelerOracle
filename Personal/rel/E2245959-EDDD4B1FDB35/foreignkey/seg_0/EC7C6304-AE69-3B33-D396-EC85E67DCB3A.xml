@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC7C6304-AE69-3B33-D396-EC85E67DCB3A" containerWithKeyObject="B7CCCF34-B39B-65FB-05BA-D49AD0300742" localFKIndex="2A21A930-7A6E-E5FC-7F67-1DE4B1E791BE" name="POSTULANTECAPACITACION_TIPOCAPACITACION_POSTULANTECAPACITACION_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>C30094DF-C201-EE5F-A49E-BA46F234C2D1</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<referredTableLongName>POSTULANTECAPACITACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7BC3BA2-8AA5-7C6A-4C34-EAEAC5AAA48E</referredTableID>
+<keyObject>C3F0FB47-6ECD-012C-C038-2BE882753093</keyObject>
+<referredKeyID>C3F0FB47-6ECD-012C-C038-2BE882753093</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDPOSTULANTECAPACITACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

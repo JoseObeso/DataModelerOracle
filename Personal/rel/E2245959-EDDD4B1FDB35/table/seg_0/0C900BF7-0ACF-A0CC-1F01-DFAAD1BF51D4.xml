@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C900BF7-0ACF-A0CC-1F01-DFAAD1BF51D4" name="POSTULANTE_NIVELIDIOMA">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIVELIDIOMA_IIDIDIOMA" id="C5617655-9D07-778B-93BF-087FAD3C091C">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="596C44A0-DDC2-2EFA-76FA-0C3E6301191D" referredColumn="0CF5AB06-D17F-F155-C225-C04D4276FABA"/>
+</associations>
+</Column>
+<Column name="POSTULANTE_IIDPOSTULANTE" id="FFDA3E44-757E-6EF0-BF26-7D36D31D308A">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AADC5A98-46C2-8185-7D0E-90593A097D78" referredColumn="7DC337AE-110A-E3FD-CAF9-BC0AACD313B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="527B0D27-65C8-6BD1-48B0-08F78911775C" name="POSTULANTE_NIVELIDIOMA_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5617655-9D07-778B-93BF-087FAD3C091C"/>
+<colUsage columnID="FFDA3E44-757E-6EF0-BF26-7D36D31D308A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2488A82B-E7A7-38B7-AF9E-4D53E6F06ADF" name="POSTULANTE_NIVELIDIOMA_NIVELIDIOMA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>8C47F23F-5B93-16F0-D8C0-21E6DEBF0559</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5617655-9D07-778B-93BF-087FAD3C091C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="286CCF9E-DC84-44E2-1E90-FB6BE3DC44BC" name="POSTULANTE_NIVELIDIOMA_POSTULANTE_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>8C47F23F-5B93-16F0-D8C0-21E6DEBF0559</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFDA3E44-757E-6EF0-BF26-7D36D31D308A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

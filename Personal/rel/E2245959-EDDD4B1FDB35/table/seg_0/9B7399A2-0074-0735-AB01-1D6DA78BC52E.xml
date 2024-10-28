@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B7399A2-0074-0735-AB01-1D6DA78BC52E" name="FECHADEINSCRIPCION_ESTADO">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESTADO_IIDESTADO" id="73F4E986-A2E0-16B9-39AE-E7174CE55D63">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="631BFAA6-AA10-3A59-ACAF-B0CA8F370ACD" referredColumn="82F10B51-4A58-FFCA-4063-18417F6A3618"/>
+</associations>
+</Column>
+<Column name="FICHADEINSCRIPCION_IIDFICHAINSCRIPCION" id="D5D3C999-9996-10D6-6622-7E905DABDD45">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7DDD14D-3EDD-DCDD-FEB7-F0611FB54A77" referredColumn="16DC092A-4B47-707D-3D58-58B9514C6C7F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B65333D-AED6-A438-26A0-2B5706B9FEAF" name="FECHADEINSCRIPCION_ESTADO_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73F4E986-A2E0-16B9-39AE-E7174CE55D63"/>
+<colUsage columnID="D5D3C999-9996-10D6-6622-7E905DABDD45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6818FCD1-7FDA-CF73-9AA5-B99F642270D8" name="FECHADEINSCRIPCION_ESTADO_ESTADO_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>A95C9E1E-5774-D91D-16FA-0F7990551A5A</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73F4E986-A2E0-16B9-39AE-E7174CE55D63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F165FA2-C067-EF88-E735-40A23B8108ED" name="FECHADEINSCRIPCION_ESTADO_FICHADEINSCRIPCION_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>A95C9E1E-5774-D91D-16FA-0F7990551A5A</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5D3C999-9996-10D6-6622-7E905DABDD45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
