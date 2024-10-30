@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FC193CB-71EB-E0D2-2789-BB63D235DD1E" name="TIPOEXPERIENCIA">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>73954AED-FCE7-4895-934D-5748A5CB5CE2</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IIDTIPOEXPERIENCIA" id="844E014E-3F77-37D3-4503-831657F10B2B">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>4A75142D-2C5F-C025-21F6-015FD1778634</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="EA7C2C5E-1898-8D6B-56FA-A55B72E16079">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>B47051E9-DFFF-BAB1-5CBB-07FAE8CC852D</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BHABILITADO" id="8CED239F-6E02-A913-BDCC-BC25F5321520">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>25D331C5-5163-81C4-A443-FD5566F78B06</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C5560E80-3560-C61D-279C-482EE10EF7FD" name="TIPOEXPERIENCIA PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>68138293-4E16-65DC-EBBD-A8A86789E3E1</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>844E014E-3F77-37D3-4503-831657F10B2B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

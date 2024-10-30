@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTULACIONEXPERIENCIA_TIPOEXPERIENCIA" directorySegmentName="seg_0" id="7BC8B8A7-79A5-0265-7EE3-973DB678E49B">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:59:39 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3FC193CB-71EB-E0D2-2789-BB63D235DD1E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1A0B2BC-298E-9054-6EF7-20E63F2621BC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

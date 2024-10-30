@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBF3F5B3-A0E7-628F-2AE9-7F84C5935DB8" name="MOTIVOSALIDAENTIDAD">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>0B3E1B3F-6051-EA26-F791-01F04F3A00F3</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IIDMOTIVOSALIDA" id="63CB0C4B-C865-811E-EC29-A66E0F0123CC">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>E1ED74FD-0B97-EF3A-934C-4E7E89F0FD3D</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="CDEDB5DD-7249-0001-F327-A9970169C273">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>ECBF9EA9-D902-076F-45FD-76288FA35A70</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BHABILITADO" id="FCC26F80-19A7-095C-488C-1767D4102FEB">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>AB407FE6-7038-CA2E-766E-9BCDA469FE14</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3A22DD0-BE95-BE35-6A58-BB02C1985B46" name="MOTIVOSALIDAENTIDAD PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>C31265E3-70BD-9E61-A12D-F2A49999135A</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63CB0C4B-C865-811E-EC29-A66E0F0123CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

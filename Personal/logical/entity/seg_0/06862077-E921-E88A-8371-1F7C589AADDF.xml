@@ -1,0 +1,221 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06862077-E921-E88A-8371-1F7C589AADDF" name="CARGO EMPLEADO">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>3D04C035-108F-89A7-C6B5-71CD568DC1D6</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IIDEMPLEADO" id="5ED957B3-9028-ADF3-CF47-BF7B2226FF00">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>299FF263-3FA3-D6B9-66DD-9BFED845B40C</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<referedAttribute>A09A9695-86E2-9FAE-E6BA-84A16E7A213E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDCARGO" id="F095EB8C-F463-7354-D302-EE56A58C18E0">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>94D1EC52-58A8-9BCF-EBF0-14CF98539E39</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<referedAttribute>A1C317BD-5BCA-77AA-13D3-A290AD9D7733</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DFECHAINICIO" id="B7DC0B3C-EF28-285B-1F24-BC083AE6261B">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>31E89DD7-62CF-5A54-4469-6FD0B7D3BCEF</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DFECHAFIN" id="C37870F4-B009-9D18-9852-E7745E74DB84">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>950E179D-E8E0-ADD1-AB12-D45E69DC85EF</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BDESIGNADO" id="EA98FC3A-0093-C57B-8865-989A77B5057A">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>F6858112-4D2F-ECBC-D119-601B009FEAFB</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BHABILITADO" id="B128B729-557A-5229-63AA-3CC12F74C1ED">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>E6166579-EF03-E428-3F8F-F274B13DCB5B</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDUSUARIOREGISTRA" id="B71CA499-258F-43B7-5D89-13CDA09C6295">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>7EBD7EC0-B6D1-3A63-94A4-667FEAE3650E</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDUSUARIOEDITA" id="67AE2F55-6026-88C6-1C33-B37449600EF3">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>D0B646CC-EA63-8A9C-ED36-0A1332A9BECB</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DFECHAREGISTRA" id="7301335D-589B-1B2D-D1F9-A33CBC068A08">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>CE0DF2E8-75BA-4A03-430D-1059CA967D05</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DFECHAEDITA" id="C376A076-8BDF-3EE9-8C65-BDEEF0A894F1">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>038104C5-F67B-9E42-90D9-E0635F06EDEA</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BPRINCIPAL" id="6EE13E80-1478-D97F-42E1-7FC4F4DA3EEA">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>BCBB55B8-A033-B977-0DB2-84775760ED65</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;0&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BCONTRATO" id="1E0CE802-561B-AACF-12A9-87F8BCCD7EDF">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>F9710337-E5A0-DC1C-B76D-317A3BF40ED0</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;0&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21CEAD0E-3F19-EC52-E856-F597C09A301F" name="CARGEMPL PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>8EBFF906-78C5-4298-AF60-31428DCC3E05</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F095EB8C-F463-7354-D302-EE56A58C18E0</attributeRef>
+<attributeRef>5ED957B3-9028-ADF3-CF47-BF7B2226FF00</attributeRef>
+<attributeRef>B7DC0B3C-EF28-285B-1F24-BC083AE6261B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

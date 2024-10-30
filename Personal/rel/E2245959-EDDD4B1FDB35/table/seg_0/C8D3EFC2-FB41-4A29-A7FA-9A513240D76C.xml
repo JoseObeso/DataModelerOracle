@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8D3EFC2-FB41-4A29-A7FA-9A513240D76C" name="PUESTO">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>5CB4AA92-0BF3-43E7-7D61-F8D8BEDA01CD</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDPUESTO" id="F25639D0-D5BE-BBF9-13C0-61C15B112174">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>A303BAB9-426D-9FF4-1FFB-59EDEC83EB2E</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO" id="869E9C6B-8F19-0DDB-2720-FDB0C4F9B0C1">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>AA8982A4-0EEE-873B-B2D2-7FCC4D9F126F</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBREPUESTO" id="2B81090C-FD23-FA54-CBF2-D1D4A318A8A7">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>8E117874-AF51-F464-58F1-7271CB773A1A</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFICINA_IIDOFICINA" id="1DCE4FCB-ABCD-32F2-385C-2FA34EEF3598">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>DCA54B4D-4656-BBF3-827C-8C5D8A7F882F</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AED33A81-7E09-0F3D-371E-9CE4957D3E9A" referredColumn="5E0F198D-515C-8592-050A-B0CCA23659FC"/>
+</associations>
+</Column>
+<Column name="CONVOCATORIA_IIDCONVOCATORIO" id="E9961311-E2BF-39E6-3050-CD5B5854F572">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>0736596D-A390-C89E-AC23-6D640DE264A5</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E6359BD-7DB5-9212-5BFF-E85551A08E74" referredColumn="D8FA9114-5C11-FFAF-724D-069A0AFED006"/>
+</associations>
+</Column>
+<Column name="BHABILITADO" id="50516286-EEC1-9103-270E-22F1CD916A36">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>6063833A-DF5C-2D34-197F-D3F85DDE1A89</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRO" id="7155BB53-BFC1-45B9-3645-5C67B1690718">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>041DDB34-6B3C-8B42-B24E-235B23D1E7D4</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="F9464426-2A9A-7259-BFD2-3FC8B26492CD">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>61BC33A8-E219-602E-B5A5-3ED677CBC819</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="236BB5DB-66F8-3CE3-EB4B-8B9CFF3A3395">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>EAE9C16A-0C74-AD41-A070-22D920E80203</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="42D7A49D-72BF-0583-0717-92B618C05847">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>E4DC3812-0971-CC23-0A32-5D8E47237781</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICORRELATIVO" id="28763CBD-4F86-3547-A9F6-2E22635DCECF">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>09DC9EA2-5574-7B38-9200-F3ADF47569F8</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06A50BB6-9D93-B153-B795-041B3FCEB6B0" name="PUESTO_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>E6CA1A75-6B8F-341A-59BA-C1C380C1B117</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F25639D0-D5BE-BBF9-13C0-61C15B112174"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D75DC090-375F-66E7-4AE5-2458BB003904" name="PUESTO_OFICINA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>787CA64C-8A8A-CF74-85A8-73BE5422B21D</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DCE4FCB-ABCD-32F2-385C-2FA34EEF3598"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F25B9A6-71E3-30EB-7880-56D83274F5A0" name="PUESTO_CONVOCATORIA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>8868687D-9A35-C49E-B7F0-97F328F1176C</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9961311-E2BF-39E6-3050-CD5B5854F572"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

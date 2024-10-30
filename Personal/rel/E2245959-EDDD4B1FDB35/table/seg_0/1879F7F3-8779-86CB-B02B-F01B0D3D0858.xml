@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1879F7F3-8779-86CB-B02B-F01B0D3D0858" name="POSTULANTEFORMACION">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>E2C1A7CF-168F-13F3-8EC0-2D967853016B</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDPOSTULANTEFORMACION" id="D7EDA6DD-D8DB-765D-703E-63EBF3D962C2">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>0CC62D92-DF70-A623-03C4-BF515D65B6B6</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDPOSTULANTE" id="4E79D70B-9E1E-4037-3BF2-7E5A001DA258">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>9B5E6D20-E066-0310-F320-38BDED9D162D</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPOFORMACION" id="D58A7151-18E2-2D0A-9A27-A8156308AF20">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>3FE2BA05-6673-BD4F-ED78-87BD8EE3C4A1</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1500 BYTE</dataTypeSize>
+<ownDataTypeParameters>1500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARRERA" id="49A9EA8E-60EC-B3F0-D4D1-93CD2A595FE1">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>BA7BB6CA-2419-BC0A-6603-D19547B29C85</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1500 BYTE</dataTypeSize>
+<ownDataTypeParameters>1500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITUACION" id="3044764E-3AC1-D448-6C62-8C83C4CF504F">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>7D723697-71CD-065F-447F-87FD15C54B04</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1500 BYTE</dataTypeSize>
+<ownDataTypeParameters>1500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENTROESTUDIOS" id="E428E21D-F9F5-D80C-3E26-522E3A5AF27A">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>D7EB62A6-D973-8937-47CF-C7AEE22CC7A7</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1500 BYTE</dataTypeSize>
+<ownDataTypeParameters>1500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAINICIO" id="F1601AFE-2C16-5B85-9C5A-8AF59654B267">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>B68F0AC4-5981-38BC-988B-6826C5E651C4</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAFIN" id="5C79080D-2D23-DF35-4241-00D47D1C9A3A">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>C97C90BB-9C38-8BCE-92C0-5BB1B2AE1281</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAEXPEDICION" id="7826055E-95BC-BDA2-4393-A7699E7FE3F9">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>4D947340-1E76-9BC5-814F-1103EBB08EAA</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="12EAF621-CCF9-2F94-1BC4-B29E24A47BE2">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>1A027EC7-5D3E-EAC7-9C73-589906DC5F46</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDGRADO" id="C0F1D60F-3538-D2DF-4183-70FB150515EB">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>CC3EB2CE-7B32-4A8C-7AB7-CBD2692F2109</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTULANTE_IIDPOSTULANTE" id="33FC3C53-4552-A20C-EB17-E5EAA75F6224">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>8B844025-B255-29BD-12E6-8D1CE9DC9FEB</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54E3BEEE-1016-F111-A6CD-9753204827E3" referredColumn="7DC337AE-110A-E3FD-CAF9-BC0AACD313B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF2B312E-8B70-2C82-8724-609BEA62A236" name="POSTULANTEFORMACION_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>0803B9E8-8600-55AE-7897-DE343A312847</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7EDA6DD-D8DB-765D-703E-63EBF3D962C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A2EA09D-F140-4E05-1869-64A32B600B44" name="POSTULANTEFORMACION_POSTULANTE_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>0606A263-1631-68BA-3DFF-8417413AE357</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33FC3C53-4552-A20C-EB17-E5EAA75F6224"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

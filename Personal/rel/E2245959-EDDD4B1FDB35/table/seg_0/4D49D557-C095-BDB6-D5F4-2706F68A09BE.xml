@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D49D557-C095-BDB6-D5F4-2706F68A09BE" name="IDENTIFICACIONTIPO_PERSONA">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>FDBEAE01-2CD4-8645-E761-2A2ACA3A1F1F</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSONA_IIDPERSONA" id="5600EB21-0DDE-C362-B847-C98DD5C73236">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>5FAA72DF-05C3-2D44-B4DA-C012C33D89AF</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="570630E5-E165-191D-C780-85951A260066" referredColumn="DA7BE38B-39C5-0C04-74B5-3B86C931D39B"/>
+</associations>
+</Column>
+<Column name="IDENTIFICACIONTIPO_IIDIDENTIFICACIONTIPO" id="64C0C6AD-5C18-E84C-48AB-555592117F35">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>3CB4BED9-880C-B9B4-98C2-D3F3B25B9DD7</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="163ECE22-5CE2-2E60-B8FF-7DDFB00024F9" referredColumn="0449008D-914E-EADF-A219-287EE78EAABB"/>
+</associations>
+</Column>
+<Column name="VNUMERO" id="F5C0F1D8-E622-973C-97ED-036D94A601A1">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>FEEF064E-2DCB-935B-18A6-1F9C87614C3D</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="AC224354-CFD0-E444-3444-3EF85041D336">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>52F3DD4A-99DF-BBFC-6A23-36BAD97F0B2F</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="6097DEC0-4138-5A79-9438-A00A2074F45B">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>8ABA4F8B-DDFF-3516-1AA0-97813EE69094</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="49F47DE2-0B34-1CE7-CD50-C13909F7BC07">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>AD5DE8BF-E97C-F9A8-428B-2353C7E1DDBF</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="6D946AC1-1E34-3F86-3F87-3C9FD403AA25">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>C0D53D4D-AAB0-7C06-5AE1-7EF6A6CFA4E0</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="A8BD9EE6-D0E1-4861-7320-81568D2AF30E">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>45DEA1E1-1386-C870-BBDA-23128F282875</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A71371B4-D1D0-3888-0B5C-168C45615982" name="IDENTIFICACIONTIPO_PERSONA_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>CFECD2A0-7194-0EAB-7718-BBD8423242A9</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5600EB21-0DDE-C362-B847-C98DD5C73236"/>
+<colUsage columnID="64C0C6AD-5C18-E84C-48AB-555592117F35"/>
+<colUsage columnID="F5C0F1D8-E622-973C-97ED-036D94A601A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9ADB2E5D-B537-BECB-DA6A-48F971482F84" name="IDENTIFICACIONTIPO_PERSONA_IIDPERSONA_IIDIDENTIFICACIONTIPO_UN">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>B766AD14-63B3-403B-C4AD-1C7E7F02DB6F</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5600EB21-0DDE-C362-B847-C98DD5C73236"/>
+<colUsage columnID="64C0C6AD-5C18-E84C-48AB-555592117F35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4F32059-7B6B-A375-5A51-B92FF0D78113" name="IDENTIFICACIONTIPO_PERSONA_IIDIDENTIFICACIONTIPO_VNUMERO_UN">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>DBE3BA2B-0C0D-DBD4-8BCA-433AA9E60577</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64C0C6AD-5C18-E84C-48AB-555592117F35"/>
+<colUsage columnID="F5C0F1D8-E622-973C-97ED-036D94A601A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C446049F-262B-273E-F398-6E6C66C2907F" name="IDENTIFICACIONTIPO_PERSONA_IDENTIFICACIONTIPO_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>FCA29864-A3D3-08C7-25FF-AA175457B47A</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64C0C6AD-5C18-E84C-48AB-555592117F35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="532284EF-BC89-BAAA-81D2-CC989DEE349A" name="IDENTIFICACIONTIPO_PERSONA_PERSONA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>90AE50EF-8742-4638-68DA-43897CEA0383</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5600EB21-0DDE-C362-B847-C98DD5C73236"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

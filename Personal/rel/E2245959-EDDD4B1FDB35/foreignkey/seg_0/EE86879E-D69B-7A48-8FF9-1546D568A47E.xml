@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE86879E-D69B-7A48-8FF9-1546D568A47E" containerWithKeyObject="134419D7-80CA-6D9F-28CD-16F7A95EB93B" localFKIndex="C3EA7FAA-393F-88C6-0936-FE4B43E058E0" name="POSTULANTE_CLASECATEGORIA_CLASECATEGORIA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>4F79580E-CAE5-4A7B-1257-72554B94EF51</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<referredTableLongName>CLASECATEGORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E1A8785C-9C43-E8C2-97C9-88999EB982DD</referredTableID>
+<keyObject>37365905-91AD-9F78-D690-702EC5C9182E</keyObject>
+<referredKeyID>37365905-91AD-9F78-D690-702EC5C9182E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDCLASECATEGORIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

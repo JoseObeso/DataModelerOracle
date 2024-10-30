@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="630B073D-5F4E-6CA3-4B22-F82B699105FD" containerWithKeyObject="F7F3ADEF-0E3E-0BAD-CC58-0576F4EA0381" localFKIndex="28E17980-2934-DB73-3B03-D26321192B47" name="DIRECCION_TIPOVIA_TIPOVIA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:39 UTC</createdTime>
+<generatorID>6AA288FE-BFF8-C9A6-0210-4DFD0E39C947</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<referredTableLongName>TIPOVIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D23C950-C5BD-2C26-F57B-D92679E0D899</referredTableID>
+<keyObject>0CCCB694-ACDD-2CAB-27EA-593BEB6A55CF</keyObject>
+<referredKeyID>0CCCB694-ACDD-2CAB-27EA-593BEB6A55CF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDTIPOVIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

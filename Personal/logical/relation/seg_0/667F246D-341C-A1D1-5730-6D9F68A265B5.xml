@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTULANTEFORMACION_TIPOFORMACION" directorySegmentName="seg_0" id="667F246D-341C-A1D1-5730-6D9F68A265B5">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-23 14:49:07 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FE8A9628-C69D-E52E-FC5E-4E299279E5FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E2C1A7CF-168F-13F3-8EC0-2D967853016B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E47AA8A-62FF-2240-8342-DD4A39216FC2" containerWithKeyObject="C0FAAC53-6358-B3C5-9117-69DE21A0C0F5" localFKIndex="F2C07801-104E-ED65-1F57-313CD858E10F" name="POSTULANTE_POSTULACIONEXPERIENCIA_POSTULANTE_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>741A73E8-97BB-A86C-2560-33D626233F0F</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<referredTableLongName>POSTULANTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5AD6D4A8-0354-6E8C-2907-813A52F6EFBD</referredTableID>
+<keyObject>07387824-15FB-4B97-EE90-31F336F4777D</keyObject>
+<referredKeyID>07387824-15FB-4B97-EE90-31F336F4777D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDPOSTULANTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

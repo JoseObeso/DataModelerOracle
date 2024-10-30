@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERS_NIVINS_FK" directorySegmentName="seg_0" id="1A8B03FE-330A-AFB2-E7E3-04325BFB8ED8">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>9081E6A5-1761-E965-3C51-438D650DD44F</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<sourcePk>00FDB441-1440-9374-CB56-62F24C541B44</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>71E60519-8B54-58E2-F390-9BDC224602AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7D66B72F-E49F-309D-186B-0C80A6283DFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

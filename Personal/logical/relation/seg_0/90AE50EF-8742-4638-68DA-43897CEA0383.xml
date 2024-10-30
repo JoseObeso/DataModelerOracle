@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IDENTIPPERS_PERS_FK" directorySegmentName="seg_0" id="90AE50EF-8742-4638-68DA-43897CEA0383">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>AE74B8C9-8134-094A-1B5B-C1E01468A151</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<sourcePk>E6957746-5274-8B74-CCC4-1A240178940E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7D66B72F-E49F-309D-186B-0C80A6283DFE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FDBEAE01-2CD4-8645-E761-2A2ACA3A1F1F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

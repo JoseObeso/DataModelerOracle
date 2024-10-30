@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9274C1BB-D520-510A-E081-E8211ADF1766" name="POSTULANTEFORMACION_TIPOFORMACION">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPOFORMACION_IIDTIPOFORMACION" id="B1642CEB-3F8D-E691-A863-07DB51F7DA45">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3185AADC-3839-9F79-69BF-CE8461C31776" referredColumn="A52CB972-2E14-5D9C-9A6F-017BC9EB403A"/>
+</associations>
+</Column>
+<Column name="POSTULANTEFORMACION_IIDPOSTULANTEFORMACION" id="470B84E4-C751-E6BE-AF37-200068DF60F6">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B70F1C2A-B0DD-B5F0-20E0-2023E2ECABCF" referredColumn="D7EDA6DD-D8DB-765D-703E-63EBF3D962C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04A8CDF1-30D4-464C-D9C3-1297042BAA2F" name="POSTULANTEFORMACION_TIPOFORMACION_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1642CEB-3F8D-E691-A863-07DB51F7DA45"/>
+<colUsage columnID="470B84E4-C751-E6BE-AF37-200068DF60F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A238FAD3-21BD-3262-CDED-CBAC6BB78DCF" name="POSTULANTEFORMACION_TIPOFORMACION_TIPOFORMACION_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>667F246D-341C-A1D1-5730-6D9F68A265B5</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1642CEB-3F8D-E691-A863-07DB51F7DA45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B25B6239-20A2-1533-EE35-C583EF0C4DFE" name="POSTULANTEFORMACION_TIPOFORMACION_POSTULANTEFORMACION_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>667F246D-341C-A1D1-5730-6D9F68A265B5</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="470B84E4-C751-E6BE-AF37-200068DF60F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

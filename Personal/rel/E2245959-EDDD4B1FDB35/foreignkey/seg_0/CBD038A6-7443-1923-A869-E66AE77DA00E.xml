@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CBD038A6-7443-1923-A869-E66AE77DA00E" containerWithKeyObject="5AD6D4A8-0354-6E8C-2907-813A52F6EFBD" localFKIndex="A02D4AE8-9D02-FC37-156B-9AFCE1541864" name="POSTULANTE_CONVOCATORIA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>D86DF301-ADEF-F0A5-D3D3-4EF551ABD55B</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<referredTableLongName>CONVOCATORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>24941AF2-BAD6-C6F9-14CF-BD32FF8E1A74</referredTableID>
+<keyObject>BD841BED-B4D2-2A35-B49C-327DB64B6B36</keyObject>
+<referredKeyID>BD841BED-B4D2-2A35-B49C-327DB64B6B36</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IIDCONVOCATORIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

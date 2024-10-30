@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F70B0A26-CA78-43D3-2085-5263C90D1537" containerWithKeyObject="B4F83C07-3CD7-20E8-39B4-E7311C750BF8" localFKIndex="93F1D512-D718-CE13-C935-0CB059C2F301" name="FICHADEINSCRIPCION_TIPOBICICLETA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>E9F2BC2E-2707-C605-23DC-BFF6E6FC1292</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<referredTableLongName>TIPOBICICLETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0F40DFF5-1F0D-74E5-D5F6-E8C84780F298</referredTableID>
+<keyObject>911B1995-360B-3833-D31D-91AE1215A192</keyObject>
+<referredKeyID>911B1995-360B-3833-D31D-91AE1215A192</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IDTIPOBICICLETA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

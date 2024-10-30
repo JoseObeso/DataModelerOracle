@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7CCCF34-B39B-65FB-05BA-D49AD0300742" name="POSTULANTECAPACITACION_TIPOCAPACITACION">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPOCAPACITACION_IIDTIPOCAPACITACION" id="1F12C542-39E2-942D-F012-EEE8DB5A4316">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B846475-0E2B-6146-F098-FB4406B383FE" referredColumn="E0D92A01-B548-465E-47D1-10F869EDA593"/>
+</associations>
+</Column>
+<Column name="POSTULANTECAPACITACION_IIDPOSTULANTECAPACITACION" id="125E540A-F4A0-E475-CA1A-464678B674D9">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC7C6304-AE69-3B33-D396-EC85E67DCB3A" referredColumn="15EF9418-F086-FBAB-285B-9CED1A5E23FD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F344794-5963-1BAC-5956-31B6A3EF6B07" name="POSTULANTECAPACITACION_TIPOCAPACITACION_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F12C542-39E2-942D-F012-EEE8DB5A4316"/>
+<colUsage columnID="125E540A-F4A0-E475-CA1A-464678B674D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="765B5F38-B907-A9FD-021E-5622CC0817ED" name="POSTULANTECAPACITACION_TIPOCAPACITACION_TIPOCAPACITACION_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>C30094DF-C201-EE5F-A49E-BA46F234C2D1</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F12C542-39E2-942D-F012-EEE8DB5A4316"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A21A930-7A6E-E5FC-7F67-1DE4B1E791BE" name="POSTULANTECAPACITACION_TIPOCAPACITACION_POSTULANTECAPACITACION_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>C30094DF-C201-EE5F-A49E-BA46F234C2D1</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="125E540A-F4A0-E475-CA1A-464678B674D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

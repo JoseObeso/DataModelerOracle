@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="3185AADC-3839-9F79-69BF-CE8461C31776" containerWithKeyObject="9274C1BB-D520-510A-E081-E8211ADF1766" localFKIndex="A238FAD3-21BD-3262-CDED-CBAC6BB78DCF" name="POSTULANTEFORMACION_TIPOFORMACION_TIPOFORMACION_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>667F246D-341C-A1D1-5730-6D9F68A265B5</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<referredTableLongName>TIPOFORMACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C1CB2DE4-8BE0-AFFB-4291-A0AB645DC887</referredTableID>
+<keyObject>B5C75DB8-3D5D-ADA7-F2E4-1C199ABE15C3</keyObject>
+<referredKeyID>B5C75DB8-3D5D-ADA7-F2E4-1C199ABE15C3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDTIPOFORMACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTULANTE_NACIONALIDAD" directorySegmentName="seg_0" id="67909BDD-D28E-C5C6-4C1A-906B80CF6873">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 22:44:48 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<sourcePk>0BB9D589-6B00-3B1F-5EB0-C789C2CB6E0D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E53ACC1F-0E85-3D2A-9D9F-9AE5A7D547D6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>259EA220-5540-8919-9B26-DA685973D7A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

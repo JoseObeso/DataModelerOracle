@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPL_EMPLTIP_FK" directorySegmentName="seg_0" id="C28E6F4A-606D-AF47-8749-C564B2F511DB">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-22 21:47:22 UTC</createdTime>
+<generatorID>026000B9-3AE2-1B8C-676F-CFEF18334593</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<sourcePk>9DA5B9CA-DA1A-0B22-4687-0ACCF8D8541C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>22B2B4EA-E2B1-9FA3-576A-A1CCAC1D75D0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AE9F4D05-FDC9-EC59-B59B-069E7DECF9E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0FAAC53-6358-B3C5-9117-69DE21A0C0F5" name="POSTULANTE_POSTULACIONEXPERIENCIA">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POSTULANTE_IIDPOSTULANTE" id="A5FB2706-E24A-9757-B3A7-2EE1788D15F1">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E47AA8A-62FF-2240-8342-DD4A39216FC2" referredColumn="7DC337AE-110A-E3FD-CAF9-BC0AACD313B9"/>
+</associations>
+</Column>
+<Column name="POSTULACIONEXPERIENCIA_POSTULACIONEXPERIENCIA_ID" id="0AB973B1-EEB9-3B6A-F09B-63EE094B558E">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08A6A962-650E-0ED3-FD46-37AF8D5DE038" referredColumn="AF0A00E0-ADB6-24BF-C9DE-28DD60C34BB4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FAFEAB72-3A26-A19D-033F-6FC6D03323C6" name="POSTULANTE_POSTULACIONEXPERIENCIA_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5FB2706-E24A-9757-B3A7-2EE1788D15F1"/>
+<colUsage columnID="0AB973B1-EEB9-3B6A-F09B-63EE094B558E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2C07801-104E-ED65-1F57-313CD858E10F" name="POSTULANTE_POSTULACIONEXPERIENCIA_POSTULANTE_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>741A73E8-97BB-A86C-2560-33D626233F0F</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5FB2706-E24A-9757-B3A7-2EE1788D15F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3BD01B3-4E0D-437D-A455-160594527FF6" name="POSTULANTE_POSTULACIONEXPERIENCIA_POSTULACIONEXPERIENCIA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>741A73E8-97BB-A86C-2560-33D626233F0F</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AB973B1-EEB9-3B6A-F09B-63EE094B558E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

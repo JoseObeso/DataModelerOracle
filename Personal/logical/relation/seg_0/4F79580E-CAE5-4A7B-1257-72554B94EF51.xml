@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTULANTE_CLASECATEGORIA" directorySegmentName="seg_0" id="4F79580E-CAE5-4A7B-1257-72554B94EF51">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-23 19:46:33 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<engineerTo>
+<item key="85F2B0C4-8A35-9739-C4C4-185F3A026394" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0FA37D84-4C75-C525-141A-D193F4599C4D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>259EA220-5540-8919-9B26-DA685973D7A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

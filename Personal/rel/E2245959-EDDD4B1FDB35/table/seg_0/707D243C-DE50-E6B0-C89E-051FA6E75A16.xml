@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="707D243C-DE50-E6B0-C89E-051FA6E75A16" name="FICHADEINSCRIPCION_SEDE">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEDE_IIDSEDE" id="C5EE0079-CF60-994F-97CD-BD53A6F51997">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA744A5D-C946-E028-80EA-13E81A1E9972" referredColumn="CB7BCC56-32A8-ABCB-BB41-01F0F6644DB2"/>
+</associations>
+</Column>
+<Column name="FICHADEINSCRIPCION_IIDFICHAINSCRIPCION" id="6A09B802-726D-178E-63D2-3805BEBE3E8E">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="268DE8A5-726A-E266-9F71-55749932AE7F" referredColumn="16DC092A-4B47-707D-3D58-58B9514C6C7F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CB64A06-9942-FFDA-37EF-29F123DAB64B" name="FICHADEINSCRIPCION_SEDE_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5EE0079-CF60-994F-97CD-BD53A6F51997"/>
+<colUsage columnID="6A09B802-726D-178E-63D2-3805BEBE3E8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="136BF7F6-A589-D953-3955-403E1C726132" name="FICHADEINSCRIPCION_SEDE_SEDE_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>B4DAB432-6B58-320F-DEB5-E928D98CD80C</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5EE0079-CF60-994F-97CD-BD53A6F51997"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5133CD81-D671-A55D-C5C3-7684D08B47FA" name="FICHADEINSCRIPCION_SEDE_FICHADEINSCRIPCION_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>B4DAB432-6B58-320F-DEB5-E928D98CD80C</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A09B802-726D-178E-63D2-3805BEBE3E8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

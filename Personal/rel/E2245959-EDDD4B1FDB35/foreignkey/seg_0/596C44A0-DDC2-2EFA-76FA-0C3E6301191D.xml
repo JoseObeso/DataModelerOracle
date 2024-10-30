@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="596C44A0-DDC2-2EFA-76FA-0C3E6301191D" containerWithKeyObject="0C900BF7-0ACF-A0CC-1F01-DFAAD1BF51D4" localFKIndex="2488A82B-E7A7-38B7-AF9E-4D53E6F06ADF" name="POSTULANTE_NIVELIDIOMA_NIVELIDIOMA_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>8C47F23F-5B93-16F0-D8C0-21E6DEBF0559</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<referredTableLongName>NIVELIDIOMA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A62E96EA-8CC5-7715-7C09-0D064AD60528</referredTableID>
+<keyObject>658540D5-B377-AEC6-65A2-AF866AAF2104</keyObject>
+<referredKeyID>658540D5-B377-AEC6-65A2-AF866AAF2104</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDIDIOMA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82AFC233-080A-BD58-CF13-83CC8E4C88F5" name="POSTULANTE_TIPODOCUMENTOIDENTIDAD">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPODOCUMENTOIDENTIDAD_IIDTIPODOCUMENTOIDENTIDAD" id="1AEA6148-48B2-0E43-800B-9A6BE20A81D2">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09A3C60C-AFB5-E58F-9DA2-EBE835284F99" referredColumn="05DB41EB-4D7F-279B-988A-2DCCB90DC9D5"/>
+</associations>
+</Column>
+<Column name="POSTULANTE_IIDPOSTULANTE" id="53A1AD29-2501-0EE6-4D1B-9398D37B9D00">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DA4074B-BA25-E144-3DD8-9B1B9DAFD98C" referredColumn="7DC337AE-110A-E3FD-CAF9-BC0AACD313B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3DC4680-05AA-F05D-FFC1-BD9D3FDD83C4" name="POSTULANTE_TIPODOCUMENTOIDENTIDAD_PK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<ownerDesignName>Personal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AEA6148-48B2-0E43-800B-9A6BE20A81D2"/>
+<colUsage columnID="53A1AD29-2501-0EE6-4D1B-9398D37B9D00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5062A93E-50F4-93CB-00ED-EE7995659F67" name="POSTULANTE_TIPODOCUMENTOIDENTIDAD_TIPODOCUMENTOIDENTIDAD_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>6CF78C3E-F597-BDE3-284D-55A4C6FF54B3</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AEA6148-48B2-0E43-800B-9A6BE20A81D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93DC5E35-3728-65B1-03E7-65E12E064C7E" name="POSTULANTE_TIPODOCUMENTOIDENTIDAD_POSTULANTE_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>6CF78C3E-F597-BDE3-284D-55A4C6FF54B3</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53A1AD29-2501-0EE6-4D1B-9398D37B9D00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

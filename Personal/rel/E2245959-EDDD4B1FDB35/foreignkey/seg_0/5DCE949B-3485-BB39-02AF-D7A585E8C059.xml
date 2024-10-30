@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5DCE949B-3485-BB39-02AF-D7A585E8C059" containerWithKeyObject="14A5B9EB-77D0-BFCF-E12E-162AA88C17B1" localFKIndex="54F2A206-143F-7BCB-EBEA-727DC00026F6" name="FICHADEINSCRIPCIONHISTORIAL_ESTADO_FICHADEINSCRIPCIONHISTORIAL_FK">
+<createdBy>afernandez</createdBy>
+<createdTime>2024-10-28 21:20:40 UTC</createdTime>
+<generatorID>0135A177-E2E3-BB27-C334-9F6489298395</generatorID>
+<ownerDesignName>Personal</ownerDesignName>
+<referredTableLongName>FICHADEINSCRIPCIONHISTORIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCA81AC0-F034-59F9-BE61-30C7800AC7DF</referredTableID>
+<keyObject>FB0B4F10-A349-A983-9F3E-89958CD0C4B6</keyObject>
+<referredKeyID>FB0B4F10-A349-A983-9F3E-89958CD0C4B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDHISTORIAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
