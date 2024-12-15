@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D504D066-515E-9E17-DF30-F8742C622641" name="CONV_ADJUNTOS">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>41C022F8-5D2C-4177-9A33-74599AA262CE</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<abbreviation>CONV_ADJUNTOS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDCONVADJUUNTOS" id="3A879F57-BEEB-B5FE-A2E3-60F493B74185">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>0D64764D-30AE-C1D2-1FA7-65B1C941B7A9</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNOMBREARCHIVO" id="7614A6D9-DB9F-1FFD-4A89-9143C7CD1D58">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>9C98E760-3629-6CEC-FEE6-A92476EED0D1</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDCONVENIOS" id="FF58476E-CC87-2721-8FF8-838EEDD3D9AB">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>654DAAAA-8FE2-CA6A-09AA-BBA691A356C3</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONV_CONVENIOS_IIDCONVENIOS" id="5ACFD53D-8110-5383-57DC-0EE727AA5B15">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>A04C1145-D94D-D432-6560-E123E0AF6354</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54935DAE-CA57-D58E-5999-9BEF5F6C76EC" referredColumn="CD66C453-C4A8-97EF-6C34-575A32A01E12"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5C74FD9-2B2E-6A3C-0583-616A7E917474" name="CONV_ADJUNTOS_PK">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>2EBE8CCC-B62E-E628-DCE8-B6E7C564B1D2</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A879F57-BEEB-B5FE-A2E3-60F493B74185"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F32BA83-60A9-07D8-B77A-DE56167E6EDC" name="CONV_ADJUNTOS_CONV_CONVENIOS_FK">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>BF906CDD-4FD0-ED2E-E48B-FF83D4DFC811</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ACFD53D-8110-5383-57DC-0EE727AA5B15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

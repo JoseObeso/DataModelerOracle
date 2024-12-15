@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CONV_CONVENIOS" directorySegmentName="seg_0" id="92388525-C2FD-BA07-B9CC-9B918935028D">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:00 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<schemaObject>23340D21-8CF9-C1F7-F575-3E21EDF6C391</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>02FEDE7E-6061-76E4-A0AB-BE82B89D55FB</segment>
+<tableSpace>D058E788-B08A-6F0D-18B9-D3116F34CFC0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VFECHAREGISTRO" id="0103211A-84BA-4D56-7136-D0FBCB9D9E13">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="08BE9493-C4BF-C43D-9C0B-C2DE83B190CC">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<defaultValue>&apos;1&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOREGISTRA" id="1424DF13-BDAB-4450-9FFE-C92348D0757A">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOEDITA" id="18F31432-87FE-B1A7-D10D-34FAC6A1BFE6">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAEDITA" id="1F60D5CA-BDBA-CF8A-023E-128526B34C3C">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDESTADO" id="1FE68FF6-2702-496A-65FE-972F98ECD1CD">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAREGISTRA" id="9C4C596A-0FF7-79BE-7CF3-C441F5FFE2C7">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VTITULO" id="CB87FF97-AFEE-BA85-6FCA-60B2E26A99EC">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDCONVENIOS" id="EF121A41-9B5D-CCC8-1B38-496DED7FE06C">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CONV_CONVENIOS_PK" id="212B2DAF-549D-270E-83B9-4B981E1BC53F">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<schemaObject>23340D21-8CF9-C1F7-F575-3E21EDF6C391</schemaObject>
+<segment>0F6A80E2-EF9F-59BB-412C-9291A1F71A04</segment>
+<tableSpace>D058E788-B08A-6F0D-18B9-D3116F34CFC0</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONV_CONVENIOS_PK" id="A633B55D-7953-D163-DB93-4AF12734E6BA">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:02 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<segment>0F6A80E2-EF9F-59BB-412C-9291A1F71A04</segment>
+<tableSpace>D058E788-B08A-6F0D-18B9-D3116F34CFC0</tableSpace>
+<existingIndex>212B2DAF-549D-270E-83B9-4B981E1BC53F</existingIndex>
+<indexSegment>0F6A80E2-EF9F-59BB-412C-9291A1F71A04</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

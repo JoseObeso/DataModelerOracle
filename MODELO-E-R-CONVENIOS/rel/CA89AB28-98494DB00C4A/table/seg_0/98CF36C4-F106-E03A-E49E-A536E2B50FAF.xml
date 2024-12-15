@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98CF36C4-F106-E03A-E49E-A536E2B50FAF" schemaObject="23340D21-8CF9-C1F7-F575-3E21EDF6C391" name="CONV_HISTORIALCONVENIOS">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>CONV_HISTORIALCONVENIOS</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:00 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDHISTORIALCONVENIOS" id="8847DC7C-1606-043C-D019-937B8DC1E186">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_HISTORIALCONVENIOS</sourceObjSchema>
+<sourceObjName>IIDHISTORIALCONVENIOS</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDCONVENIOS" id="F99DD80D-2EEE-2A7E-8B2B-C6FA50BEC754">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_HISTORIALCONVENIOS</sourceObjSchema>
+<sourceObjName>IIDCONVENIOS</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDESTADO" id="936B5C5A-FC37-8C5B-8DE3-E579F3DBCC6E">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_HISTORIALCONVENIOS</sourceObjSchema>
+<sourceObjName>IIDESTADO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="CC4315C4-89D7-A90B-D804-2719136F7D4E">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_HISTORIALCONVENIOS</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="41C51A2C-8709-1956-E3FD-91A7E0C1B25E">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_HISTORIALCONVENIOS</sourceObjSchema>
+<sourceObjName>IIDUSUARIOREGISTRA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="1EDE7F63-3679-6801-3015-4D77B0269B62">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_HISTORIALCONVENIOS</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="6AD9A8DB-7261-814A-BA80-C147371814B5">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_HISTORIALCONVENIOS</sourceObjSchema>
+<sourceObjName>IIDUSUARIOEDITA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="409F085B-1FBA-03D6-0BAA-3B4B5B8F1AB0">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_HISTORIALCONVENIOS</sourceObjSchema>
+<sourceObjName>DFECHAEDITA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

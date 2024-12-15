@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UnConvenioUnEstado" directorySegmentName="seg_0" id="E2C44098-C874-DA63-2A1C-4DE5E754CE12">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 01:54:16 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+</engineerTo>
+<sourcePk>8D671C30-5B0E-077F-F666-410383FB4007</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1F6B31E8-51B6-8327-6FAE-3A1FA1329134</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>78E26D70-2D07-F440-D33A-FC95C1A7BFA7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE10726E-21F2-97A1-2B08-B1BB764B0C6E" schemaObject="23340D21-8CF9-C1F7-F575-3E21EDF6C391" name="CONV_ADJUNTOS">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>CONV_ADJUNTOS</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:00 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDCONVADJUUNTOS" id="F00BA152-F494-F8DD-E31C-12CBD86C1A2C">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ADJUNTOS</sourceObjSchema>
+<sourceObjName>IIDCONVADJUUNTOS</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNOMBREARCHIVO" id="5262CF4D-39B2-8858-54CC-2A9D0744E45B">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ADJUNTOS</sourceObjSchema>
+<sourceObjName>VNOMBREARCHIVO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDCONVENIOS" id="32B5A707-05E0-75C5-A341-0909740AFA47">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ADJUNTOS</sourceObjSchema>
+<sourceObjName>IIDCONVENIOS</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="971D5936-7275-45BE-9877-752544DDC13A">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ADJUNTOS</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="DE85C3A1-A846-1F58-A4CE-38D8D0DC6DF2">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ADJUNTOS</sourceObjSchema>
+<sourceObjName>IIDUSUARIOREGISTRA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="6A022B9D-AB87-CCF5-E089-C8503F40D163">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ADJUNTOS</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="1D1C77D4-7F39-0AA1-D3C6-BBA1CA7EB24E">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ADJUNTOS</sourceObjSchema>
+<sourceObjName>IIDUSUARIOEDITA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="0B5FE741-BEA3-86DE-32D1-8A6600A83926">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ADJUNTOS</sourceObjSchema>
+<sourceObjName>DFECHAEDITA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

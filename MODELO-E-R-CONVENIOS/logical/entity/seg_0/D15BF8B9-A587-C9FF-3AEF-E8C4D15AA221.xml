@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78E26D70-2D07-F440-D33A-FC95C1A7BFA7" name="CONV_ESTADOS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D15BF8B9-A587-C9FF-3AEF-E8C4D15AA221" name="CONV_HISTORIALCONVENIOS">
 <createdBy>MasterJoob</createdBy>
-<createdTime>2024-12-15 01:13:11 UTC</createdTime>
+<createdTime>2024-12-15 01:32:40 UTC</createdTime>
 <ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
 <engineerTo>
 <item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
@@ -14,26 +14,15 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<preferredAbbreviation>CONV_ESTADOS</preferredAbbreviation>
-<shortName>CONV_ESTADOS</shortName>
-<synonym>CONV_ESTADOS</synonym>
-<synonymToDisplay>CONV_ESTADOS</synonymToDisplay>
+<preferredAbbreviation>CONV_HISTORIALCONVENIOS</preferredAbbreviation>
+<shortName>CONV_HISTORIALCONVENIOS</shortName>
+<synonym>CONV_HISTORIALCONVENIOS</synonym>
+<synonymToDisplay>CONV_HISTORIALCONVENIOS</synonymToDisplay>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IIDESTADO" id="305B07A1-810C-35C5-7780-D7C266F548CB">
+<Attribute name="IIDHISTORIALCONVENIOS" id="759218EE-F476-2A46-89D2-BB3DEFE29E86">
 <createdBy>MasterJoob</createdBy>
-<createdTime>2024-12-15 01:13:34 UTC</createdTime>
-<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
-<engineerTo>
-<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="VNOMBRE" id="534643F0-70C0-FE95-EFD5-C9B66AD06683">
-<createdBy>MasterJoob</createdBy>
-<createdTime>2024-12-15 01:13:36 UTC</createdTime>
+<createdTime>2024-12-15 01:33:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID IIDHISTORIALCONVENIOS, ES IDENTIFICADO UNICO]]></commentInRDBMS>
 <ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
 <engineerTo>
 <item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
@@ -41,14 +30,39 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IIDCONVENIOS" id="91746394-99C1-DAF2-A0F7-3BAE6AC90882">
+<Attribute name="IIDCONVENIOS" id="FBE6F922-5B58-38C6-1320-677625A47349">
 <createdBy>MasterJoob</createdBy>
-<createdTime>2024-12-15 01:54:16 UTC</createdTime>
-<generatorID>E2C44098-C874-DA63-2A1C-4DE5E754CE12</generatorID>
+<createdTime>2024-12-15 01:33:04 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDESTADO" id="C7ED314B-BC85-BD55-F387-586F4FE88165">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 01:33:04 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDCONVENIOS1" id="2C8B6985-27FC-3351-4522-DC457770F340">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 01:36:45 UTC</createdTime>
+<generatorID>0CD562D5-DDC6-240B-D44A-E5A0A3E8966C</generatorID>
 <ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
 <engineerTo>
 <item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
@@ -60,18 +74,4 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="76971B17-D427-9238-2C9D-D139DB6868F0" name="CONV_ESTADOS PK">
-<createdBy>MasterJoob</createdBy>
-<createdTime>2024-12-15 01:14:03 UTC</createdTime>
-<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
-<engineerTo>
-<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>305B07A1-810C-35C5-7780-D7C266F548CB</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

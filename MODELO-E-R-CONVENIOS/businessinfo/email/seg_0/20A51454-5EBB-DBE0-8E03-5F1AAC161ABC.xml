@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIEmail class="oracle.dbtools.crest.model.businessinfo.BIEmail" name="JoseObeso" directorySegmentName="seg_0" id="20A51454-5EBB-DBE0-8E03-5F1AAC161ABC">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:06:12 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<emailAddress>jobeso@irtp.gob.pe</emailAddress>
+<type>Corporativo</type>
+</BIEmail>

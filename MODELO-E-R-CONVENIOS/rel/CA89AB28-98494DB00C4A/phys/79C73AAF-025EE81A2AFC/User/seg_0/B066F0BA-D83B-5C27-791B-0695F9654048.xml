@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="PROYECTO" directorySegmentName="seg_0" id="B066F0BA-D83B-5C27-791B-0695F9654048">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjName>PROYECTO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:00 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<schemaObject>23340D21-8CF9-C1F7-F575-3E21EDF6C391</schemaObject>
+</UserOraclev10g>

@@ -63,6 +63,19 @@
 <dataTypeSize>200 CHAR</dataTypeSize>
 <ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="IIDESTADO" id="42B69864-D142-413D-CCCD-B9820263C6FD">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 01:30:51 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8D671C30-5B0E-077F-F666-410383FB4007" name="CONV_CONVENIOS PK">

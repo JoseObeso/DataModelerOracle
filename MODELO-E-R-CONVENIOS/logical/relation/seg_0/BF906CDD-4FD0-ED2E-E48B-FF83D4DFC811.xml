@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UnConvenioMuchosAdjuntos" directorySegmentName="seg_0" id="BF906CDD-4FD0-ED2E-E48B-FF83D4DFC811">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 01:37:51 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+</engineerTo>
+<sourcePk>8D671C30-5B0E-077F-F666-410383FB4007</sourcePk>
+<targetPk>2EBE8CCC-B62E-E628-DCE8-B6E7C564B1D2</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1F6B31E8-51B6-8327-6FAE-3A1FA1329134</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>41C022F8-5D2C-4177-9A33-74599AA262CE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

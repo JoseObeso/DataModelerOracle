@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB96640B-C50F-955F-2DE3-03AF444872A8" name="CONV_ESTADOS">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>78E26D70-2D07-F440-D33A-FC95C1A7BFA7</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<abbreviation>CONV_ESTADOS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDESTADO" id="6EE1FE69-23FA-A617-EEE4-D8FB17C9D43A">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>305B07A1-810C-35C5-7780-D7C266F548CB</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNOMBRE" id="C68EFBBA-7040-A1A1-FD9B-84370762C415">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>534643F0-70C0-FE95-EFD5-C9B66AD06683</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONV_CONVENIOS_IIDCONVENIOS" id="7A50F675-97F8-11BA-7C6C-7FEE89302BB8">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>91746394-99C1-DAF2-A0F7-3BAE6AC90882</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBDF424E-D772-959B-6E75-439C15F34985" referredColumn="CD66C453-C4A8-97EF-6C34-575A32A01E12"/>
+</associations>
+</Column>
+<Column name="CONV_HISTORIALCONVENIOS_CONV_HISTORIALCONVENIOS_ID" id="B3620719-1E6E-C247-9D85-FFD6579CD1BC">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F09D336C-DB54-F29B-B268-0CD9B0D96F41" referredColumn="47A7C0C3-E021-6F1B-EE38-32D9B38D36F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86E72CE8-5615-76EE-E8D5-4909D8CAD5B5" name="CONV_ESTADOS_PK">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>76971B17-D427-9238-2C9D-D139DB6868F0</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EE1FE69-23FA-A617-EEE4-D8FB17C9D43A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1059A65F-B4A4-FF78-908A-0C6C491B8DEC" name="CONV_ESTADOS__IDX">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E2C44098-C874-DA63-2A1C-4DE5E754CE12</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7A50F675-97F8-11BA-7C6C-7FEE89302BB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58920803-FCC7-59E7-88D9-562E6DFAF727" name="CONV_ESTADOS__IDXv1">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C0E567C2-D958-E0F9-8C37-CF7BA85AC400</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B3620719-1E6E-C247-9D85-FFD6579CD1BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4D1ED23-9124-B9F5-F356-2EFE079EB768" name="CONV_ESTADOS_CONV_CONVENIOS_FK">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>E2C44098-C874-DA63-2A1C-4DE5E754CE12</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A50F675-97F8-11BA-7C6C-7FEE89302BB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7731273E-37EE-7E57-9FAF-7045526FF8FE" name="CONV_ESTADOS_CONV_HISTORIALCONVENIOS_FK">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>C0E567C2-D958-E0F9-8C37-CF7BA85AC400</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3620719-1E6E-C247-9D85-FFD6579CD1BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

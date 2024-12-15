@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="ModeloRelacionalOracle12c" id="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" mainViewID="22EDDA34-7D59-E3E9-1158-2985ABB25ED2">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 01:55:07 UTC</createdTime>
+<notes><![CDATA[ModeloRelacionOracle12]]></notes>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+</relationalModel>

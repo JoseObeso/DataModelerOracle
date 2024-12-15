@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D080753-9D36-9F0E-9E99-DDA7CD5B1B77" name="CONV_CONVENIOS">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>1F6B31E8-51B6-8327-6FAE-3A1FA1329134</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<abbreviation>CONV_CONVENIOS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDCONVENIOS" id="CD66C453-C4A8-97EF-6C34-575A32A01E12">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[IIDCONVENIOS - IDENTIFICADOR DE CONVENIOS]]></commentInRDBMS>
+<generatorID>7D0FAD7A-1BF3-3778-08AE-BF25C93D0CA4</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VFECHAREGISTRO" id="D5D9DFE9-0985-A49D-55FD-B0CD0A293139">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE REGISTRO DE LOS CONVENIOS]]></commentInRDBMS>
+<generatorID>39BF490F-C624-B566-AD51-3F2EB9938CB0</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VTITULO" id="62E78813-907E-202D-2FB5-C929C1C7F11B">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[TITULO DE LOS CONVENIOS QUE SON REGISTRADOS]]></commentInRDBMS>
+<generatorID>131E1544-1A9D-754F-ACB8-C0EF70E86AB8</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDESTADO" id="E1806AE9-6C25-F073-AE95-C2B9183B6821">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>42B69864-D142-413D-CCCD-B9820263C6FD</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2F40B24-7E9B-C9ED-E734-97463FBD196B" name="CONV_CONVENIOS_PK">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>8D671C30-5B0E-077F-F666-410383FB4007</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD66C453-C4A8-97EF-6C34-575A32A01E12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

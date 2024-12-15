@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92388525-C2FD-BA07-B9CC-9B918935028D" schemaObject="23340D21-8CF9-C1F7-F575-3E21EDF6C391" name="CONV_CONVENIOS">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>CONV_CONVENIOS</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:00 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDCONVENIOS" id="EF121A41-9B5D-CCC8-1B38-496DED7FE06C">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_CONVENIOS</sourceObjSchema>
+<sourceObjName>IIDCONVENIOS</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[IIDCONVENIOS - IDENTIFICADOR DE CONVENIOS]]></commentInRDBMS>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VFECHAREGISTRO" id="0103211A-84BA-4D56-7136-D0FBCB9D9E13">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_CONVENIOS</sourceObjSchema>
+<sourceObjName>VFECHAREGISTRO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE REGISTRO DE LOS CONVENIOS]]></commentInRDBMS>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VTITULO" id="CB87FF97-AFEE-BA85-6FCA-60B2E26A99EC">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_CONVENIOS</sourceObjSchema>
+<sourceObjName>VTITULO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[TITULO DE LOS CONVENIOS QUE SON REGISTRADOS]]></commentInRDBMS>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDESTADO" id="1FE68FF6-2702-496A-65FE-972F98ECD1CD">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_CONVENIOS</sourceObjSchema>
+<sourceObjName>IIDESTADO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="08BE9493-C4BF-C43D-9C0B-C2DE83B190CC">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_CONVENIOS</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="1424DF13-BDAB-4450-9FFE-C92348D0757A">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_CONVENIOS</sourceObjSchema>
+<sourceObjName>IIDUSUARIOREGISTRA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="9C4C596A-0FF7-79BE-7CF3-C441F5FFE2C7">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_CONVENIOS</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="18F31432-87FE-B1A7-D10D-34FAC6A1BFE6">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_CONVENIOS</sourceObjSchema>
+<sourceObjName>IIDUSUARIOEDITA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="1F60D5CA-BDBA-CF8A-023E-128526B34C3C">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_CONVENIOS</sourceObjSchema>
+<sourceObjName>DFECHAEDITA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A633B55D-7953-D163-DB93-4AF12734E6BA" name="CONV_CONVENIOS_PK">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>CONV_CONVENIOS_PK</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:02 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF121A41-9B5D-CCC8-1B38-496DED7FE06C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="212B2DAF-549D-270E-83B9-4B981E1BC53F" schemaObject="23340D21-8CF9-C1F7-F575-3E21EDF6C391" name="CONV_CONVENIOS_PK">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>CONV_CONVENIOS_PK</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF121A41-9B5D-CCC8-1B38-496DED7FE06C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

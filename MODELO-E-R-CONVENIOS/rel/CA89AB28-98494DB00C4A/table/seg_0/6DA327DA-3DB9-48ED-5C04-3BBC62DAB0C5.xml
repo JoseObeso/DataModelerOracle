@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DA327DA-3DB9-48ED-5C04-3BBC62DAB0C5" schemaObject="23340D21-8CF9-C1F7-F575-3E21EDF6C391" name="CONV_ESTADOS">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>CONV_ESTADOS</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:00 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDESTADO" id="3F0FA587-766E-3D75-798B-A6E25A5354D3">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ESTADOS</sourceObjSchema>
+<sourceObjName>IIDESTADO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNOMBRE" id="439CD7D9-7981-C544-E98C-D3127B9280FD">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ESTADOS</sourceObjSchema>
+<sourceObjName>VNOMBRE</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="074DB274-B7E8-DBAA-00ED-2414E9643649">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ESTADOS</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="86CA0BA9-1095-4D01-9EED-5D014575C157">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ESTADOS</sourceObjSchema>
+<sourceObjName>IIDUSUARIOREGISTRA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="30AA5DC0-8FB4-D126-E5E8-6AAFDDA77D40">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ESTADOS</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="C5AD4DF5-7223-A792-75BF-99E5CD2DC1F3">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ESTADOS</sourceObjSchema>
+<sourceObjName>IIDUSUARIOEDITA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="EA317128-DB61-096B-9062-3BAC2C4B4803">
+<sourceConnName>Cnx-172-22-10-95-Oracle</sourceConnName>
+<sourceObjSchema>CONV_ESTADOS</sourceObjSchema>
+<sourceObjName>DFECHAEDITA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:25:01 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

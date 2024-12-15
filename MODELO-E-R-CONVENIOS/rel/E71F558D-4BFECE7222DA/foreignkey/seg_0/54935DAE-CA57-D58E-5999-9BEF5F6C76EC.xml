@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="54935DAE-CA57-D58E-5999-9BEF5F6C76EC" containerWithKeyObject="D504D066-515E-9E17-DF30-F8742C622641" localFKIndex="9F32BA83-60A9-07D8-B77A-DE56167E6EDC" name="CONV_ADJUNTOS_CONV_CONVENIOS_FK">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:05:30 UTC</createdTime>
+<generatorID>BF906CDD-4FD0-ED2E-E48B-FF83D4DFC811</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<referredTableLongName>CONV_CONVENIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8D080753-9D36-9F0E-9E99-DDA7CD5B1B77</referredTableID>
+<keyObject>F2F40B24-7E9B-C9ED-E734-97463FBD196B</keyObject>
+<referredKeyID>F2F40B24-7E9B-C9ED-E734-97463FBD196B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IIDCONVENIOS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

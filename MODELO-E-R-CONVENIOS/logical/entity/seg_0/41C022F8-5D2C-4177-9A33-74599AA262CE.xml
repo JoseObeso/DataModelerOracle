@@ -45,6 +45,33 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="IIDCONVENIOS" id="654DAAAA-8FE2-CA6A-09AA-BBA691A356C3">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 01:36:10 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDCONVENIOS1" id="A04C1145-D94D-D432-6560-E123E0AF6354">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 01:37:51 UTC</createdTime>
+<generatorID>BF906CDD-4FD0-ED2E-E48B-FF83D4DFC811</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+</engineerTo>
+<referedAttribute>7D0FAD7A-1BF3-3778-08AE-BF25C93D0CA4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2EBE8CCC-B62E-E628-DCE8-B6E7C564B1D2" name="CONV_ADJUNTOS PK">
