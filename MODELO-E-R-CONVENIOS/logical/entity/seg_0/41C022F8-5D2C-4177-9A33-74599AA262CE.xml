@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41C022F8-5D2C-4177-9A33-74599AA262CE" name="CONV_ADJUNTOS">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 01:14:47 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CONV_ADJUNTOS</preferredAbbreviation>
+<shortName>CONV_ADJUNTOS</shortName>
+<synonym>CONV_ADJUNTOS</synonym>
+<synonymToDisplay>CONV_ADJUNTOS</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IIDCONVADJUUNTOS" id="0D64764D-30AE-C1D2-1FA7-65B1C941B7A9">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 01:15:07 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VNOMBREARCHIVO" id="9C98E760-3629-6CEC-FEE6-A92476EED0D1">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 01:15:05 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2EBE8CCC-B62E-E628-DCE8-B6E7C564B1D2" name="CONV_ADJUNTOS PK">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 01:15:34 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D64764D-30AE-C1D2-1FA7-65B1C941B7A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

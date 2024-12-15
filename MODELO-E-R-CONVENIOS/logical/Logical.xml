@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DCF90373-A287-708A-3756-FD6BDD0902FA" mainViewID="AE3F6D2A-0527-C4BA-0C04-F7D7430129F0">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 01:07:33 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
