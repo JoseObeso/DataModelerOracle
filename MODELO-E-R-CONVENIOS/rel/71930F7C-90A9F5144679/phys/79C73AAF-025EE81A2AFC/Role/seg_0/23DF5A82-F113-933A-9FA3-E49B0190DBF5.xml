@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="IRTP" directorySegmentName="seg_0" id="23DF5A82-F113-933A-9FA3-E49B0190DBF5">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjName>IRTP</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:51 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="1B5FA37E-2E7B-1EA0-8E48-989A0BFFFA91">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:51 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<privilegesWithGrantOption>SELECT</privilegesWithGrantOption>
+<table>1B036E50-FBC1-0ED7-7464-0CCDF00F5367</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

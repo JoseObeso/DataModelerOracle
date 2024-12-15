@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="ModeloERFacilidadesConvenios" id="71930F7C-E4F3-F6F4-9D86-90A9F5144679" mainViewID="4FB4366C-EA6A-65C7-3726-BAD94B115D79">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:28:22 UTC</createdTime>
+<comment><![CDATA[Modelo de tablas Facilidades]]></comment>
+<notes><![CDATA[Modelo de tablas Facilidades]]></notes>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>Cnx-Facilidades-172-22-10-95</connName>
+<connUser>FACILIDADES</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

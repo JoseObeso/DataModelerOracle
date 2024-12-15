@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E7C2A5D0-CB43-0C2D-0774-D0ABE7F65B13" containerWithKeyObject="DC4CF85E-B882-0B76-2F9C-204DA35BAB63" localFKIndex="43748553-3DED-DCCB-D72A-3B2F4D7219D0" name="CONVENIO_FK1">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>FACILIDADES</sourceObjSchema>
+<sourceObjName>CONVENIO_FK1</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:49 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<referredTableLongName>FACILIDADES.PROVEEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<mandatory>false</mandatory>
+<refColNames>IIDPROVEEDOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

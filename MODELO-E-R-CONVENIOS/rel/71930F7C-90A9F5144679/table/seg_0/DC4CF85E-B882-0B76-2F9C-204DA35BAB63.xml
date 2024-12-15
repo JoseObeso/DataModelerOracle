@@ -1,0 +1,583 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC4CF85E-B882-0B76-2F9C-204DA35BAB63" schemaObject="C331D8E2-07F4-DE40-8BA2-089D513B1E1C" name="CONVENIO">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>FACILIDADES</sourceObjSchema>
+<sourceObjName>CONVENIO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDCONVENIO" id="74CF4048-9875-421F-9F08-5C483CA8342A">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>IIDCONVENIO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INUMERO" id="A5047A80-6736-E499-65B2-859D93689F82">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>INUMERO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDPROGRAMA" id="92F4D005-2853-D35C-7D8B-65BEE7B309B4">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>IIDPROGRAMA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDPROVEEDOR" id="F7D0A060-D14C-7248-61CF-84FBF3EB7621">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>IIDPROVEEDOR</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DVIGENCIAINICIO" id="710DA9EF-54E8-671E-096A-F550EF2B8299">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>DVIGENCIAINICIO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DVIGENCIAFIN" id="541AEE7E-A484-8E5A-7CC5-C45FB99448AD">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>DVIGENCIAFIN</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="29308373-3777-7F86-269E-34FA9CE6AF1E">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOREGISTRA" id="C52F0034-A67F-CA2E-31F2-AFA718C7F987">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>IIDUSUARIOREGISTRA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDUSUARIOEDITA" id="65DF6185-1F17-B9C5-EF10-5D3D891A44AC">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>IIDUSUARIOEDITA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAREGISTRA" id="687F43B1-8923-E571-42BC-6D4A1D2384D2">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>DFECHAREGISTRA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEDITA" id="11AB096E-71A6-AA4E-4BA4-E5E147E5508A">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>DFECHAEDITA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VFACILIDADES" id="34A1A88C-7D7B-DA24-1817-F0FBAA732C03">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>VFACILIDADES</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 CHAR</dataTypeSize>
+<ownDataTypeParameters>2000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAGRADECIMIENTO" id="3373F0C7-A6D3-5A1A-D92C-951AB146FD9C">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>VAGRADECIMIENTO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 CHAR</dataTypeSize>
+<ownDataTypeParameters>2000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHACONVENIO" id="34405776-530F-E7B9-D248-C8AA4E50286E">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>DFECHACONVENIO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VSOLICITANTE" id="224CDDE0-E34A-06DE-9A4F-AF408811EA6E">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>VSOLICITANTE</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VCARGOSOLICITANTE" id="310F68F7-4982-BBE6-EBEF-67686E0D297A">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>VCARGOSOLICITANTE</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BINCLUIRCLAUSULADOMICILIOS" id="5E743C47-DC71-9EAF-2220-297437EE92B9">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>BINCLUIRCLAUSULADOMICILIOS</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BINCLUIRCLAUSULACONTROVERSIAS" id="1E960D4D-1E64-1C39-1979-3DD54BFF23A0">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>BINCLUIRCLAUSULACONTROVERSIAS</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DFECHAEMISION" id="51B574EB-10D7-7573-7BD8-CDCC5B6E02D3">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>DFECHAEMISION</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VDNISOLICITANTE" id="EEB64543-A901-BFB0-43FE-E55A648ED3A4">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>VDNISOLICITANTE</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDREPRESENTANTELEGAL" id="31505113-B1A5-6288-9769-E127130872FA">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>IIDREPRESENTANTELEGAL</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BNOGENERARVINETASFACI" id="9EA273C3-3D6F-A8C1-6F50-694024F3D6DE">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>BNOGENERARVINETASFACI</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BNOGENERARVINETASAGRA" id="2A4B4F4E-F4C3-4B49-A5BE-473D93AF986E">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>BNOGENERARVINETASAGRA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IESPACIADOIZQUIERDAAGRA" id="6D4D2734-E9DB-88F3-251E-7E346B2511BF">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>IESPACIADOIZQUIERDAAGRA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>10</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IESPACIADOIZQUIERDAFACI" id="C88F739B-883C-94B5-9613-2E4C4B1BBAAE">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>IESPACIADOIZQUIERDAFACI</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>10</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BNOMOSTRARSUBTITULOFACI" id="5AF3A2DF-F577-88A1-7821-2551C2B957EA">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>BNOMOSTRARSUBTITULOFACI</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BNOMOSTRARSUBTITULOAGRA" id="3CEEC2F6-1F0C-CCEF-2C1A-9504234C13CC">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>BNOMOSTRARSUBTITULOAGRA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VPROGRAMA2" id="51DFB267-423E-4537-A565-A1CF576BE067">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>VPROGRAMA2</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAJUSTARREPORTE" id="F39B6406-8BED-0146-42CD-E0B97492D6C9">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>BAJUSTARREPORTE</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIDESTADO" id="9F9D0FBC-7DFD-4BC4-9547-263F7289E263">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>IIDESTADO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IANOCONVENIO" id="2235EF34-D1D7-C96C-64C6-A76F9214745A">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>IANOCONVENIO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INUMEROPRODUCCION" id="749D8786-9DF3-10CF-044F-486699189FAE">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>INUMEROPRODUCCION</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INUMEROAREA" id="00B4B945-03E9-CB99-3681-01B42E39393C">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>INUMEROAREA</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VRUTAARCHIVO" id="F0EB243A-21C1-D51B-FEDC-5514B06A3764">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>VRUTAARCHIVO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNOMBREARCHIVO" id="5BDA74D2-59F5-0503-0A82-16825C705C07">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>CONVENIO</sourceObjSchema>
+<sourceObjName>VNOMBREARCHIVO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="044E058A-DDE6-4127-DA31-817C3CF81D6D" name="CONVENIO_PK">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>FACILIDADES</sourceObjSchema>
+<sourceObjName>CONVENIO_PK</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:49 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74CF4048-9875-421F-9F08-5C483CA8342A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBE5641E-2116-8F56-78EF-C18A9FB86D3D" schemaObject="C331D8E2-07F4-DE40-8BA2-089D513B1E1C" name="CONVENIO_PK">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>FACILIDADES</sourceObjSchema>
+<sourceObjName>CONVENIO_PK</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:49 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74CF4048-9875-421F-9F08-5C483CA8342A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43748553-3DED-DCCB-D72A-3B2F4D7219D0" name="CONVENIO_FK1">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:49 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7D0A060-D14C-7248-61CF-84FBF3EB7621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AA5ABCB-BCE3-3EC6-C25F-2F1F13CDB1BC" name="CONVENIO_FK2">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:49 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31505113-B1A5-6288-9769-E127130872FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

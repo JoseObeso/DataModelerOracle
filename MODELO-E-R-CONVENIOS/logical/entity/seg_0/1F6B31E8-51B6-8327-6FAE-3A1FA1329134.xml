@@ -4,7 +4,9 @@
 <createdTime>2024-12-15 01:09:47 UTC</createdTime>
 <ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
 <engineerTo>
-<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -26,7 +28,9 @@
 <commentInRDBMS><![CDATA[IIDCONVENIOS - IDENTIFICADOR DE CONVENIOS]]></commentInRDBMS>
 <ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
 <engineerTo>
-<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,7 +43,9 @@
 <commentInRDBMS><![CDATA[FECHA DE REGISTRO DE LOS CONVENIOS]]></commentInRDBMS>
 <ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
 <engineerTo>
-<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,7 +60,9 @@
 <commentInRDBMS><![CDATA[TITULO DE LOS CONVENIOS QUE SON REGISTRADOS]]></commentInRDBMS>
 <ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
 <engineerTo>
-<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -68,7 +76,9 @@
 <createdTime>2024-12-15 01:30:51 UTC</createdTime>
 <ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
 <engineerTo>
-<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -83,7 +93,9 @@
 <createdTime>2024-12-15 01:12:46 UTC</createdTime>
 <ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
 <engineerTo>
-<item key="A2FABA41-B53D-91CD-8BC4-965138E9A671" value="true"/>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

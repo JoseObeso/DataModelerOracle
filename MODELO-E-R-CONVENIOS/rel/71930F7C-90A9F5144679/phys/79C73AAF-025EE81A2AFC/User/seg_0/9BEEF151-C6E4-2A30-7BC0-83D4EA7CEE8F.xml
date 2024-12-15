@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="FACILIDADES" directorySegmentName="seg_0" id="9BEEF151-C6E4-2A30-7BC0-83D4EA7CEE8F">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjName>FACILIDADES</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:47 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<schemaObject>C331D8E2-07F4-DE40-8BA2-089D513B1E1C</schemaObject>
+</UserOraclev10g>

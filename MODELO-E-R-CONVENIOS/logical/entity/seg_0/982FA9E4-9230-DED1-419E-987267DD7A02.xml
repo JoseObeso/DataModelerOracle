@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="982FA9E4-9230-DED1-419E-987267DD7A02" name="CONV CONVENIOS">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:33:22 UTC</createdTime>
+<generatorID>92388525-C2FD-BA07-B9CC-9B918935028D</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IIDCONVENIOS" id="BC78CF99-367A-1533-53FE-987F26804725">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:33:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[IIDCONVENIOS - IDENTIFICADOR DE CONVENIOS]]></commentInRDBMS>
+<generatorID>EF121A41-9B5D-CCC8-1B38-496DED7FE06C</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VFECHAREGISTRO" id="69747B03-9C4E-FA89-14AF-AC8E290F9B09">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:33:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE REGISTRO DE LOS CONVENIOS]]></commentInRDBMS>
+<generatorID>0103211A-84BA-4D56-7136-D0FBCB9D9E13</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VTITULO" id="EFDC9D31-0B5D-B3F4-A27B-A10CABBBC2B1">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:33:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[TITULO DE LOS CONVENIOS QUE SON REGISTRADOS]]></commentInRDBMS>
+<generatorID>CB87FF97-AFEE-BA85-6FCA-60B2E26A99EC</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDESTADO" id="BC5A7E25-35B8-FC49-D9C8-60EFE5F12E1A">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:33:22 UTC</createdTime>
+<generatorID>1FE68FF6-2702-496A-65FE-972F98ECD1CD</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BHABILITADO" id="0F73EB0C-F2B7-7F37-9446-AD320CBC2A13">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:33:22 UTC</createdTime>
+<generatorID>08BE9493-C4BF-C43D-9C0B-C2DE83B190CC</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;1&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDUSUARIOREGISTRA" id="E1A3E670-1425-A773-308E-5620DBA8D6A2">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:33:22 UTC</createdTime>
+<generatorID>1424DF13-BDAB-4450-9FFE-C92348D0757A</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DFECHAREGISTRA" id="71107CEC-03CF-E517-3AB4-5CE7567596CC">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:33:22 UTC</createdTime>
+<generatorID>9C4C596A-0FF7-79BE-7CF3-C441F5FFE2C7</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IIDUSUARIOEDITA" id="52F6AE40-C2A7-C6DE-15C0-2B1EB57EA609">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:33:22 UTC</createdTime>
+<generatorID>18F31432-87FE-B1A7-D10D-34FAC6A1BFE6</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DFECHAEDITA" id="151A1863-7F77-2E56-0273-68AFF4A453D0">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:33:22 UTC</createdTime>
+<generatorID>1F60D5CA-BDBA-CF8A-023E-128526B34C3C</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF37A919-07FB-7720-8A20-9DDD94709695" name="CONV CONVENIOS PK">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:33:22 UTC</createdTime>
+<generatorID>A633B55D-7953-D163-DB93-4AF12734E6BA</generatorID>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<engineerTo>
+<item key="E71F558D-7B78-79BF-0CD6-4BFECE7222DA" value="true"/>
+<item key="CA89AB28-8054-C942-FFEC-98494DB00C4A" value="true"/>
+<item key="71930F7C-E4F3-F6F4-9D86-90A9F5144679" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC78CF99-367A-1533-53FE-987F26804725</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

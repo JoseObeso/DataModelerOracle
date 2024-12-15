@@ -1,0 +1,236 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CONVENIO" directorySegmentName="seg_0" id="DC4CF85E-B882-0B76-2F9C-204DA35BAB63">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<schemaObject>C331D8E2-07F4-DE40-8BA2-089D513B1E1C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>68F2A58B-4588-294F-4737-3D2881A1A22E</segment>
+<tableSpace>1BC62695-FC97-16B2-A1C9-60A99F7A2663</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="INUMEROAREA" id="00B4B945-03E9-CB99-3681-01B42E39393C">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAEDITA" id="11AB096E-71A6-AA4E-4BA4-E5E147E5508A">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BINCLUIRCLAUSULACONTROVERSIAS" id="1E960D4D-1E64-1C39-1979-3DD54BFF23A0">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IANOCONVENIO" id="2235EF34-D1D7-C96C-64C6-A76F9214745A">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VSOLICITANTE" id="224CDDE0-E34A-06DE-9A4F-AF408811EA6E">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BHABILITADO" id="29308373-3777-7F86-269E-34FA9CE6AF1E">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="BNOGENERARVINETASAGRA" id="2A4B4F4E-F4C3-4B49-A5BE-473D93AF986E">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="VCARGOSOLICITANTE" id="310F68F7-4982-BBE6-EBEF-67686E0D297A">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDREPRESENTANTELEGAL" id="31505113-B1A5-6288-9769-E127130872FA">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VAGRADECIMIENTO" id="3373F0C7-A6D3-5A1A-D92C-951AB146FD9C">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHACONVENIO" id="34405776-530F-E7B9-D248-C8AA4E50286E">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VFACILIDADES" id="34A1A88C-7D7B-DA24-1817-F0FBAA732C03">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BNOMOSTRARSUBTITULOAGRA" id="3CEEC2F6-1F0C-CCEF-2C1A-9504234C13CC">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DFECHAEMISION" id="51B574EB-10D7-7573-7BD8-CDCC5B6E02D3">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VPROGRAMA2" id="51DFB267-423E-4537-A565-A1CF576BE067">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DVIGENCIAFIN" id="541AEE7E-A484-8E5A-7CC5-C45FB99448AD">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BNOMOSTRARSUBTITULOFACI" id="5AF3A2DF-F577-88A1-7821-2551C2B957EA">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="VNOMBREARCHIVO" id="5BDA74D2-59F5-0503-0A82-16825C705C07">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BINCLUIRCLAUSULADOMICILIOS" id="5E743C47-DC71-9EAF-2220-297437EE92B9">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOEDITA" id="65DF6185-1F17-B9C5-EF10-5D3D891A44AC">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DFECHAREGISTRA" id="687F43B1-8923-E571-42BC-6D4A1D2384D2">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IESPACIADOIZQUIERDAAGRA" id="6D4D2734-E9DB-88F3-251E-7E346B2511BF">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<defaultValue>10</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DVIGENCIAINICIO" id="710DA9EF-54E8-671E-096A-F550EF2B8299">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INUMEROPRODUCCION" id="749D8786-9DF3-10CF-044F-486699189FAE">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDCONVENIO" id="74CF4048-9875-421F-9F08-5C483CA8342A">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDPROGRAMA" id="92F4D005-2853-D35C-7D8B-65BEE7B309B4">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BNOGENERARVINETASFACI" id="9EA273C3-3D6F-A8C1-6F50-694024F3D6DE">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDESTADO" id="9F9D0FBC-7DFD-4BC4-9547-263F7289E263">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="INUMERO" id="A5047A80-6736-E499-65B2-859D93689F82">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIDUSUARIOREGISTRA" id="C52F0034-A67F-CA2E-31F2-AFA718C7F987">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IESPACIADOIZQUIERDAFACI" id="C88F739B-883C-94B5-9613-2E4C4B1BBAAE">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<defaultValue>10</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="VDNISOLICITANTE" id="EEB64543-A901-BFB0-43FE-E55A648ED3A4">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VRUTAARCHIVO" id="F0EB243A-21C1-D51B-FEDC-5514B06A3764">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BAJUSTARREPORTE" id="F39B6406-8BED-0146-42CD-E0B97492D6C9">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IIDPROVEEDOR" id="F7D0A060-D14C-7248-61CF-84FBF3EB7621">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CONVENIO_PK" id="EBE5641E-2116-8F56-78EF-C18A9FB86D3D">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:49 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<schemaObject>C331D8E2-07F4-DE40-8BA2-089D513B1E1C</schemaObject>
+<segment>73E9A19B-9AE7-185F-ECF9-9B49D4904B45</segment>
+<tableSpace>1BC62695-FC97-16B2-A1C9-60A99F7A2663</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONVENIO_FK1" id="43748553-3DED-DCCB-D72A-3B2F4D7219D0">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:49 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONVENIO_FK2" id="9AA5ABCB-BCE3-3EC6-C25F-2F1F13CDB1BC">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:49 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONVENIO_PK" id="044E058A-DDE6-4127-DA31-817C3CF81D6D">
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:49 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<segment>73E9A19B-9AE7-185F-ECF9-9B49D4904B45</segment>
+<tableSpace>1BC62695-FC97-16B2-A1C9-60A99F7A2663</tableSpace>
+<existingIndex>EBE5641E-2116-8F56-78EF-C18A9FB86D3D</existingIndex>
+<indexSegment>73E9A19B-9AE7-185F-ECF9-9B49D4904B45</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

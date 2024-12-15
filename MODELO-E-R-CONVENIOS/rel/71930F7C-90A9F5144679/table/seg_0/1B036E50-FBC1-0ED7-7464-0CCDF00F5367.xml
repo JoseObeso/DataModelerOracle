@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B036E50-FBC1-0ED7-7464-0CCDF00F5367" schemaObject="C331D8E2-07F4-DE40-8BA2-089D513B1E1C" name="ESTADOCONVENIO">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>FACILIDADES</sourceObjSchema>
+<sourceObjName>ESTADOCONVENIO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIDESTADOCONVENIO" id="5E9A9745-D437-F9E8-3150-2CE04C95E615">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>ESTADOCONVENIO</sourceObjSchema>
+<sourceObjName>IIDESTADOCONVENIO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNOMBRE" id="14571513-EF63-26D1-6374-EE8A525062A4">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>ESTADOCONVENIO</sourceObjSchema>
+<sourceObjName>VNOMBRE</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BHABILITADO" id="D6D65CFE-B527-7FFD-FF26-FA6A742D42D2">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>ESTADOCONVENIO</sourceObjSchema>
+<sourceObjName>BHABILITADO</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:48 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB922C11-9CD3-AA68-FF7D-DFB62E55A5A7" name="ESTADOCONVENIO_PK">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>FACILIDADES</sourceObjSchema>
+<sourceObjName>ESTADOCONVENIO_PK</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:49 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E9A9745-D437-F9E8-3150-2CE04C95E615"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B208ABE7-C9CB-B7E7-74F9-5958EF39A4AC" schemaObject="C331D8E2-07F4-DE40-8BA2-089D513B1E1C" name="ESTADOCONVENIO_PK">
+<sourceConnName>Cnx-Facilidades-172-22-10-95</sourceConnName>
+<sourceObjSchema>FACILIDADES</sourceObjSchema>
+<sourceObjName>ESTADOCONVENIO_PK</sourceObjName>
+<createdBy>MasterJoob</createdBy>
+<createdTime>2024-12-15 02:31:49 UTC</createdTime>
+<ownerDesignName>MODELO-E-R-CONVENIOS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E9A9745-D437-F9E8-3150-2CE04C95E615"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
