@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="Table" objectID="C6873D7D-DFF6-C63F-43C8-9CC2A92FEF04" name="VACACIONES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="08D99B1D-B00D-0E5B-BE6C-7B7CDF4546AA" propertySourceId="" propertyTargetId=""/>
    <object objectType="Table" objectID="A4D61932-F933-718F-9E08-C471AB491AB8" name="VACACIONES_ESTADO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="08D99B1D-B00D-0E5B-BE6C-7B7CDF4546AA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="C6873D7D-DFF6-C63F-43C8-9CC2A92FEF04" name="VACACIONES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="08D99B1D-B00D-0E5B-BE6C-7B7CDF4546AA" propertySourceId="" propertyTargetId=""/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>
